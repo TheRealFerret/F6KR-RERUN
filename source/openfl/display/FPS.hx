@@ -91,11 +91,6 @@ class FPS extends TextField
 			#end
 
 			text += "\nFerret\'s 6 Key Recharts v" + MainMenuState.f6krVersion;
-			#if CHECK_FOR_UPDATES
-			if (MainMenuState.f6krVersion != TitleState.f6krUpdateVersion) {
-				text += "\nUpdate available!";
-			}
-			#end
 
 			textColor = 0xFFFFFFFF;
 			if (memoryMegas > 3000 || currentFPS <= ClientPrefs.framerate / 2)

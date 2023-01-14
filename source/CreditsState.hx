@@ -82,7 +82,7 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Ferret\'s 6 Key Recharts'],
-			['TheRealFerret', 		'',					'Creator and recharter',			 							'https://www.youtube.com/channel/UCWNMz9fwKjLdQQb2vtSN3nA', 		'7400FF'],
+			['TheRealFerret', 		't',					'Creator and recharter',			 							'https://www.youtube.com/channel/UCWNMz9fwKjLdQQb2vtSN3nA', 		'7400FF'],
 			[''],
 			['Psych Engine Extra Keys'],
 			['tposejank', 			'tposejank',		'Actitud Positiva',			 									'https://www.youtube.com/channel/UCNdhmFe3BXu-Ff2DZ4loYvQ', 		'B9AF27'],	//mensajes subliminales

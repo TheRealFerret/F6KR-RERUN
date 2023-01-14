@@ -144,7 +144,7 @@ class TitleState extends MusicBeatState
 
 			//  f6kr keys updates
 			trace('checking for ek update');
-			var http = new haxe.Http("https://raw.githubusercontent.com/tposejank/FNF-PsychEngine/extra-keys/gitVersion.txt");
+			var http = new haxe.Http("https://raw.githubusercontent.com/TheRealFerret/F6KR-RERUN/main/gitVersion.txt?token=GHSAT0AAAAAAB5PXHGKQJDUOGBMX5WBTW2UY6DBFTA");
 
 			http.onData = function (data:String)
 			{
