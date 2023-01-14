@@ -1,0 +1,351 @@
+{
+	"song": {
+		"speed": 3.4,
+		"stage": "2p-dojo",
+		"player1": "bfkatana",
+		"player2": "gfkatana",
+		"player3": null,
+		"events": [
+			[
+				11636.3636363636,
+				[
+					[
+						"Camera Bopping",
+						"1",
+						"1"
+					],
+					[
+						"2P Effect",
+						"",
+						""
+					],
+					[
+						"GF Dance Speed",
+						"1",
+						""
+					]
+				],
+				null,
+				""
+			],
+			[
+				33454.5454545455,
+				[
+					[
+						"Camera Bopping",
+						"1",
+						"1"
+					],
+					[
+						"2P Effect",
+						"",
+						""
+					],
+					[
+						"",
+						"",
+						""
+					]
+				]
+			],
+			[
+				34909.0909090909,
+				[
+					[
+						"Camera Bopping",
+						"1",
+						"2"
+					],
+					[
+						"GF Dance Speed",
+						"4",
+						""
+					],
+					[
+						"Change Overlay",
+						"Red",
+						""
+					],
+					[
+						"2P Effect",
+						"",
+						""
+					]
+				]
+			],
+			[
+				45818.1818181818,
+				[
+					[
+						"2P Effect",
+						"",
+						""
+					],
+					[
+						"Camera Bopping",
+						"1",
+						"1"
+					]
+				]
+			],
+			[
+				46545.4545454546,
+				[
+					[
+						"2P Effect",
+						"",
+						""
+					],
+					[
+						"Camera Bopping",
+						"1",
+						"1"
+					],
+					[
+						"Change Overlay",
+						"Erect",
+						""
+					]
+				]
+			],
+			[
+				68363.6363636364,
+				[
+					[
+						"2P Effect",
+						"",
+						""
+					],
+					[
+						"Camera Bopping",
+						"1",
+						"1"
+					],
+					[
+						"Camera Bopping",
+						"2",
+						"1"
+					]
+				]
+			],
+			[
+				68636.3636363637,
+				[
+					[
+						"Camera Bopping",
+						"2",
+						"1"
+					]
+				]
+			],
+			[
+				68909.0909090909,
+				[
+					[
+						"Camera Bopping",
+						"2",
+						"1"
+					]
+				]
+			],
+			[
+				69090.9090909091,
+				[
+					[
+						"Camera Bopping",
+						"2",
+						"1"
+					]
+				]
+			],
+			[
+				69454.5454545455,
+				[
+					[
+						"Camera Bopping",
+						"2",
+						"1"
+					]
+				]
+			],
+			[
+				81454.5454545455,
+				[
+					[
+						"Change Overlay",
+						"Split",
+						""
+					],
+					[
+						"2P Effect",
+						"",
+						""
+					],
+					[
+						"Camera Bopping",
+						"1",
+						"1"
+					],
+					[
+						"Change Overlay Blend",
+						"darken",
+						""
+					],
+					[
+						"GF Dance Speed",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				104000,
+				[
+					[
+						"2P Effect",
+						"",
+						""
+					],
+					[
+						"Camera Bopping",
+						"1",
+						"1"
+					]
+				]
+			],
+			[
+				104727.272727273,
+				[
+					[
+						"Camera Bopping",
+						"1",
+						"2"
+					],
+					[
+						"GF Dance Speed",
+						"4",
+						""
+					],
+					[
+						"Change Overlay",
+						"Red",
+						""
+					],
+					[
+						"2P Effect",
+						"",
+						""
+					]
+				]
+			],
+			[
+				115636.363636364,
+				[
+					[
+						"2P Effect",
+						"",
+						""
+					],
+					[
+						"Camera Bopping",
+						"1",
+						"1"
+					]
+				]
+			],
+			[
+				116363.636363636,
+				[
+					[
+						"2P Effect",
+						"",
+						""
+					],
+					[
+						"Camera Bopping",
+						"1",
+						"1"
+					],
+					[
+						"Change Overlay",
+						"Erect",
+						""
+					],
+					[
+						"Change Overlay Blend",
+						"overlay",
+						""
+					]
+				]
+			],
+			[
+				138181.818181818,
+				[
+					[
+						"2P Effect",
+						"",
+						""
+					],
+					[
+						"Camera Bopping",
+						"1",
+						"1"
+					],
+					[
+						"Camera Bopping",
+						"2",
+						"1"
+					]
+				]
+			],
+			[
+				138454.545454546,
+				[
+					[
+						"Camera Bopping",
+						"2",
+						"1"
+					]
+				]
+			],
+			[
+				138727.272727273,
+				[
+					[
+						"Camera Bopping",
+						"2",
+						"1"
+					]
+				]
+			],
+			[
+				138909.090909091,
+				[
+					[
+						"Camera Bopping",
+						"2",
+						"1"
+					]
+				]
+			],
+			[
+				139272.727272727,
+				[
+					[
+						"Camera Bopping",
+						"2",
+						"1"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gfkatana",
+		"bpm": 165,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Versus"
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"storyName": "WHITTYWHITTYWHITTY",
+	"hideFreeplay": false,
+	"weekBackground": "WhiteOG",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"WhiteOG",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"ballistic",
+			"og",
+			[
+				175,
+				20,
+				0
+			]
+		],
+		[
+			"ballistic (hq)",
+			"jacket",
+			[
+				175,
+				20,
+				0
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"difficulties": "6Key",
+	"weekName": "bab"
+}

@@ -1,0 +1,6 @@
+{
+	"name": "Fruit Ninja Mod v1.5",
+	"description": "slice slice slice",
+	"restart":true,
+	"color": [255, 0, 110]
+}

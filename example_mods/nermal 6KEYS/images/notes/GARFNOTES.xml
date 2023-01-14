@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GARFNOTES.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="B0000" x="3" y="3" width="157" height="154" pivotX="1.1" pivotY="11.15"/>
+	<SubTexture name="B tail0000" x="163" y="3" width="50" height="64" pivotX="0" pivotY="0"/>
+	<SubTexture name="B hold0000" x="216" y="3" width="50" height="44" pivotX="0" pivotY="0"/>
+	<SubTexture name="C0000" x="269" y="3" width="158" height="154" pivotX="-9.75" pivotY="-6.25"/>
+	<SubTexture name="C tail0000" x="163" y="3" width="50" height="64" pivotX="0" pivotY="0"/>
+	<SubTexture name="C hold0000" x="216" y="3" width="50" height="44" pivotX="0" pivotY="0"/>
+	<SubTexture name="A tail0000" x="163" y="3" width="50" height="64" pivotX="0" pivotY="0"/>
+	<SubTexture name="A0000" x="3" y="160" width="154" height="157" pivotX="-0.05" pivotY="10"/>
+	<SubTexture name="A hold0000" x="216" y="3" width="50" height="44" pivotX="0" pivotY="0"/>
+	<SubTexture name="F tail0000" x="163" y="3" width="50" height="64" pivotX="0" pivotY="0"/>
+	<SubTexture name="F0000" x="3" y="160" width="154" height="157" pivotX="-0.05" pivotY="10"/>
+	<SubTexture name="F hold0000" x="216" y="3" width="50" height="44" pivotX="0" pivotY="0"/>
+	<SubTexture name="D0000" x="160" y="160" width="154" height="157" pivotX="1.25" pivotY="24.4"/>
+	<SubTexture name="D tail0000" x="163" y="3" width="50" height="64" pivotX="0" pivotY="0"/>
+	<SubTexture name="D hold0000" x="216" y="3" width="50" height="44" pivotX="0" pivotY="0"/>
+	<SubTexture name="I0000" x="160" y="160" width="154" height="157" pivotX="1.25" pivotY="24.4"/>
+	<SubTexture name="I tail0000" x="163" y="3" width="50" height="64" pivotX="0" pivotY="0"/>
+	<SubTexture name="I hold0000" x="216" y="3" width="50" height="44" pivotX="0" pivotY="0"/>
+</TextureAtlas>

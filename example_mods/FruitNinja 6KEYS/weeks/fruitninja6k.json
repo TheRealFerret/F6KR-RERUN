@@ -1,0 +1,29 @@
+{
+	"songs": [
+		[
+			"Bombastic",
+			"katanabf",
+			[
+				255,
+				0,
+				0
+			]
+		]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "BOMBASTICBOMBASTICBOMBASTIC",
+	"weekBefore": "tutorial",
+	"weekName": "BOMBASTIC 6K",
+	"difficulties": "6Key",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

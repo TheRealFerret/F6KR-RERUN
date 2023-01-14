@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				39,
+				134
+			],
+			"fps": 24,
+			"anim": "bfdrop",
+			"indices": [],
+			"name": "GF_SHAKING_BF_drop"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				42,
+				9
+			],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "left_GF_SHAKING_BF_she_is_like_real_hot_tho_because_miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				-14
+			],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "down_GF_SHAKING_BF_she_is_like_real_hot_tho_because_miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				32
+			],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "up_GF_SHAKING_BF_she_is_like_real_hot_tho_because_miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				0
+			],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "right_GF_SHAKING_BF_she_is_like_real_hot_tho_because_miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				62,
+				-7
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left_GF_SHAKING_BF_she_is_like_real_hot_tho_because0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				-15
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down_GF_SHAKING_BF_she_is_like_real_hot_tho_because0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				32
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up_GF_SHAKING_BF_she_is_like_real_hot_tho_because0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-26,
+				1
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right_GF_SHAKING_BF_she_is_like_real_hot_tho_because0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "GF_SHAKING_BF_she_is_like_real_hot_tho_because_she_is_lullaby_girlfriend"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/gf/phase_3",
+	"position": [
+		200,
+		220
+	],
+	"healthicon": "gfhypno",
+	"flip_x": true,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		180,
+		-100
+	],
+	"sing_duration": 6.1,
+	"scale": 1.44
+}

@@ -1,0 +1,56 @@
+{
+	"song": {
+		"events": [
+			[
+				63300,
+				[
+					[
+						"Change Character",
+						"1",
+						"sonic-mad"
+					]
+				]
+			],
+			[
+				66000,
+				[
+					[
+						"Change Character",
+						"1",
+						"sonic-tgt"
+					]
+				]
+			],
+			[
+				86400,
+				[
+					[
+						"Change Character",
+						"1",
+						"sonic-mad"
+					]
+				]
+			],
+			[
+				105600,
+				[
+					[
+						"Change Character",
+						"1",
+						"sonic-forced"
+					]
+				]
+			],
+			[
+				124800,
+				[
+					[
+						"Change Character",
+						"1",
+						"sonic-mad"
+					]
+				]
+			]
+		]
+	}
+}

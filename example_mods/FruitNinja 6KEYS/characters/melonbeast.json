@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Melon Beast Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-57
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Melon Beast Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				67
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Melon Beast Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-19,
+				17
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Melon Beast Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				17
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Melon Beast Left",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/MelonBeast",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "melonbeast",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 3.00000000000001,
+	"scale": 1
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				119,
+				81
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Demo Left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				82,
+				-110
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Demo Down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				107,
+				538
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Demo Up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-3,
+				442
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Demo Right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				320
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Demo Idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/demoknight",
+	"position": [
+		0,
+		120
+	],
+	"healthicon": "demoknight",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

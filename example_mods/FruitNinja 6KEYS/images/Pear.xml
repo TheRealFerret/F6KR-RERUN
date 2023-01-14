@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Pear.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Pear0000" x="0" y="0" width="87" height="125"/>
+	<SubTexture name="Pear slash0000" x="87" y="0" width="234" height="196"/>
+	<SubTexture name="Pear slash0001" x="321" y="0" width="234" height="196"/>
+	<SubTexture name="Pear slash0002" x="555" y="0" width="234" height="196"/>
+	<SubTexture name="Pear slash0003" x="789" y="0" width="234" height="196"/>
+	<SubTexture name="Pear slash0004" x="0" y="196" width="234" height="196"/>
+	<SubTexture name="Pear slash0005" x="234" y="196" width="234" height="196"/>
+</TextureAtlas>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="X.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="X off0000" x="0" y="0" width="428" height="385"/>
+	<SubTexture name="X on0000" x="428" y="0" width="427" height="385"/>
+</TextureAtlas>

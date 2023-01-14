@@ -1,0 +1,4 @@
+Enables or disables eBic camera bopping.
+
+value 1: 1 = Continue to bop every beat, 2 = Bop just once
+value 2: bopping speed (1 = every beat, 2 = every 2 beats etc.)

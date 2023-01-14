@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="AnimeSplit.png"><SubTexture name="AnimeSplit0000" x="0" y="0" width="54" height="1209" frameX="0" frameY="0" frameWidth="54" frameHeight="1209" />
+<SubTexture name="AnimeSplit0001" x="54" y="0" width="54" height="1209" frameX="0" frameY="0" frameWidth="54" frameHeight="1209" />
+</TextureAtlas>

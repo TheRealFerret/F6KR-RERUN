@@ -1,0 +1,154 @@
+{
+	"song": {
+		"speed": 3.5,
+		"stage": "dojo",
+		"player1": "bfkatana",
+		"player2": "nothing",
+		"player3": null,
+		"events": [
+			[
+				8930.23255813953,
+				[
+					[
+						"Camera Bopping",
+						"1",
+						"2"
+					]
+				]
+			],
+			[
+				26790.6976744186,
+				[
+					[
+						"Angy Effect",
+						"",
+						""
+					],
+					[
+						"Angy Effect Change Color",
+						"FF0000",
+						""
+					]
+				]
+			],
+			[
+				34604.6511627907,
+				[
+					[
+						"Angy Effect",
+						"",
+						""
+					]
+				]
+			],
+			[
+				35720.9302325582,
+				[
+					[
+						"Angy Effect",
+						"",
+						""
+					],
+					[
+						"Angy Effect Change Color",
+						"00FFFF",
+						""
+					]
+				]
+			],
+			[
+				44651.1627906977,
+				[
+					[
+						"Angy Effect Change Color",
+						"0000FF",
+						""
+					]
+				]
+			],
+			[
+				49116.2790697675,
+				[
+					[
+						"Angy Effect Change Color",
+						"0000FF",
+						""
+					]
+				]
+			],
+			[
+				53023.2558139535,
+				[
+					[
+						"Angy Effect",
+						"",
+						""
+					]
+				]
+			],
+			[
+				71441.8604651163,
+				[
+					[
+						"Angy Effect",
+						"",
+						""
+					],
+					[
+						"Angy Effect Change Color",
+						"FFFF00",
+						""
+					]
+				]
+			],
+			[
+				80372.0930232558,
+				[
+					[
+						"Angy Effect Change Color",
+						"00FFFF",
+						""
+					]
+				]
+			],
+			[
+				89302.3255813954,
+				[
+					[
+						"Angy Effect Change Color",
+						"0000FF",
+						""
+					]
+				]
+			],
+			[
+				93767.4418604652,
+				[
+					[
+						"Angy Effect Change Color",
+						"0000FF",
+						""
+					]
+				]
+			],
+			[
+				97674.4186046512,
+				[
+					[
+						"Angy Effect",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 215,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Bombastic"
+	}
+}

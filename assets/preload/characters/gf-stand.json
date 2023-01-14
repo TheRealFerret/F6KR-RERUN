@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				-7
+			],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Lullaby_GF_left_miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-24
+			],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Lullaby_GF_down_miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				20
+			],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Lullaby_GF_up_miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				1
+			],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Lullaby_GF_right_miss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				-8
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Lullaby_GF_left0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				-25
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Lullaby_GF_down0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				19
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Lullaby_GF_up0"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				1
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Lullaby_GF_right0"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Lullaby_GF_Idle_2"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/gf/last_stand",
+	"position": [
+		520,
+		85
+	],
+	"healthicon": "gfhypno",
+	"flip_x": true,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		-100,
+		-100
+	],
+	"sing_duration": 6.1,
+	"scale": 1.44
+}

@@ -1,0 +1,10 @@
+{
+	"confirm_anim": "bf pre attack",
+	"idle_anim": "bf pre attack",
+	"position": [
+		-317,
+		-13
+	],
+	"scale": 0.8,
+	"image": "Boyfriend_Katana"
+}

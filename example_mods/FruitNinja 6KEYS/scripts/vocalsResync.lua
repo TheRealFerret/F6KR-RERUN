@@ -1,0 +1,8 @@
+-- function onStepHit()
+--     --Conductor.songPosition = FlxG.sound.music.time;
+-- 	--vocals.time = Conductor.songPosition;
+--     if getPropertyFromClass('flixel.FlxG', 'sound.music.time') < songLength - 1 then
+--         setPropertyFromClass('flixel.FlxG', 'sound.music.time', getProperty('vocals.time'))
+--         setPropertyFromClass('Conductor', 'songPosition', getProperty('vocals.time'))
+--     end
+-- end

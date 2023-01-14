@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="garfieldjumpin.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="garf jumpscare fr fr0000" x="3" y="3" width="833" height="1129" pivotX="306.55" pivotY="292.25"/>
+	<SubTexture name="garf jumpscare fr fr0001" x="839" y="3" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0002" x="1675" y="3" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0003" x="2511" y="3" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0004" x="3347" y="3" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0005" x="4183" y="3" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0006" x="5019" y="3" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0007" x="5855" y="3" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0008" x="6691" y="3" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0009" x="3" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0010" x="839" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0011" x="839" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0012" x="839" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0013" x="839" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0014" x="839" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0015" x="839" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0016" x="1675" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0017" x="1675" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0018" x="2511" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0019" x="3347" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0020" x="4183" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0021" x="4183" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0022" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0023" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0024" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0025" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0026" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0027" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0028" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0029" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0030" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0031" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0032" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0033" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0034" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0035" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0036" x="5019" y="1135" width="833" height="1129"/>
+	<SubTexture name="garf jumpscare fr fr0037" x="5019" y="1135" width="833" height="1129"/>
+</TextureAtlas>

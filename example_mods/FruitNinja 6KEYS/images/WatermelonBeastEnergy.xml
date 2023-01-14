@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="WatermelonBeastEnergy.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BeastTentaclesFull0000" x="0" y="0" width="1048" height="979"/>
+	<SubTexture name="BeastTentaclesFull0001" x="1048" y="0" width="1048" height="979"/>
+	<SubTexture name="BeastTentaclesFull0002" x="2096" y="0" width="1048" height="979"/>
+	<SubTexture name="BeastTentaclesFull0003" x="0" y="979" width="1048" height="979"/>
+	<SubTexture name="BeastTentaclesFull0004" x="1048" y="979" width="1048" height="979"/>
+	<SubTexture name="BeastTentaclesFull0005" x="2096" y="979" width="1048" height="979"/>
+	<SubTexture name="BeastTentaclesFull0006" x="0" y="1958" width="1048" height="979"/>
+	<SubTexture name="BeastTentaclesFull0007" x="1048" y="1958" width="1048" height="979"/>
+	<SubTexture name="BeastTentaclesFull0008" x="2096" y="1958" width="1048" height="979"/>
+	<SubTexture name="BeastTentaclesFull0009" x="0" y="2937" width="1048" height="979"/>
+	<SubTexture name="BeastTentaclesFull0010" x="1048" y="2937" width="1048" height="979"/>
+</TextureAtlas>

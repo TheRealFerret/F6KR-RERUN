@@ -1,0 +1,7 @@
+{
+	"name": "Vs Nermal",
+	"description": "NERMAL",
+	"restart":true,
+	"runGlobally": false,
+	"color": [170, 170, 170]
+}

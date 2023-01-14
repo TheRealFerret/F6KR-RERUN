@@ -1,0 +1,11 @@
+{
+	"idle_anim": "nermal idle dance",
+	"image": "Menu_Nermal",
+	"position": [
+		160,
+		60
+	],
+	"flipX": false,
+	"scale": 0.85,
+	"confirm_anim": "M Dad Idle"
+}

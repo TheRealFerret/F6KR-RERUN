@@ -1,0 +1,16 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Toggle Ghost Trail",
+						"dad",
+						"on"
+					]
+				]
+			]
+		]
+	}
+}
