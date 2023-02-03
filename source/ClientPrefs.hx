@@ -34,6 +34,7 @@ class ClientPrefs {
 													[0, 0, 0], [0, 0, 0]]; // Fuck
 	public static var imagesPersist:Bool = false;
 	public static var ghostTapping:Bool = true;
+	public static var hitsounds:Bool = false;
 	public static var timeBarType:String = 'Time Left';
 	public static var scoreZoom:Bool = true;
 	public static var noReset:Bool = false;
@@ -60,7 +61,14 @@ class ClientPrefs {
 		'songspeed' => 1.0,
 		'healthgain' => 1.0,
 		'healthloss' => 1.0,
+		'healthdrain' => 0,
 		'instakill' => false,
+		'sickonly' => false,
+		'fadeout' => false,
+		'fadein' => false,
+		'drunkgame' => false,
+		'pussymode' => false,
+		'pendulummode' => false,
 		'practice' => false,
 		'botplay' => false,
 		'opponentplay' => false
@@ -313,6 +321,7 @@ class ClientPrefs {
 		FlxG.save.data.arrowHSV = arrowHSV;
 		FlxG.save.data.imagesPersist = imagesPersist;
 		FlxG.save.data.ghostTapping = ghostTapping;
+		FlxG.save.data.hitsounds = hitsounds;
 		FlxG.save.data.timeBarType = timeBarType;
 		FlxG.save.data.scoreZoom = scoreZoom;
 		FlxG.save.data.noReset = noReset;
@@ -409,6 +418,9 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.ghostTapping != null) {
 			ghostTapping = FlxG.save.data.ghostTapping;
+		}
+		if(FlxG.save.data.hitsounds != null) {
+			hitsounds = FlxG.save.data.hitsounds;
 		}
 		if(FlxG.save.data.timeBarType != null) {
 			timeBarType = FlxG.save.data.timeBarType;

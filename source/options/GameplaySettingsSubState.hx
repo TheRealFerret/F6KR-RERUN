@@ -68,6 +68,13 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		option.changeValue = 0.1;
 		option.decimals = 1;
 
+		var option:Option = new Option('Hitsounds',
+			"If checked, every note pressed will play a sound.",
+			'hitsounds',
+			'bool',
+			true);
+		addOption(option);
+
 		var option:Option = new Option('Ghost Tapping',
 			"If checked, you won't get misses from pressing keys\nwhile there are no notes able to be hit.",
 			'ghostTapping',

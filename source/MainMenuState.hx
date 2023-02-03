@@ -1,5 +1,6 @@
 package;
 
+import GameJolt.GameJoltAPI;
 import flixel.util.FlxTimer;
 #if desktop
 import Discord.DiscordClient;
@@ -26,11 +27,9 @@ using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
-	//daveandbambistuff
-	
 	public static var psychEngineVersion:String = '0.6.3'; //This is also used for Discord RPC
 	public static var extraKeysVersion:String = '0.3';
-	public static var f6krVersion:String = '0.1';
+	public static var f6krVersion:String = '0.2.0';
 	public static var curSelected:Int = 0;
 	public static var launchChance:Dynamic = null;
 
@@ -42,7 +41,8 @@ class MainMenuState extends MusicBeatState
 		'freeplay',
 		#if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'credits',
-		'options'
+		'options',
+		'gamejolt'
 	];
 
 	var magenta:FlxSprite;
@@ -277,6 +277,8 @@ class MainMenuState extends MusicBeatState
 										MusicBeatState.switchState(new CreditsState());
 									case 'options':
 										LoadingState.loadAndSwitchState(new options.OptionsState());
+									case 'gamejolt':
+										MusicBeatState.switchState(new GameJolt.GameJoltLogin());
 								}
 							});
 						}

@@ -62,6 +62,7 @@ class Note extends FlxSprite
 	public var alreadyTweened:Bool = false;
 	
 	public var extraData:Map<String,Dynamic> = [];
+	public var row:Int = 0;
 	public var strumTime:Float = 0;
 
 	public var mustPress:Bool = false;
@@ -185,19 +186,23 @@ class Note extends FlxSprite
 		if(noteData > -1 && noteType != value) {
 			switch(value) {
 				case 'Hurt Note':
-					ignoreNote = mustPress;
-					reloadNote('HURT');
-					noteSplashTexture = 'HURTnoteSplashes';
-					colorSwap.hue = 0;
-					colorSwap.saturation = 0;
-					colorSwap.brightness = 0;
-					lowPriority = true;
-					if(isSustainNote) {
-						missHealth = 0.1;
-					} else {
-						missHealth = 0.3;
+					if (PlayState.instance.pussyMode == true)
+						this.kill();
+					else {
+						ignoreNote = mustPress;
+						reloadNote('HURT');
+						noteSplashTexture = 'HURTnoteSplashes';
+						colorSwap.hue = 0;
+						colorSwap.saturation = 0;
+						colorSwap.brightness = 0;
+						lowPriority = true;
+						if(isSustainNote) {
+							missHealth = 0.1;
+						} else {
+							missHealth = 0.3;
+						}
+						hitCausesMiss = true;
 					}
-					hitCausesMiss = true;
 				case 'Alt Animation':
 					animSuffix = '-alt';
 				case 'No Animation':
@@ -206,11 +211,15 @@ class Note extends FlxSprite
 				case 'GF Sing':
 					gfNote = true;
 				case 'Sage Note':
-					reloadNote('SAGE');
-					hitHealth = 0.03;
-					colorSwap.hue = 0;
-					colorSwap.saturation = 0;
-					colorSwap.brightness = 0;
+					if (PlayState.instance.pussyMode == true)
+						hitHealth = 0.03;
+					else {
+						reloadNote('SAGE');
+						hitHealth = 0.03;
+						colorSwap.hue = 0;
+						colorSwap.saturation = 0;
+						colorSwap.brightness = 0;
+					}
 				case 'Ebola Note':
 					ignoreNote = mustPress;
 					reloadNote('EBOLA');
@@ -218,34 +227,73 @@ class Note extends FlxSprite
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
 					lowPriority = true;
-					hitCausesMiss = true;
+					if (PlayState.instance.pussyMode == false)
+						hitCausesMiss = true;
 				case 'Drunk Note':
-					reloadNote('DRUNK');
-					hitHealth = 0.03;
-					colorSwap.hue = 0;
-					colorSwap.saturation = 0;
-					colorSwap.brightness = 0;
-				case 'Text Note':
-					hitHealth = 0.023;
-					frames = Paths.getSparrowAtlas('recursed/alphabet');
-					
-					setGraphicSize(Std.int(width * 1.2));
-					updateHitbox();
-					antialiasing = true;
-					offsetX = -(width - 78);
-				case 'Death Note':
-					ignoreNote = mustPress;
-					reloadNote('DEATH');
-					noteSplashTexture = 'HURTnoteSplashes';
-					colorSwap.hue = 0;
-					colorSwap.saturation = 0;
-					colorSwap.brightness = 0;
-					if(isSustainNote) {
-						missHealth = 999;
-					} else {
-						missHealth = 999;
+					if (PlayState.instance.pussyMode == true)
+						hitHealth = 0.03;
+					else {
+						reloadNote('DRUNK');
+						hitHealth = 0.03;
+						colorSwap.hue = 0;
+						colorSwap.saturation = 0;
+						colorSwap.brightness = 0;
 					}
-					hitCausesMiss = true;
+				case 'Text Note':
+					if (PlayState.instance.pussyMode == true)
+						hitHealth = 0.03;
+					else {
+						hitHealth = 0.023;
+						frames = Paths.getSparrowAtlas('recursed/alphabet');
+						
+						setGraphicSize(Std.int(width * 1.2));
+						updateHitbox();
+						antialiasing = true;
+						offsetX = -(width - 78);
+					}
+				case 'Death Note':
+					if (PlayState.instance.pussyMode == true)
+						this.kill();
+					else {
+						ignoreNote = mustPress;
+						reloadNote('DEATH');
+						noteSplashTexture = 'HURTnoteSplashes';
+						colorSwap.hue = 0;
+						colorSwap.saturation = 0;
+						colorSwap.brightness = 0;
+						lowPriority = true;
+						if(isSustainNote) {
+							missHealth = 999;
+						} else {
+							missHealth = 999;
+						}
+						hitCausesMiss = true;
+					}
+				case 'Conch Note':
+					if (PlayState.instance.pussyMode == true)
+						hitHealth = 0.03;
+					else {
+						reloadNote('CONCH');
+						colorSwap.hue = 0;
+						colorSwap.saturation = 0;
+						colorSwap.brightness = 0;
+						hitHealth = 0.03;
+						missHealth = 0.8;
+						noAnimation = true;
+					}
+				case 'Opponent 2 Sing':
+					lowPriority = false;
+				case 'Both Opponents Sing':
+					lowPriority = false;
+				case 'nermalNote':
+					if (PlayState.instance.pussyMode == true)
+						this.kill();
+				case 'jumpScareNote':
+					if (PlayState.instance.pussyMode == true)
+						this.kill();
+				case 'Bomb Note':
+					if (PlayState.instance.pussyMode == true)
+						this.kill();
 			}
 			noteType = value;
 		}
@@ -289,6 +337,16 @@ class Note extends FlxSprite
 			}
 		}
 
+		if (PlayState.instance.pussyMode == true)
+			{
+				switch (noteType)
+				{
+					case 'Hurt Note'|'Ebola Note'|'Death Note'|'nermalNote'|'jumpScareNote'|'Bomb Note':
+						kill();
+					case 'Sage Note'|'Drunk Note'|'Text Note'|'Conch Note':
+						noteType = '';
+				}
+			}
 		// trace(prevNote);
 
 		if (isSustainNote && prevNote != null)
@@ -420,20 +478,24 @@ class Note extends FlxSprite
 		for (i in 0...gfxLetter.length)
 			{
 				if (noteType == 'Text Note'){
-					animation.addByPrefix(gfxLetter[0], 'END PARENTHESES bold0', 24);
-					animation.addByPrefix(gfxLetter[1], 'M bold0', 24);
-					animation.addByPrefix(gfxLetter[2], 'START PARENTHESES bold0', 24);
-					animation.addByPrefix(gfxLetter[3], 'bold >0', 24);
-					animation.addByPrefix(gfxLetter[4], 'À bold0', 24);
-					animation.addByPrefix(gfxLetter[5], 'Ó bold0', 24);
+					if (PlayState.instance.pussyMode == false){
+						animation.addByPrefix(gfxLetter[0], 'END PARENTHESES bold0', 24);
+						animation.addByPrefix(gfxLetter[1], 'M bold0', 24);
+						animation.addByPrefix(gfxLetter[2], 'START PARENTHESES bold0', 24);
+						animation.addByPrefix(gfxLetter[3], 'bold >0', 24);
+						animation.addByPrefix(gfxLetter[4], 'À bold0', 24);
+						animation.addByPrefix(gfxLetter[5], 'Ó bold0', 24);
+					}
 				}
 				else
 				animation.addByPrefix(gfxLetter[i], gfxLetter[i] + '0');
 	
 				if (isSustainNote)
 				{
-					if (noteType == 'Text Note'){
-						reloadNote('NOTE');
+					if (PlayState.instance.pussyMode == false){
+						if (noteType == 'Text Note'){
+							reloadNote('NOTE');
+						}
 					}
 					animation.addByPrefix(gfxLetter[i] + ' hold', gfxLetter[i] + ' hold');
 					animation.addByPrefix(gfxLetter[i] + ' tail', gfxLetter[i] + ' tail');

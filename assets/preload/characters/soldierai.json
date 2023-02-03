@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				230,
+				93
+			],
+			"fps": 24,
+			"anim": "slash",
+			"indices": [],
+			"name": "soldierai-slashAlt"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				233,
+				-74
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "soldierai-leftAlt"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-200
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "soldierai-downAlt"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				90
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "soldierai-upAlt"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				-30
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "soldierai-rightAlt"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "soldierai-idleAlt"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				231,
+				93
+			],
+			"fps": 24,
+			"anim": "slash-alt",
+			"indices": [],
+			"name": "soldierai-slash"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				127
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "soldierai idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				232,
+				79
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "soldierai left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				15
+			],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "soldierai down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				7,
+				97
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "soldierai right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				217
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "soldierai up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/soldierai",
+	"position": [
+		0,
+		-125
+	],
+	"healthicon": "soldierai",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

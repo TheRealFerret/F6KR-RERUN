@@ -28,7 +28,7 @@ end
 
 function onUpdate()
 
-	if start == 1 then
+	if start == 1 and pussyMode == false then
 	
 	doTweenY('Cinematics1', 'UpperBar', 0, 0.5, 'Linear')
 	doTweenY('Cinematics2', 'LowerBar', 600, 0.5, 'Linear')
@@ -55,7 +55,7 @@ function onUpdate()
 
 	end
 
-	if downscroll and start == 1 then
+	if downscroll and start == 1 and pussyMode == false then
 	
 	doTweenY('Cinematics1', 'UpperBar', 0, 0.5, 'Linear')
 	doTweenY('Cinematics2', 'LowerBar', 600, 0.5, 'Linear')
@@ -83,7 +83,7 @@ function onUpdate()
 	end
 
 
-	if finish == 2 then
+	if finish == 2 and pussyMode == false then
 	
 	doTweenY('Cinematics1', 'UpperBar', -120, 0.5, 'Linear')
 	doTweenY('Cinematics2', 'LowerBar', 720, 0.5, 'Linear')
@@ -110,7 +110,7 @@ function onUpdate()
 	
 	end
 
-	if downscroll and finish == 2 then
+	if downscroll and finish == 2 and pussyMode == false then
 	
 	doTweenY('Cinematics1', 'UpperBar', -120, 0.5, 'Linear')
 	doTweenY('Cinematics2', 'LowerBar', 720, 0.5, 'Linear')

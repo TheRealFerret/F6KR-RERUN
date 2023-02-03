@@ -8,5 +8,4 @@
 	<SubTexture name="Apple slash0002" x="0" y="100" width="149" height="121" frameX="-46" frameY="-11" frameWidth="254" frameHeight="162"/>
 	<SubTexture name="Apple slash0003" x="149" y="100" width="217" height="158" frameX="0" frameY="-4" frameWidth="254" frameHeight="162"/>
 	<SubTexture name="Apple slash0004" x="0" y="258" width="215" height="145" frameX="-21" frameY="0" frameWidth="254" frameHeight="162"/>
-	<SubTexture name="Apple slash0005" x="215" y="258" width="0" height="0" frameX="-122" frameY="-65" frameWidth="254" frameHeight="162"/>
 </TextureAtlas>

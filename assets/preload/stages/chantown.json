@@ -5,5 +5,6 @@
 
 	"boyfriend": [724,333],
 	"girlfriend": [570,365],
-	"opponent": [100, 250]
+	"opponent": [100, 250],
+	"secondopp": [100, 100]
 }

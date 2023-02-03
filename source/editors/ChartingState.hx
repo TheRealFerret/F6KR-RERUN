@@ -72,7 +72,10 @@ class ChartingState extends MusicBeatState
 		'Sage Note',
 		'Ebola Note',
 		'Drunk Note',
-		'Text Note'
+		'Text Note',
+		'Conch Note',
+		'Opponent 2 Sing',
+		'Both Opponents Sing'
 	];
 	private var noteTypeIntMap:Map<Int, String> = new Map<Int, String>();
 	private var noteTypeMap:Map<String, Null<Int>> = new Map<String, Null<Int>>();
@@ -101,7 +104,9 @@ class ChartingState extends MusicBeatState
 		['Toggle Ghost Trail', 'Enables or disables a trail in the same fashion seen\nin Mid-Fight Masses and Week 6.\n\nValue 1: "bf", "dad" or a mixture of them, separated\nby commas.\nValue 2: "on"/"1"/"true" to enable the effect,\n"off"/"0"/"false" to disable it.'], //Selever crossfade
 		['Defeat Fade', ""],
 		['Defeat Retro', ""],
-		['DefeatDark', ""]
+		['DefeatDark', ""],
+		['Jerma Scream', ""],
+		['Jerma Screamed', ""]
 	];
 
 	var _file:FileReference;
@@ -232,6 +237,7 @@ class ChartingState extends MusicBeatState
 				player1: 'bf',
 				player2: 'dad',
 				gfVersion: 'gf',
+				player4: 'mom',
 				speed: 1,
 				stage: 'stage',
 				validScore: false,

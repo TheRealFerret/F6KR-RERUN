@@ -24,6 +24,7 @@ typedef SwagSong =
 	var player1:String;
 	var player2:String;
 	var gfVersion:String;
+	var player4:String;
 	var stage:String;
 
 	var mania:Null<Int>;
@@ -48,6 +49,7 @@ class Song
 	public var player1:String = 'bf';
 	public var player2:String = 'dad';
 	public var gfVersion:String = 'gf';
+	public var player4:String = 'mom';
 
 	private static function onLoadJson(songJson:Dynamic) // Convert old charts to newest format
 	{

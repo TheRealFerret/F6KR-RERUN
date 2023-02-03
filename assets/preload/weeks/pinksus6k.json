@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["Heartbeat", "pink", [238, 100, 204]],
+		["Pretender", "pretender", [98, 87, 115]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "6KEYS6KEYS6KEYS",
+	"weekBefore": "tutorial",
+	"weekName": "Week 6K",
+	"difficulties": "6Key",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

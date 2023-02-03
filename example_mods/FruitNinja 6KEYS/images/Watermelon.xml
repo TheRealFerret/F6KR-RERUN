@@ -8,5 +8,4 @@
 	<SubTexture name="Watermelon slash0002" x="606" y="0" width="273" height="214" frameX="-42" frameY="-70" frameWidth="379" frameHeight="353"/>
 	<SubTexture name="Watermelon slash0003" x="0" y="252" width="379" height="321" frameX="0" frameY="-32" frameWidth="379" frameHeight="353"/>
 	<SubTexture name="Watermelon slash0004" x="379" y="252" width="275" height="219" frameX="-52" frameY="-62" frameWidth="379" frameHeight="353"/>
-	<SubTexture name="Watermelon slash0005" x="654" y="252" width="0" height="0" frameX="-77" frameY="-97" frameWidth="379" frameHeight="353"/>
 </TextureAtlas>

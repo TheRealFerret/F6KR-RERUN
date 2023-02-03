@@ -68,6 +68,8 @@ class GameOverSubstate extends MusicBeatSubstate
 						FlxG.sound.play(Paths.soundRandom('death/heavy_', 1, 4),1);
 					case 'degroot':
 						FlxG.sound.play(Paths.soundRandom('death/demo_', 1, 3),1);
+					case 'honor':
+						FlxG.sound.play(Paths.soundRandom('death/soldier_', 1, 4),1);
 				}
 			});
 

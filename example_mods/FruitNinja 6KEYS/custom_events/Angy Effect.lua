@@ -14,6 +14,7 @@ function onEvent(name, value1, value2)
         else
 
             doTweenAngle('camHUDangle', 'camHUD', 0, 0.01, 'linear')
+            doTweenAngle('camNotesangle', 'camNotes', 0, 0.01, 'linear')
 
         end
 
@@ -36,6 +37,7 @@ function onStepHit()
     if enabled then
         doTweenAlpha('angynesseffectalpha', 'angynesseffect', math.random(), 0.01, 'linear')
         doTweenAngle('camHUDangle', 'camHUD', math.random(2,-2), 0.01, 'linear')
+        doTweenAngle('camNotesangle', 'camNotes', math.random(2,-2), 0.01, 'linear')
     else
         doTweenAlpha('angynesseffectalpha', 'angynesseffect', 0, 0.01, 'linear')
     end
