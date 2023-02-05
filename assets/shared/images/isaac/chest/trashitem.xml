@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="trashitem.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="brain0000" x="0" y="0" width="164" height="230"/>
+	<SubTexture name="brain0001" x="164" y="0" width="164" height="230"/>
+	<SubTexture name="brain0002" x="328" y="0" width="164" height="230"/>
+	<SubTexture name="brain0003" x="0" y="230" width="164" height="230"/>
+	<SubTexture name="brain0004" x="164" y="230" width="164" height="230"/>
+	<SubTexture name="brain0005" x="164" y="230" width="164" height="230"/>
+	<SubTexture name="brain0006" x="328" y="230" width="164" height="230"/>
+	<SubTexture name="brain0007" x="0" y="460" width="164" height="230"/>
+	<SubTexture name="brain0008" x="164" y="460" width="164" height="230"/>
+	<SubTexture name="brain0009" x="328" y="460" width="164" height="230"/>
+</TextureAtlas>

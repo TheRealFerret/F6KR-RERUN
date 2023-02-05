@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="deci.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dec0000" x="0" y="0" width="937" height="61" frameX="-1636" frameY="-32" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0001" x="0" y="61" width="836" height="97" frameX="-1154" frameY="-14" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0002" x="0" y="158" width="761" height="126" frameX="-932" frameY="0" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0003" x="0" y="284" width="777" height="110" frameX="-959" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0004" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0005" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0006" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0007" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0008" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0009" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0010" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0011" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0012" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0013" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0014" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0015" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0016" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0017" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0018" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0019" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0020" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0021" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0022" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0023" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0024" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0025" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0026" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0027" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0028" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0029" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0030" x="0" y="394" width="761" height="122" frameX="-1030" frameY="-2" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0031" x="0" y="516" width="796" height="94" frameX="-827" frameY="-16" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0032" x="0" y="610" width="876" height="85" frameX="-497" frameY="-20" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="dec0033" x="0" y="695" width="802" height="78" frameX="0" frameY="-24" frameWidth="2573" frameHeight="126"/>
+</TextureAtlas>

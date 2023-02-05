@@ -29,6 +29,8 @@ using StringTools;
 
 class GameplayChangersSubstate extends MusicBeatSubstate
 {
+	public static var modMulti:Float = 1;
+	
 	private var curOption:GameplayOption = null;
 	private var curSelected:Int = 0;
 	private var optionsArray:Array<Dynamic> = [];

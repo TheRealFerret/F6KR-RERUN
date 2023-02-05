@@ -1,0 +1,96 @@
+{
+	"song": {
+		"events": [
+			[
+				40800,
+				[
+					[
+						"Change Character",
+						"1",
+						"scourge-mad"
+					]
+				]
+			],
+			[
+				46500,
+				[
+					[
+						"Change Character",
+						"1",
+						"scourge"
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Change Character",
+						"1",
+						"scourge-mad"
+					]
+				]
+			],
+			[
+				50400,
+				[
+					[
+						"Change Character",
+						"1",
+						"scourge"
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"Change Character",
+						"1",
+						"scourge-mad"
+					]
+				]
+			],
+			[
+				64800,
+				[
+					[
+						"Change Character",
+						"1",
+						"scourge-forced"
+					]
+				]
+			],
+			[
+				70050,
+				[
+					[
+						"Change Character",
+						"1",
+						"scourge-mad"
+					]
+				]
+			],
+			[
+				88800,
+				[
+					[
+						"Change Character",
+						"1",
+						"scourge-forced"
+					]
+				]
+			],
+			[
+				108000,
+				[
+					[
+						"Change Character",
+						"1",
+						"scourge-mad"
+					]
+				]
+			]
+		]
+	}
+}

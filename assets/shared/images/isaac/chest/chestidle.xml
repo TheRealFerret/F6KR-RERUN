@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="chestidle.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="0" y="0" width="1099" height="1725"/>
+	<SubTexture name="idle0001" x="1099" y="0" width="1055" height="1713" frameX="-22" frameY="-12" frameWidth="1099" frameHeight="1725"/>
+	<SubTexture name="idle0002" x="2154" y="0" width="1018" height="1701" frameX="-41" frameY="-24" frameWidth="1099" frameHeight="1725"/>
+	<SubTexture name="idle0003" x="0" y="1725" width="1020" height="1689" frameX="-40" frameY="-36" frameWidth="1099" frameHeight="1725"/>
+	<SubTexture name="idle0004" x="1020" y="1725" width="1036" height="1697" frameX="-32" frameY="-28" frameWidth="1099" frameHeight="1725"/>
+</TextureAtlas>

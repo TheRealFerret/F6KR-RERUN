@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="deliriumiconsfp.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="icon0000" x="0" y="0" width="180" height="143" frameX="-9" frameY="-8" frameWidth="203" frameHeight="155"/>
+	<SubTexture name="icon0001" x="180" y="0" width="179" height="144" frameX="0" frameY="-9" frameWidth="203" frameHeight="155"/>
+	<SubTexture name="icon0002" x="0" y="144" width="180" height="140" frameX="-23" frameY="-15" frameWidth="203" frameHeight="155"/>
+	<SubTexture name="icon0003" x="180" y="144" width="181" height="149" frameX="-13" frameY="0" frameWidth="203" frameHeight="155"/>
+	<SubTexture name="icon0004" x="0" y="293" width="180" height="145" frameX="-6" frameY="-8" frameWidth="203" frameHeight="155"/>
+</TextureAtlas>

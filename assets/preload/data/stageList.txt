@@ -27,3 +27,7 @@ cargo
 jerma
 idk
 plantroom
+warehouse
+void
+chest
+hillzoneDarkSonic

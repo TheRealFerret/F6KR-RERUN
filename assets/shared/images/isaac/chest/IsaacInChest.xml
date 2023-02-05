@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="IsaacInChest.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Isaac0000" x="0" y="0" width="1993" height="1126" frameX="0" frameY="0" frameWidth="1999" frameHeight="1126"/>
+	<SubTexture name="Isaac0001" x="1993" y="0" width="1993" height="1126" frameX="0" frameY="0" frameWidth="1999" frameHeight="1126"/>
+	<SubTexture name="Isaac0002" x="0" y="1126" width="1999" height="1126"/>
+	<SubTexture name="Isaac0003" x="1999" y="1126" width="1993" height="1126" frameX="0" frameY="0" frameWidth="1999" frameHeight="1126"/>
+</TextureAtlas>

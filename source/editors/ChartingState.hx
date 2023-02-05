@@ -74,6 +74,7 @@ class ChartingState extends MusicBeatState
 		'Drunk Note',
 		'Text Note',
 		'Conch Note',
+		'Deli Note',
 		'Opponent 2 Sing',
 		'Both Opponents Sing'
 	];

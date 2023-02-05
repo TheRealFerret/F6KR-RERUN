@@ -294,6 +294,18 @@ class Note extends FlxSprite
 				case 'Bomb Note':
 					if (PlayState.instance.pussyMode == true)
 						this.kill();
+				case 'Deli Note':
+					if (PlayState.instance.pussyMode == true)
+						this.kill();
+					else {
+						reloadNote('DELI');
+						colorSwap.hue = 0;
+						colorSwap.saturation = 0;
+						colorSwap.brightness = 0;
+						ignoreNote = mustPress;
+						lowPriority = true;
+						hitCausesMiss = true;
+					}
 			}
 			noteType = value;
 		}
@@ -336,17 +348,7 @@ class Note extends FlxSprite
 				animation.play(animToPlay);
 			}
 		}
-
-		if (PlayState.instance.pussyMode == true)
-			{
-				switch (noteType)
-				{
-					case 'Hurt Note'|'Ebola Note'|'Death Note'|'nermalNote'|'jumpScareNote'|'Bomb Note':
-						kill();
-					case 'Sage Note'|'Drunk Note'|'Text Note'|'Conch Note':
-						noteType = '';
-				}
-			}
+		
 		// trace(prevNote);
 
 		if (isSustainNote && prevNote != null)

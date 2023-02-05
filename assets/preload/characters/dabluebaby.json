@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				118, 
+				-42
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "bbleft",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-1, 
+				-39
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "bbdown",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-9, 
+				62
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "bbup",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-9, 
+				-18
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "bbright",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0, 
+				0
+			],
+			"loop": true,
+			"anim": "idle",
+			"fps": 24,
+			"name": "bbidle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/dabluebaby",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "bluebaby",
+	"flip_x": false,
+	"healthbar_colors": [
+		68, 
+		77, 
+		137
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

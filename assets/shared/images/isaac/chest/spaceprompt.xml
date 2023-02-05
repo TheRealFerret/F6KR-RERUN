@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="spaceprompt.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="spacebar0000" x="0" y="0" width="650" height="295" frameX="0" frameY="-15" frameWidth="650" frameHeight="310"/>
+	<SubTexture name="spacebar0001" x="0" y="295" width="650" height="310"/>
+	<SubTexture name="spacebar0002" x="0" y="605" width="641" height="173" frameX="-4" frameY="-135" frameWidth="650" frameHeight="310"/>
+	<SubTexture name="spacebar0003" x="0" y="605" width="641" height="173" frameX="-4" frameY="-135" frameWidth="650" frameHeight="310"/>
+</TextureAtlas>

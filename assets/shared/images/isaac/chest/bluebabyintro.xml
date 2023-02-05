@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bluebabyintro.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="intro0000" x="0" y="0" width="723" height="569" frameX="-142" frameY="-1156" frameWidth="1102" frameHeight="1725"/>
+	<SubTexture name="intro0001" x="0" y="0" width="723" height="569" frameX="-142" frameY="-1156" frameWidth="1102" frameHeight="1725"/>
+	<SubTexture name="intro0002" x="0" y="0" width="723" height="569" frameX="-142" frameY="-1156" frameWidth="1102" frameHeight="1725"/>
+	<SubTexture name="intro0003" x="0" y="0" width="723" height="569" frameX="-142" frameY="-1156" frameWidth="1102" frameHeight="1725"/>
+	<SubTexture name="intro0004" x="723" y="0" width="723" height="569" frameX="-142" frameY="-1156" frameWidth="1102" frameHeight="1725"/>
+	<SubTexture name="intro0005" x="1446" y="0" width="723" height="1709" frameX="-142" frameY="-16" frameWidth="1102" frameHeight="1725"/>
+	<SubTexture name="intro0006" x="2169" y="0" width="723" height="1701" frameX="-142" frameY="-24" frameWidth="1102" frameHeight="1725"/>
+	<SubTexture name="intro0007" x="2892" y="0" width="898" height="1701" frameX="-102" frameY="-24" frameWidth="1102" frameHeight="1725"/>
+	<SubTexture name="intro0008" x="0" y="1709" width="1022" height="1689" frameX="-40" frameY="-36" frameWidth="1102" frameHeight="1725"/>
+	<SubTexture name="intro0009" x="1022" y="1709" width="1038" height="1697" frameX="-32" frameY="-28" frameWidth="1102" frameHeight="1725"/>
+	<SubTexture name="intro0010" x="2060" y="1709" width="1102" height="1725"/>
+	<SubTexture name="intro0011" x="0" y="3434" width="1057" height="1713" frameX="-23" frameY="-12" frameWidth="1102" frameHeight="1725"/>
+	<SubTexture name="intro0012" x="1057" y="3434" width="1020" height="1701" frameX="-41" frameY="-24" frameWidth="1102" frameHeight="1725"/>
+	<SubTexture name="intro0013" x="2077" y="3434" width="1022" height="1689" frameX="-40" frameY="-36" frameWidth="1102" frameHeight="1725"/>
+	<SubTexture name="intro0014" x="0" y="5147" width="1038" height="1697" frameX="-32" frameY="-28" frameWidth="1102" frameHeight="1725"/>
+</TextureAtlas>

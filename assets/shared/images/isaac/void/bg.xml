@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bg.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="void0000" x="0" y="0" width="313" height="167" frameX="-3" frameY="-1" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0001" x="313" y="0" width="313" height="167" frameX="-3" frameY="-1" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0002" x="626" y="0" width="313" height="167" frameX="-3" frameY="-1" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0003" x="0" y="167" width="313" height="165" frameX="-3" frameY="-2" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0004" x="313" y="167" width="312" height="165" frameX="-4" frameY="-2" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0005" x="625" y="167" width="312" height="165" frameX="-4" frameY="-2" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0006" x="0" y="332" width="313" height="165" frameX="-3" frameY="-2" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0007" x="313" y="332" width="313" height="165" frameX="-3" frameY="-2" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0008" x="626" y="332" width="313" height="164" frameX="-3" frameY="-3" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0009" x="0" y="497" width="314" height="163" frameX="-2" frameY="-3" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0010" x="314" y="497" width="314" height="163" frameX="-2" frameY="-3" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0011" x="628" y="497" width="316" height="163" frameX="-1" frameY="-3" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0012" x="0" y="660" width="316" height="163" frameX="-1" frameY="-3" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0013" x="316" y="660" width="318" height="163" frameX="0" frameY="-3" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0014" x="634" y="660" width="319" height="163" frameX="0" frameY="-3" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0015" x="0" y="823" width="318" height="163" frameX="0" frameY="-3" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0016" x="318" y="823" width="316" height="163" frameX="-1" frameY="-3" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0017" x="634" y="823" width="316" height="163" frameX="-1" frameY="-3" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0018" x="0" y="986" width="315" height="163" frameX="-2" frameY="-3" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0019" x="315" y="986" width="314" height="164" frameX="-2" frameY="-3" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0020" x="629" y="986" width="313" height="165" frameX="-3" frameY="-2" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0021" x="0" y="1151" width="313" height="165" frameX="-3" frameY="-2" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0022" x="313" y="1151" width="312" height="165" frameX="-4" frameY="-2" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0023" x="625" y="1151" width="312" height="165" frameX="-4" frameY="-2" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0024" x="0" y="1316" width="313" height="166" frameX="-3" frameY="-1" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0025" x="313" y="1316" width="313" height="167" frameX="-3" frameY="-1" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0026" x="626" y="1316" width="313" height="167" frameX="-3" frameY="-1" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0027" x="0" y="1483" width="313" height="167" frameX="-3" frameY="-1" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0028" x="313" y="1483" width="315" height="167" frameX="-2" frameY="-1" frameWidth="319" frameHeight="168"/>
+	<SubTexture name="void0029" x="628" y="1483" width="315" height="168" frameX="-2" frameY="0" frameWidth="319" frameHeight="168"/>
+</TextureAtlas>

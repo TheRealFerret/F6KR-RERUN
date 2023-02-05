@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="deli.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="del0000" x="0" y="0" width="937" height="61" frameX="-1636" frameY="-32" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0001" x="0" y="61" width="836" height="97" frameX="-1154" frameY="-14" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0002" x="0" y="158" width="761" height="126" frameX="-932" frameY="0" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0003" x="0" y="284" width="777" height="110" frameX="-959" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0004" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0005" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0006" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0007" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0008" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0009" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0010" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0011" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0012" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0013" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0014" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0015" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0016" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0017" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0018" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0019" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0020" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0021" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0022" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0023" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0024" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0025" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0026" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0027" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0028" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0029" x="0" y="284" width="777" height="110" frameX="-970" frameY="-8" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0030" x="0" y="394" width="761" height="122" frameX="-1030" frameY="-2" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0031" x="0" y="516" width="796" height="94" frameX="-827" frameY="-16" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0032" x="0" y="610" width="876" height="85" frameX="-497" frameY="-20" frameWidth="2573" frameHeight="126"/>
+	<SubTexture name="del0033" x="0" y="695" width="802" height="78" frameX="0" frameY="-24" frameWidth="2573" frameHeight="126"/>
+</TextureAtlas>

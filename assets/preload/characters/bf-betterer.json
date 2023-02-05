@@ -1,0 +1,163 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"fps": 24,
+			"name": "BF idle dance",
+			"anim": "idle",
+			"looped": false
+		},
+		{
+			"offsets": [
+				-45,
+				33
+			],
+			"fps": 24,
+			"name": "BF NOTE UP0",
+			"looped": false,
+			"anim": "singUP"
+		},
+		{
+			"offsets": [
+				-5,
+				-6
+			],
+			"fps": 24,
+			"name": "BF NOTE LEFT0",
+			"looped": false,
+			"anim": "singLEFT"
+		},
+		{
+			"offsets": [
+				-44,
+				-7
+			],
+			"fps": 24,
+			"name": "BF NOTE RIGHT0",
+			"looped": false,
+			"anim": "singRIGHT"
+		},
+		{
+			"offsets": [
+				-30,
+				-43
+			],
+			"fps": 24,
+			"name": "BF NOTE DOWN0",
+			"anim": "singDOWN",
+			"looped": false
+		},
+		{
+			"offsets": [
+				-54,
+				36
+			],
+			"fps": 24,
+			"name": "BF NOTE UP MISS",
+			"anim": "singUPmiss",
+			"looped": false
+		},
+		{
+			"offsets": [
+				-35,
+				-1
+			],
+			"fps": 24,
+			"name": "BF NOTE RIGHT MISS",
+			"looped": false,
+			"anim": "singRIGHTmiss"
+		},
+		{
+			"offsets": [
+				-7,
+				-1
+			],
+			"fps": 24,
+			"name": "BF NOTE LEFT MISS",
+			"looped": false,
+			"anim": "singLEFTmiss"
+		},
+		{
+			"offsets": [
+				-29,
+				-33
+			],
+			"fps": 24,
+			"name": "BF NOTE DOWN MISS",
+			"looped": false,
+			"anim": "singDOWNmiss"
+		},
+		{
+			"offsets": [
+				-3,
+				4
+			],
+			"fps": 24,
+			"name": "BF HEY",
+			"anim": "hey",
+			"looped": false
+		},
+		{
+			"offsets": [
+				-3,
+				4
+			],
+			"fps": 24,
+			"name": "BF HEY",
+			"anim": "singUP-alt",
+			"looped": false
+		},
+		{
+			"offsets": [
+				71,
+				-24
+			],
+			"fps": 24,
+			"name": "boyfriend dodge",
+			"looped": false,
+			"anim": "dodge"
+		},
+		{
+			"offsets": [
+				-2,
+				4
+			],
+			"fps": 24,
+			"name": "BF hit",
+			"looped": false,
+			"anim": "hit"
+		},
+		{
+			"offsets": [
+				-15,
+				37
+			],
+			"fps": 24,
+			"name": "BF FUNKIN DIE",
+			"looped": false,
+			"anim": "fuckingdies"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BOYFRIEND3",
+	"position": [
+		0,
+		300
+	],
+	"healthicon": "bf-ch3",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		250,
+		-75
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

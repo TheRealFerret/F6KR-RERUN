@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DELINOTE_assets.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="B0000" x="0" y="0" width="169" height="177"/>
+	<SubTexture name="A0000" x="169" y="0" width="159" height="167"/>
+	<SubTexture name="F0000" x="169" y="0" width="159" height="167"/>
+	<SubTexture name="D0000" x="328" y="0" width="171" height="164"/>
+	<SubTexture name="I0000" x="328" y="0" width="171" height="164"/>
+	<SubTexture name="C0000" x="0" y="177" width="147" height="179"/>
+</TextureAtlas>

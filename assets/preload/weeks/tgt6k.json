@@ -1,6 +1,7 @@
 {
 	"songs": [
-		["No Villains", "sonic-tgt", [87, 125, 255]]
+		["No Villains", "sonic-tgt", [87, 125, 255]],
+		["No Heroes", "scourge", [148, 255, 87]]
 	],
 
 	"weekCharacters": [

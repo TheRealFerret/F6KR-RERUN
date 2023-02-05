@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="misseffect.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="hurt0000" x="0" y="0" width="2005" height="1205" frameX="0" frameY="0" frameWidth="2114" frameHeight="1231"/>
+	<SubTexture name="hurt0001" x="2005" y="0" width="1998" height="1198" frameX="0" frameY="0" frameWidth="2114" frameHeight="1231"/>
+	<SubTexture name="hurt0002" x="0" y="1205" width="2114" height="1231"/>
+	<SubTexture name="hurt0003" x="0" y="2436" width="2019" height="1212" frameX="0" frameY="0" frameWidth="2114" frameHeight="1231"/>
+</TextureAtlas>
