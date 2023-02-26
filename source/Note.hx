@@ -306,6 +306,23 @@ class Note extends FlxSprite
 						lowPriority = true;
 						hitCausesMiss = true;
 					}
+				case 'Majin Note':
+					reloadNote('MAJIN');
+					noteSplashTexture = 'endlessNoteSplashes';
+				case 'Fatal Note':
+					if (PlayState.instance.hellMode == true) {
+						reloadNote('FATAL');
+						colorSwap.hue = 0;
+						colorSwap.saturation = 0;
+						colorSwap.brightness = 0;
+						ignoreNote = mustPress;
+						lowPriority = true;
+						hitCausesMiss = true;
+					}
+					else
+						this.kill();
+				case 'Static Note':
+					reloadNote('STATIC');
 			}
 			noteType = value;
 		}

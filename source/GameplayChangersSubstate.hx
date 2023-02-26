@@ -115,6 +115,9 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 		var option:GameplayOption = new GameplayOption('Pussy Mode', 'pussymode', 'bool', false);
 		optionsArray.push(option);
 
+		var option:GameplayOption = new GameplayOption('Hell Mode', 'hellmode', 'bool', false);
+		optionsArray.push(option);
+
 		var option:GameplayOption = new GameplayOption('Pendulum Mode', 'pendulummode', 'bool', false);
 		optionsArray.push(option);
 

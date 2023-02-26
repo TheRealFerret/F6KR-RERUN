@@ -1,0 +1,26 @@
+{
+	"song": {
+		"events": [
+			[
+				58877.2590361446,
+				[
+					[
+						"Change Character",
+						"0",
+						"bfcutscene"
+					]
+				]
+			],
+			[
+				60542.1686746988,
+				[
+					[
+						"Change Character",
+						"1",
+						"ogcutscene"
+					]
+				]
+			]
+		]
+	}
+}

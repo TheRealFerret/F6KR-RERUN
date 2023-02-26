@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				30
+			],
+			"anim": "singLEFT",
+			"fps": 30,
+			"name": "rewrite left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				30
+			],
+			"anim": "singDOWN",
+			"fps": 30,
+			"name": "rewrite down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				30
+			],
+			"anim": "singUP",
+			"fps": 30,
+			"name": "rewrite up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				30
+			],
+			"anim": "singRIGHT",
+			"fps": 30,
+			"name": "rewrite right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				30
+			],
+			"anim": "idle",
+			"fps": 30,
+			"name": "rewrite idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				30
+			],
+			"anim": "laugh",
+			"fps": 30,
+			"name": "rewrite laugh",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				30
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "god",
+			"indices": [],
+			"name": "rewrite god"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/rewrite",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "rewrite-icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		200,
+		0,
+		0
+	],
+	"camera_position": [
+		150,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="rewritespr.png">
+<SubTexture name="rewritespr idle0000" x="495" y="0" width="160" height="200" frameX="-55" frameY="-35" frameWidth="275" frameHeight="265" />
+<SubTexture name="rewritespr idle0001" x="0" y="430" width="185" height="200" frameX="-30" frameY="-35" frameWidth="275" frameHeight="265" />
+<SubTexture name="rewritespr left0000" x="185" y="430" width="165" height="195" frameX="-35" frameY="-40" frameWidth="275" frameHeight="265" />
+<SubTexture name="rewritespr left0001" x="655" y="0" width="165" height="185" frameX="-30" frameY="-50" frameWidth="275" frameHeight="265" />
+<SubTexture name="rewritespr right0000" x="0" y="220" width="150" height="210" frameX="-85" frameY="-25" frameWidth="275" frameHeight="265" />
+<SubTexture name="rewritespr right0001" x="170" y="0" width="150" height="215" frameX="-85" frameY="-20" frameWidth="275" frameHeight="265" />
+<SubTexture name="rewritespr down0000" x="350" y="430" width="185" height="195" frameX="-50" frameY="-40" frameWidth="275" frameHeight="265" />
+<SubTexture name="rewritespr down0001" x="150" y="220" width="195" height="205" frameX="-40" frameY="-45" frameWidth="275" frameHeight="265" />
+<SubTexture name="rewritespr up0000" x="0" y="0" width="170" height="220" frameX="-60" frameY="-15" frameWidth="275" frameHeight="265" />
+<SubTexture name="rewritespr up0001" x="320" y="0" width="175" height="215" frameX="-55" frameY="-20" frameWidth="275" frameHeight="265" />
+</TextureAtlas>

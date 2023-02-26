@@ -22,7 +22,7 @@ function onCreate()
 		makeLuaSprite(bgs[i], 'phantasm/bg/'..bgs[i], 0, 0)
 		addLuaSprite(bgs[i], false)
 	end
-	addCharacterToList('fleetway', 'boyfriend')
+	addCharacterToList('fleetwaysonic', 'boyfriend')
 	precacheSound('stat')
 
 	setPropertyFromClass('GameOverSubstate', 'characterName', 'sonic')
@@ -120,7 +120,7 @@ function fleetON()
 	setProperty('sonic.alpha', 0)
 	doTweenAlpha('fleetON', 'fx', 0, 1, 'linear')
 	playSound('stat', 0.3)
-	triggerEvent('Change Character', 0, 'fleetway')
+	triggerEvent('Change Character', 0, 'fleetwaysonic')
 end
 
 function fleetOFF()

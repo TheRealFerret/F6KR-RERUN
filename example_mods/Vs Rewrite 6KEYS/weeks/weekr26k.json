@@ -1,0 +1,32 @@
+{
+	"storyName": "vs rewrite",
+	"difficulties": "6key",
+	"hideFreeplay": false,
+	"weekBackground": "trinity",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Trinity",
+			"trinity-icon",
+			[
+				60,
+				0,
+				0
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "replay"
+}

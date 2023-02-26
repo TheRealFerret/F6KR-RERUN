@@ -1,0 +1,46 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-60,
+				-80
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "im gonna getchaaa",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-60,
+				-80
+			],
+			"anim": "get",
+			"fps": 24,
+			"name": "im gonna getchaaa",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/getCHA",
+	"position": [
+		-58,
+		-80
+	],
+	"healthicon": "sonicexe",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		85,
+		142
+	],
+	"camera_position": [
+		-10,
+		110
+	],
+	"sing_duration": 4,
+	"noteskin": null,
+	"scale": 1
+}

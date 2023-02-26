@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-120,
+				-160
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-115,
+				-143
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-118,
+				-171
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-135,
+				-129
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-136,
+				-180
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/blueevil",
+	"position": [
+		-120,
+		-200
+	],
+	"healthicon": "blue",
+	"flip_x": false,
+	"healthbar_colors": [
+		43,
+		108,
+		255
+	],
+	"camera_position": [
+		-170,
+		-60
+	],
+	"sing_duration": 1,
+	"scale": 1
+}

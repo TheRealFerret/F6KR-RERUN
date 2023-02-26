@@ -1,0 +1,31 @@
+{
+	"storyName": "???",
+	"difficulties": "6Key",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Superscare",
+			"blue",
+			[
+			43,
+			108,
+			255
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "LMAO"
+}

@@ -76,7 +76,10 @@ class ChartingState extends MusicBeatState
 		'Conch Note',
 		'Deli Note',
 		'Opponent 2 Sing',
-		'Both Opponents Sing'
+		'Both Opponents Sing',
+		'Majin Note',
+		'Fatal Note',
+		'Static Note'
 	];
 	private var noteTypeIntMap:Map<Int, String> = new Map<Int, String>();
 	private var noteTypeMap:Map<String, Null<Int>> = new Map<String, Null<Int>>();
@@ -107,7 +110,10 @@ class ChartingState extends MusicBeatState
 		['Defeat Retro', ""],
 		['DefeatDark', ""],
 		['Jerma Scream', ""],
-		['Jerma Screamed', ""]
+		['Jerma Screamed', ""],
+		['Majin count', ""],
+		['Majin spin', ""],
+		['Character Fly', ""]
 	];
 
 	var _file:FileReference;

@@ -31,3 +31,12 @@ warehouse
 void
 chest
 hillzoneDarkSonic
+fatailty
+DDDDD
+chamber
+cycles-hills
+too-slow
+SONICstage
+FAKERSTAGE
+EXEStage
+LordXStage

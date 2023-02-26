@@ -68,6 +68,7 @@ class ClientPrefs {
 		'fadein' => false,
 		'drunkgame' => false,
 		'pussymode' => false,
+		'hellmode' => false,
 		'pendulummode' => false,
 		'practice' => false,
 		'botplay' => false,

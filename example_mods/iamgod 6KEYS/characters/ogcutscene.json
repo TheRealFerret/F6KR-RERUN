@@ -1,0 +1,45 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				1226,
+				66
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "idle",
+			"indices": [],
+			"name": "FUCKYOU"
+		},
+		{
+			"offsets": [
+				1226,
+				66
+			],
+			"loop": false,
+			"fps": 18,
+			"anim": "funny",
+			"indices": [],
+			"name": "FUCKYOU"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ogexecutscene",
+	"position": [
+		130,
+		300
+	],
+	"healthicon": "ogexe",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		65,
+		255
+	],
+	"camera_position": [
+		-590,
+		-50
+	],
+	"sing_duration": 5.29999999999999,
+	"scale": 1.1
+}
