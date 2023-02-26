@@ -2979,10 +2979,13 @@ class PlayState extends MusicBeatState
 			case 'double-kill'|'torture':
 				if (pendulumMode)
 					tranceNotActiveYet = true;
-			case 'delirious'|'acceptance'|'endless'|'endless-old'|'fatality'|'sunshine'|'chaos'|'faker'|'black-sun':
+			case 'delirious'|'acceptance'|'endless'|'endless-old'|'sunshine'|'chaos'|'faker'|'black-sun':
 				noCountdown = true;
 			case 'cycles'|'too-slow'|'too-slow-encore'|'execution':
 				skipCountdown = true;
+			case 'fatality':
+				FlxG.fullscreen = false;
+				noCountdown = true;
 		}
 
 		if(isPixelStage) {
