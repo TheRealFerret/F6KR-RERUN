@@ -6680,7 +6680,6 @@ class PlayState extends MusicBeatState
 			var twnDuration:Float = 4 / mania;
 			var twnStart:Float = 0.5 + ((0.8 / mania) * i);
 			// FlxG.log.add(i);
-			var skin:String = "NOTE_assets";
 			if (SONG.player2 == "fatal-sonic" && player == 0)
 				PlayState.SONG.arrowSkin = 'FATALNOTE_assets';
 			if (SONG.player1 == "bf-fatal" && player == 1)
@@ -6738,7 +6737,7 @@ class PlayState extends MusicBeatState
 			strumLineNotes.add(babyArrow);
 			babyArrow.postAddedToGroup();
 
-			if (ClientPrefs.showKeybindsOnStart && player == 1 && curSong.toLowerCase() != 'fatality') {
+			if (ClientPrefs.showKeybindsOnStart && player == 1) {
 				for (j in 0...keysArray[mania][i].length) {
 					var daKeyTxt:FlxText = new FlxText(babyArrow.x, babyArrow.y - 10, 0, InputFormatter.getKeyName(keysArray[mania][i][j]), 32);
 					daKeyTxt.setFormat(Paths.font(gameFont), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -9298,7 +9297,7 @@ class PlayState extends MusicBeatState
 	public function endSong():Void
 	{
 		//Should kill you if you tried to cheat
-		if(!startingSong) {
+		if(!startingSong && SONG.song.toLowerCase() != 'fatality') {
 			notes.forEach(function(daNote:Note) {
 				if(daNote.strumTime < songLength - Conductor.safeZoneOffset) {
 					health -= 0.05 * healthLoss;
@@ -12405,9 +12404,9 @@ class PlayState extends MusicBeatState
 
 	function fatalTransistionThingDos()
 	{
-		removeStatics();
-		generateStaticArrows(0);
-		generateStaticArrows(1);
+		// removeStatics();
+		// generateStaticArrows(0);
+		// generateStaticArrows(1);
 
 		if (!ClientPrefs.middleScroll)
 			{

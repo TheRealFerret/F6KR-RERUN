@@ -83,7 +83,7 @@ class CreditsState extends MusicBeatState
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Ferret\'s 6 Key Recharts'],
 			['TheRealFerret', 		't',				'Creator and recharter',			 							'https://www.youtube.com/channel/UCWNMz9fwKjLdQQb2vtSN3nA', 		'7400FF'],
-			['Grantwo', 			'grant',			'Charted Acceptance, Heartbeat, and two parts of Torture',			 				'https://gamebanana.com/members/1791708', 							'A5004C'],
+			['Grantwo', 			'grant',			'Charted Acceptance, Heartbeat, two parts of Torture, Trintiy, I Am God, and Superscare',			 				'https://gamebanana.com/members/1791708', 							'A5004C'],
 			['Comedy_Individual', 	't',				'Charted two parts of Torture',			 								'https://www.youtube.com/channel/UCm2n4I1Lx-2CXYfZ618iOYg', 		'7400FF'],
 			[''],
 			['Psych Engine Extra Keys'],
