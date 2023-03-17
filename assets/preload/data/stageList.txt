@@ -40,3 +40,4 @@ SONICstage
 FAKERSTAGE
 EXEStage
 LordXStage
+sonicstagedside

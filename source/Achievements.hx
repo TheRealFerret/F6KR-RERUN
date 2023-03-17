@@ -29,6 +29,7 @@ class Achievements {
 		["Your Jordens are Fake.",		"Beat Faker with no Misses.",						'faker_fc',				false],
 		["KILL",						"Beat Black Sun with at least 95% accuracy.",		'blacksun_95acc',		false],
 		["That\'s not a homework folder...","Beat Fatality with at least 90% accuracy.",	'fatality_90acc',		false],
+		["In the Notepad",				"Beat Too Slow D-Sides with at least 95% accuracy.",'tooslowdside_95acc',	false],
 		["im so mad",					"Beat No Villains with at least 95% accuracy.",		'novillains_95acc',		false],
 		["i quit",						"Beat No Heroes with at least 95% accuracy.",		'noheroes_95acc',		false],
 		["Get Out of My Head",			"Beat Phantasm with no Misses.",					'phantasm_95acc',		false],

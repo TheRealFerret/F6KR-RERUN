@@ -79,7 +79,8 @@ class ChartingState extends MusicBeatState
 		'Both Opponents Sing',
 		'Majin Note',
 		'Fatal Note',
-		'Static Note'
+		'Static Note',
+		'Ice Note'
 	];
 	private var noteTypeIntMap:Map<Int, String> = new Map<Int, String>();
 	private var noteTypeMap:Map<String, Null<Int>> = new Map<String, Null<Int>>();
@@ -113,7 +114,8 @@ class ChartingState extends MusicBeatState
 		['Jerma Screamed', ""],
 		['Majin count', ""],
 		['Majin spin', ""],
-		['Character Fly', ""]
+		['Character Fly', ""],
+		['Lyrics','Value 1: Lyrics\nValue 2: Color (white is default)'],
 	];
 
 	var _file:FileReference;

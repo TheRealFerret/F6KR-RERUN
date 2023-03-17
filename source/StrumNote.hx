@@ -9,6 +9,9 @@ class StrumNote extends FlxSprite
 {
 	private var colorSwap:ColorSwap;
 	public var resetAnim:Float = 0;
+	public var alphaM:Float = 1;
+	public var alphaModchart:Float = 1;
+	public var daAlpha:Float = 1;
 	private var noteData:Int = 0;
 	public var direction:Float = 90;//plan on doing scroll directions soon -bb
 	public var downScroll:Bool = false;//plan on doing scroll directions soon -bb
@@ -169,6 +172,7 @@ class StrumNote extends FlxSprite
 			}
 		}
 
+		alpha = daAlpha * alphaM * alphaModchart;
 		super.update(elapsed);
 	}
 

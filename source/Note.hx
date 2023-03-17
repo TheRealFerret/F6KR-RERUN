@@ -322,7 +322,21 @@ class Note extends FlxSprite
 					else
 						this.kill();
 				case 'Static Note':
-					reloadNote('STATIC');
+					if (PlayState.instance.pussyMode == false)
+						reloadNote('STATIC');
+				case 'Ice Note':
+					if (PlayState.instance.pussyMode == true)
+						this.kill();
+					else {
+						//hitbox*=.5;
+						lowPriority = true;
+						ignoreNote = mustPress;
+						reloadNote('ICE');
+						noteSplashTexture = 'ICEnoteSplashes';
+						colorSwap.hue = 0;
+						colorSwap.saturation = 0;
+						colorSwap.brightness = 0;
+					}
 			}
 			noteType = value;
 		}
