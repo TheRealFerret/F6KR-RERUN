@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="queen.png"><SubTexture name="queen oh0000" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0001" x="627" y="745" width="390" height="24" frameX="-73" frameY="-248" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0002" x="0" y="958" width="356" height="159" frameX="-82" frameY="-182" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0003" x="520" y="0" width="332" height="494" frameX="-95" frameY="-18" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0004" x="520" y="0" width="332" height="494" frameX="-95" frameY="-18" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen idle0000" x="852" y="0" width="348" height="468" frameX="-87" frameY="-31" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0005" x="852" y="0" width="348" height="468" frameX="-87" frameY="-31" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0006" x="852" y="0" width="348" height="468" frameX="-87" frameY="-31" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0007" x="852" y="0" width="348" height="468" frameX="-87" frameY="-31" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0008" x="852" y="0" width="348" height="468" frameX="-87" frameY="-31" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0009" x="852" y="0" width="348" height="468" frameX="-87" frameY="-31" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0010" x="852" y="0" width="348" height="468" frameX="-87" frameY="-31" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0011" x="852" y="0" width="348" height="468" frameX="-87" frameY="-31" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0012" x="852" y="0" width="348" height="468" frameX="-87" frameY="-31" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0013" x="852" y="0" width="348" height="468" frameX="-87" frameY="-31" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0014" x="852" y="0" width="348" height="468" frameX="-87" frameY="-31" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0015" x="852" y="0" width="348" height="468" frameX="-87" frameY="-31" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0016" x="0" y="520" width="311" height="438" frameX="-101" frameY="-45" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0017" x="311" y="520" width="316" height="324" frameX="-95" frameY="-97" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0018" x="627" y="520" width="249" height="225" frameX="-132" frameY="-148" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0019" x="876" y="520" width="92" height="101" frameX="-214" frameY="-208" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0020" x="852" y="468" width="29" height="29" frameX="-246" frameY="-245" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0021" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0022" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0023" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0024" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0025" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0026" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0027" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0028" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0029" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0030" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0031" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0032" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0033" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+<SubTexture name="queen oh0034" x="0" y="0" width="520" height="520" frameX="0" frameY="0" frameWidth="520" frameHeight="520" />
+</TextureAtlas>

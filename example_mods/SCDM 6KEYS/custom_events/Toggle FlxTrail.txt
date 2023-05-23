@@ -1,0 +1,5 @@
+Value 1: Set Dad's trail
+Value 2: Set BF's trail
+
+'on' to activate the trail
+'off' to deactivate the trail

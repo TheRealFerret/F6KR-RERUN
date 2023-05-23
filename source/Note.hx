@@ -186,10 +186,11 @@ class Note extends FlxSprite
 		if(noteData > -1 && noteType != value) {
 			switch(value) {
 				case 'Hurt Note':
-					if (PlayState.instance.pussyMode == true)
+					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
 						this.kill();
 					else {
 						ignoreNote = mustPress;
+						hitByOpponent = false;
 						reloadNote('HURT');
 						noteSplashTexture = 'HURTnoteSplashes';
 						colorSwap.hue = 0;
@@ -222,12 +223,14 @@ class Note extends FlxSprite
 					}
 				case 'Ebola Note':
 					ignoreNote = mustPress;
+					if (PlayState.opponentChart)
+						hitByOpponent = false;
 					reloadNote('EBOLA');
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
 					lowPriority = true;
-					if (PlayState.instance.pussyMode == false)
+					if (PlayState.instance.pussyMode == false || PlayState.instance.randomMode == false)
 						hitCausesMiss = true;
 				case 'Drunk Note':
 					if (PlayState.instance.pussyMode == true)
@@ -252,10 +255,11 @@ class Note extends FlxSprite
 						offsetX = -(width - 78);
 					}
 				case 'Death Note':
-					if (PlayState.instance.pussyMode == true)
+					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
 						this.kill();
 					else {
 						ignoreNote = mustPress;
+						hitByOpponent = false;
 						reloadNote('DEATH');
 						noteSplashTexture = 'HURTnoteSplashes';
 						colorSwap.hue = 0;
@@ -286,16 +290,19 @@ class Note extends FlxSprite
 				case 'Both Opponents Sing':
 					lowPriority = false;
 				case 'nermalNote':
-					if (PlayState.instance.pussyMode == true)
+					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
 						this.kill();
+					hitByOpponent = false;
 				case 'jumpScareNote':
-					if (PlayState.instance.pussyMode == true)
+					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
 						this.kill();
+					hitByOpponent = false;
 				case 'Bomb Note':
-					if (PlayState.instance.pussyMode == true)
+					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
 						this.kill();
+					hitByOpponent = false;
 				case 'Deli Note':
-					if (PlayState.instance.pussyMode == true)
+					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
 						this.kill();
 					else {
 						reloadNote('DELI');
@@ -303,6 +310,7 @@ class Note extends FlxSprite
 						colorSwap.saturation = 0;
 						colorSwap.brightness = 0;
 						ignoreNote = mustPress;
+						hitByOpponent = false;
 						lowPriority = true;
 						hitCausesMiss = true;
 					}
@@ -310,7 +318,7 @@ class Note extends FlxSprite
 					reloadNote('MAJIN');
 					noteSplashTexture = 'endlessNoteSplashes';
 				case 'Fatal Note':
-					if (PlayState.instance.hellMode == true) {
+					if (PlayState.instance.hellMode == true || PlayState.instance.hellMode == true && PlayState.instance.randomMode == true) {
 						reloadNote('FATAL');
 						colorSwap.hue = 0;
 						colorSwap.saturation = 0;
@@ -318,6 +326,7 @@ class Note extends FlxSprite
 						ignoreNote = mustPress;
 						lowPriority = true;
 						hitCausesMiss = true;
+						hitByOpponent = false;
 					}
 					else
 						this.kill();
@@ -325,12 +334,13 @@ class Note extends FlxSprite
 					if (PlayState.instance.pussyMode == false)
 						reloadNote('STATIC');
 				case 'Ice Note':
-					if (PlayState.instance.pussyMode == true)
+					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
 						this.kill();
 					else {
 						//hitbox*=.5;
 						lowPriority = true;
 						ignoreNote = mustPress;
+						hitByOpponent = false;
 						reloadNote('ICE');
 						noteSplashTexture = 'ICEnoteSplashes';
 						colorSwap.hue = 0;

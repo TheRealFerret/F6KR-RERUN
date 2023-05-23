@@ -1,0 +1,7 @@
+Reccomended for use alongside 'Icon Change'
+
+Value 1: Name of the icon image (put your custom images in images/iconChange)
+Leave blank or set to 'reset' to restore the default losing icon.
+
+Value 2: Set to 'dad' or 'opponent' to have it change the opponent's losing icon instead.
+Any other value changes the player's losing icon.

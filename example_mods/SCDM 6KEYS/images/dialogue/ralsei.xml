@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ralsei.png"><SubTexture name="ralsei normal0000" x="497" y="0" width="483" height="628" frameX="-281" frameY="-291" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei sing0000" x="0" y="0" width="497" height="702" frameX="-243" frameY="-218" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

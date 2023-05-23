@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="starwalker.png"><SubTexture name="starwalker idle0000" x="0" y="0" width="497" height="690" frameX="-224" frameY="-120" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="starwalker idle0001" x="497" y="0" width="494" height="688" frameX="-224" frameY="-123" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="starwalker idle0002" x="991" y="0" width="494" height="686" frameX="-225" frameY="-124" frameWidth="1000" frameHeight="1000" />
+</TextureAtlas>

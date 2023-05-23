@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Susie_smile.png"><SubTexture name="Susie_smile idle0000" x="674" y="568" width="337" height="521" frameX="-324" frameY="-246" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile idle0001" x="0" y="568" width="337" height="522" frameX="-324" frameY="-245" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile idle0002" x="337" y="568" width="337" height="522" frameX="-324" frameY="-245" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile up0000" x="308" y="0" width="302" height="566" frameX="-359" frameY="-207" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile up0001" x="610" y="0" width="308" height="557" frameX="-353" frameY="-214" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile up0002" x="610" y="0" width="308" height="557" frameX="-353" frameY="-214" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile down0000" x="355" y="1090" width="328" height="485" frameX="-332" frameY="-274" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile down0001" x="1530" y="502" width="325" height="494" frameX="-335" frameY="-267" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile down0002" x="1530" y="502" width="325" height="494" frameX="-335" frameY="-267" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile right0000" x="1228" y="517" width="302" height="514" frameX="-355" frameY="-253" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile right0001" x="1228" y="0" width="302" height="517" frameX="-356" frameY="-249" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile right0002" x="1228" y="0" width="302" height="517" frameX="-356" frameY="-249" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile left0000" x="0" y="1090" width="355" height="501" frameX="-310" frameY="-267" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile left0001" x="1530" y="0" width="353" height="502" frameX="-315" frameY="-265" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile left0002" x="1530" y="0" width="353" height="502" frameX="-315" frameY="-265" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile up-alt0000" x="0" y="0" width="308" height="568" frameX="-353" frameY="-199" frameWidth="920" frameHeight="920" />
+<SubTexture name="Susie_smile up-alt0001" x="918" y="0" width="310" height="557" frameX="-351" frameY="-210" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

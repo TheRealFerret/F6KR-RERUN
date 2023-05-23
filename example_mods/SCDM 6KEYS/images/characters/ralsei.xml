@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ralsei.png"><SubTexture name="ralsei idle0000" x="1504" y="634" width="483" height="628" frameX="-281" frameY="-291" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei idle0001" x="938" y="702" width="475" height="645" frameX="-288" frameY="-275" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei idle0002" x="0" y="702" width="470" height="650" frameX="-293" frameY="-270" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei idle0003" x="470" y="702" width="468" height="650" frameX="-294" frameY="-270" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei up0000" x="0" y="0" width="497" height="702" frameX="-243" frameY="-218" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei up0001" x="497" y="0" width="498" height="697" frameX="-242" frameY="-223" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei up0002" x="995" y="0" width="509" height="689" frameX="-237" frameY="-231" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei left0000" x="2513" y="0" width="511" height="596" frameX="-172" frameY="-324" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei left0001" x="2011" y="0" width="502" height="611" frameX="-181" frameY="-309" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei left0002" x="1029" y="1352" width="491" height="615" frameX="-191" frameY="-305" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei right0000" x="512" y="1352" width="517" height="630" frameX="-357" frameY="-290" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei right0001" x="0" y="1352" width="512" height="632" frameX="-357" frameY="-288" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei right0002" x="1504" y="0" width="507" height="634" frameX="-358" frameY="-286" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei down0000" x="1065" y="1984" width="551" height="557" frameX="-247" frameY="-363" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei down0001" x="529" y="1984" width="536" height="566" frameX="-260" frameY="-353" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei down0002" x="0" y="1984" width="529" height="574" frameX="-266" frameY="-346" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				140
+			],
+			"anim": "idle",
+			"fps": 12,
+			"name": "seam idle0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				39,
+				141
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "seam left0"
+		},
+		{
+			"offsets": [
+				41,
+				147
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "seam down0"
+		},
+		{
+			"offsets": [
+				34,
+				152
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "seam up0"
+		},
+		{
+			"offsets": [
+				43,
+				145
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "seam right0"
+		},
+		{
+			"offsets": [
+				36,
+				143
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "seam left-alt"
+		},
+		{
+			"offsets": [
+				46,
+				148
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "seam down-alt"
+		},
+		{
+			"offsets": [
+				61,
+				145
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "seam right-alt"
+		},
+		{
+			"offsets": [
+				40,
+				150
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "seam up-alt"
+		},
+		{
+			"offsets": [
+				40,
+				140
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "seam idle-alt"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/seam",
+	"position": [
+		-220,
+		50
+	],
+	"healthicon": "seam",
+	"flip_x": true,
+	"healthbar_colors": [
+		110,
+		88,
+		162
+	],
+	"camera_position": [
+		-30,
+		10
+	],
+	"sing_duration": 4,
+	"scale": 0.7
+}

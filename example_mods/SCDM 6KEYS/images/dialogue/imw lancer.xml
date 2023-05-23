@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="imw lancer.png"><SubTexture name="imw lancer stand0000" x="0" y="0" width="349" height="593" frameX="-293" frameY="-221" frameWidth="920" frameHeight="920" />
+<SubTexture name="imw lancer left0000" x="698" y="0" width="539" height="563" frameX="-90" frameY="-251" frameWidth="920" frameHeight="920" />
+<SubTexture name="imw lancer down0000" x="0" y="593" width="405" height="554" frameX="-305" frameY="-261" frameWidth="920" frameHeight="920" />
+<SubTexture name="imw lancer smile0000" x="349" y="0" width="349" height="593" frameX="-293" frameY="-221" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Ralsei_smile.png"><SubTexture name="Ralsei_smile idle0000" x="465" y="335" width="229" height="326" frameX="-371" frameY="-331" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile idle0001" x="724" y="0" width="236" height="326" frameX="-371" frameY="-331" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile idle0002" x="960" y="0" width="237" height="326" frameX="-371" frameY="-331" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile idle0003" x="960" y="326" width="235" height="326" frameX="-371" frameY="-331" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile up0000" x="253" y="0" width="223" height="333" frameX="-370" frameY="-326" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile up0001" x="245" y="335" width="220" height="331" frameX="-370" frameY="-328" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile up0002" x="245" y="335" width="220" height="331" frameX="-370" frameY="-328" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile down0000" x="848" y="667" width="212" height="298" frameX="-370" frameY="-361" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile down0001" x="636" y="667" width="212" height="301" frameX="-370" frameY="-358" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile down0002" x="636" y="667" width="212" height="301" frameX="-370" frameY="-358" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile left0000" x="724" y="326" width="212" height="320" frameX="-370" frameY="-339" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile left0001" x="0" y="667" width="212" height="318" frameX="-370" frameY="-341" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile left0002" x="0" y="667" width="212" height="318" frameX="-370" frameY="-341" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile right0000" x="424" y="667" width="212" height="315" frameX="-370" frameY="-344" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile right0001" x="212" y="667" width="212" height="316" frameX="-370" frameY="-343" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile right0002" x="212" y="667" width="212" height="316" frameX="-370" frameY="-343" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile heal0000" x="0" y="0" width="253" height="335" frameX="-334" frameY="-324" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile heal0001" x="476" y="0" width="248" height="332" frameX="-338" frameY="-327" frameWidth="920" frameHeight="920" />
+<SubTexture name="Ralsei_smile heal0002" x="0" y="335" width="245" height="332" frameX="-341" frameY="-327" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

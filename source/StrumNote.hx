@@ -172,7 +172,6 @@ class StrumNote extends FlxSprite
 			}
 		}
 
-		alpha = daAlpha * alphaM * alphaModchart;
 		super.update(elapsed);
 	}
 

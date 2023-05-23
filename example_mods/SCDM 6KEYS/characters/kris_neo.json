@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				41,
+				39
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "kris_neo left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				39
+			],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "kris_neo down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				39
+			],
+			"anim": "singUP",
+			"fps": 12,
+			"name": "kris_neo up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				39
+			],
+			"anim": "idle",
+			"fps": 9,
+			"name": "kris_neo idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				39,
+				39
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "kris_neo right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/kris_neo",
+	"position": [
+		-170,
+		20
+	],
+	"healthicon": "Kris",
+	"flip_x": true,
+	"healthbar_colors": [
+		91,
+		249,
+		255
+	],
+	"camera_position": [
+		-20,
+		40
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

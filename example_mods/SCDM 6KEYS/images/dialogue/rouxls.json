@@ -1,0 +1,64 @@
+{
+	"position": [
+		-110,
+		-180
+	],
+	"dialogue_pos": "left",
+	"no_antialiasing": false,
+	"scale": 0.95,
+	"image": "rouxls",
+	"animations": [
+		{
+			"loop_name": "rouxls up",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "rouxls up0",
+			"anim": "up",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "rouxls left",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "rouxls left0",
+			"anim": "left",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "rouxls right",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "rouxls right0",
+			"anim": "right",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "rouxls down",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "rouxls down0",
+			"anim": "down",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

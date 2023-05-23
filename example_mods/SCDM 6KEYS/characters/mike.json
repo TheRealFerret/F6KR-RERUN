@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				176,
+				122
+			],
+			"anim": "idle",
+			"fps": 12,
+			"name": "mike idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				179,
+				121
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "mike left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				181,
+				128
+			],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "mike down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				184,
+				123
+			],
+			"anim": "singUP",
+			"fps": 12,
+			"name": "mike up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				183,
+				125
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "mike right",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				176,
+				122
+			],
+			"anim": "mtt",
+			"fps": 12,
+			"name": "mike mtt",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				184,
+				123
+			],
+			"anim": "laugh",
+			"fps": 12,
+			"name": "mike laugh",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mike",
+	"position": [
+		-120,
+		60
+	],
+	"healthicon": "mike",
+	"flip_x": false,
+	"healthbar_colors": [
+		89,
+		86,
+		109
+	],
+	"camera_position": [
+		100,
+		-20
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

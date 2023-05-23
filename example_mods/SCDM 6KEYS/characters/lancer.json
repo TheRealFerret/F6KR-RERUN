@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				166,
+				102
+			],
+			"anim": "idle",
+			"fps": 12,
+			"name": "lancer idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				160,
+				101
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "lancer left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				176,
+				100
+			],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "lancer down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				161,
+				96
+			],
+			"anim": "singUP",
+			"fps": 12,
+			"name": "lancer up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				168,
+				101
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "lancer right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				160,
+				100
+			],
+			"anim": "ouch",
+			"fps": 16,
+			"name": "lancer ouch",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/lancer",
+	"position": [
+		40,
+		30
+	],
+	"healthicon": "lancer-sad",
+	"flip_x": true,
+	"healthbar_colors": [
+		81,
+		91,
+		170
+	],
+	"camera_position": [
+		240,
+		90
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

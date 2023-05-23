@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mikehawk.png"><SubTexture name="mikehawk normal0000" x="523" y="0" width="527" height="737" frameX="-114" frameY="-83" frameWidth="820" frameHeight="820" />
+<SubTexture name="mikehawk up0000" x="0" y="782" width="472" height="720" frameX="-83" frameY="-100" frameWidth="820" frameHeight="820" />
+<SubTexture name="mikehawk left0000" x="0" y="0" width="523" height="782" frameX="-108" frameY="-38" frameWidth="820" frameHeight="820" />
+<SubTexture name="mikehawk down0000" x="1577" y="0" width="509" height="666" frameX="-102" frameY="-154" frameWidth="820" frameHeight="820" />
+<SubTexture name="mikehawk right0000" x="472" y="782" width="707" height="674" frameX="-98" frameY="-146" frameWidth="820" frameHeight="820" />
+<SubTexture name="mikehawk sweat0000" x="1050" y="0" width="527" height="737" frameX="-114" frameY="-83" frameWidth="820" frameHeight="820" />
+</TextureAtlas>

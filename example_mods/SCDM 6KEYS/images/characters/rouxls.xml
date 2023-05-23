@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="rouxls.png"><SubTexture name="rouxls idle0000" x="2908" y="0" width="559" height="842" frameX="-199" frameY="-78" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls idle0001" x="581" y="874" width="571" height="848" frameX="-201" frameY="-72" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls idle0002" x="1688" y="0" width="581" height="851" frameX="-204" frameY="-69" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls idle0003" x="0" y="874" width="581" height="851" frameX="-204" frameY="-69" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls up0000" x="0" y="0" width="559" height="874" frameX="-217" frameY="-46" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls up0001" x="559" y="0" width="561" height="872" frameX="-216" frameY="-48" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls up0002" x="1120" y="0" width="568" height="868" frameX="-212" frameY="-52" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls up0003" x="1120" y="0" width="568" height="868" frameX="-212" frameY="-52" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls left0000" x="1907" y="1725" width="646" height="843" frameX="-155" frameY="-77" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls left0001" x="2269" y="0" width="639" height="844" frameX="-167" frameY="-76" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls left0002" x="2269" y="844" width="634" height="844" frameX="-172" frameY="-76" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls left0003" x="0" y="1725" width="634" height="844" frameX="-172" frameY="-76" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls right0000" x="3467" y="823" width="603" height="821" frameX="-234" frameY="-99" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls right0001" x="2432" y="2569" width="605" height="824" frameX="-236" frameY="-96" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls right0002" x="0" y="2569" width="608" height="825" frameX="-237" frameY="-95" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls right0003" x="0" y="2569" width="608" height="825" frameX="-237" frameY="-95" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls down0000" x="0" y="4121" width="714" height="710" frameX="-135" frameY="-210" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls down0001" x="2816" y="3394" width="709" height="721" frameX="-142" frameY="-199" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls down0002" x="0" y="3394" width="704" height="727" frameX="-147" frameY="-193" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0000" x="0" y="874" width="581" height="851" frameX="-204" frameY="-69" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0001" x="1907" y="1725" width="646" height="843" frameX="-155" frameY="-77" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0002" x="634" y="1725" width="639" height="844" frameX="-167" frameY="-76" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0003" x="1273" y="1725" width="634" height="844" frameX="-172" frameY="-76" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0004" x="0" y="1725" width="634" height="844" frameX="-172" frameY="-76" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0005" x="1152" y="874" width="630" height="848" frameX="-181" frameY="-72" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0006" x="3467" y="0" width="696" height="823" frameX="-145" frameY="-97" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0007" x="0" y="4121" width="714" height="710" frameX="-135" frameY="-210" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0008" x="4163" y="0" width="709" height="721" frameX="-142" frameY="-199" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0009" x="704" y="3394" width="704" height="727" frameX="-147" frameY="-193" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0010" x="1408" y="3394" width="704" height="727" frameX="-147" frameY="-193" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0011" x="2112" y="3394" width="704" height="727" frameX="-147" frameY="-193" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0012" x="3467" y="2455" width="691" height="733" frameX="-165" frameY="-187" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0013" x="3467" y="1644" width="607" height="811" frameX="-225" frameY="-109" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0014" x="2432" y="2569" width="605" height="824" frameX="-236" frameY="-96" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0015" x="0" y="2569" width="608" height="825" frameX="-237" frameY="-95" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0016" x="608" y="2569" width="608" height="825" frameX="-237" frameY="-95" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0017" x="1216" y="2569" width="608" height="825" frameX="-237" frameY="-95" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0018" x="1824" y="2569" width="608" height="825" frameX="-237" frameY="-95" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0019" x="1824" y="2569" width="608" height="825" frameX="-237" frameY="-95" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0020" x="1824" y="2569" width="608" height="825" frameX="-237" frameY="-95" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0021" x="1824" y="2569" width="608" height="825" frameX="-237" frameY="-95" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0022" x="1824" y="2569" width="608" height="825" frameX="-237" frameY="-95" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0023" x="1824" y="2569" width="608" height="825" frameX="-237" frameY="-95" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls worms0024" x="1824" y="2569" width="608" height="825" frameX="-237" frameY="-95" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

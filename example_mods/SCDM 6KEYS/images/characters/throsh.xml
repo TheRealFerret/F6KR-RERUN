@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="throsh.png"><SubTexture name="throsh idle0000" x="1617" y="1275" width="550" height="552" frameX="-174" frameY="-261" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh idle0001" x="1069" y="1275" width="548" height="558" frameX="-176" frameY="-256" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh idle0002" x="534" y="1275" width="535" height="573" frameX="-182" frameY="-242" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh idle0003" x="0" y="1275" width="534" height="580" frameX="-183" frameY="-235" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh idle0004" x="1712" y="604" width="532" height="581" frameX="-184" frameY="-234" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh idle0005" x="1712" y="604" width="532" height="581" frameX="-184" frameY="-234" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh up0000" x="0" y="0" width="572" height="669" frameX="-211" frameY="-141" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh up0001" x="572" y="0" width="572" height="646" frameX="-214" frameY="-164" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh up0002" x="1144" y="0" width="568" height="635" frameX="-216" frameY="-174" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh up0003" x="1144" y="0" width="568" height="635" frameX="-216" frameY="-174" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh left0000" x="0" y="669" width="644" height="606" frameX="-85" frameY="-208" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh left0001" x="644" y="669" width="630" height="606" frameX="-90" frameY="-208" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh left0002" x="1712" y="0" width="623" height="604" frameX="-91" frameY="-210" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh left0003" x="1712" y="0" width="623" height="604" frameX="-91" frameY="-210" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh right0000" x="2335" y="1076" width="609" height="517" frameX="-253" frameY="-298" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh right0001" x="2335" y="541" width="615" height="535" frameX="-254" frameY="-281" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh right0002" x="2335" y="0" width="615" height="541" frameX="-255" frameY="-275" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh right0003" x="2335" y="0" width="615" height="541" frameX="-255" frameY="-275" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh down0000" x="1131" y="1855" width="584" height="453" frameX="-163" frameY="-364" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh down0001" x="561" y="1855" width="570" height="483" frameX="-172" frameY="-334" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh down0002" x="0" y="1855" width="561" height="491" frameX="-179" frameY="-326" frameWidth="920" frameHeight="920" />
+<SubTexture name="throsh down0003" x="0" y="1855" width="561" height="491" frameX="-179" frameY="-326" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

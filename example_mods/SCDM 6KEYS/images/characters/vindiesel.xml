@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="vindiesel.png"><SubTexture name="vindiesel idle0000" x="2530" y="834" width="705" height="833" frameX="-136" frameY="-127" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel idle0001" x="2164" y="1805" width="724" height="803" frameX="-136" frameY="-157" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel idle0002" x="1442" y="1805" width="722" height="820" frameX="-135" frameY="-141" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel idle0003" x="730" y="1805" width="712" height="827" frameX="-137" frameY="-134" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel idle0004" x="2530" y="0" width="708" height="834" frameX="-138" frameY="-127" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel idle0005" x="728" y="964" width="702" height="839" frameX="-138" frameY="-122" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel idle0006" x="728" y="964" width="702" height="839" frameX="-138" frameY="-122" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel idle0007" x="1430" y="964" width="702" height="839" frameX="-138" frameY="-122" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel idle0008" x="728" y="964" width="702" height="839" frameX="-138" frameY="-122" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel right0000" x="0" y="2635" width="861" height="715" frameX="-138" frameY="-243" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel right0001" x="3238" y="734" width="859" height="728" frameX="-125" frameY="-232" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel right0002" x="3238" y="0" width="859" height="734" frameX="-119" frameY="-226" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel down0000" x="1583" y="2635" width="723" height="647" frameX="-124" frameY="-316" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel down0001" x="861" y="2635" width="722" height="664" frameX="-130" frameY="-300" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel down0002" x="3238" y="1462" width="717" height="670" frameX="-137" frameY="-295" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel left0000" x="0" y="1805" width="730" height="830" frameX="-95" frameY="-131" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel left0001" x="0" y="964" width="728" height="841" frameX="-111" frameY="-121" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel left0002" x="1799" y="0" width="731" height="847" frameX="-122" frameY="-116" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel up0000" x="0" y="0" width="594" height="964" frameX="-149" frameY="0" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel up0001" x="594" y="0" width="598" height="962" frameX="-147" frameY="-2" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vindiesel up0002" x="1192" y="0" width="607" height="952" frameX="-142" frameY="-10" frameWidth="1000" frameHeight="1000" />
+</TextureAtlas>

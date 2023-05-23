@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="spom.png"><SubTexture name="spom idle0000" x="997" y="727" width="402" height="600" frameX="-241" frameY="-144" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom idle0001" x="1459" y="0" width="404" height="600" frameX="-238" frameY="-144" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom idle0002" x="1863" y="0" width="405" height="600" frameX="-240" frameY="-144" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom up0000" x="0" y="0" width="310" height="727" frameX="-209" frameY="-19" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom up0001" x="707" y="0" width="325" height="689" frameX="-224" frameY="-55" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom up0002" x="0" y="727" width="330" height="676" frameX="-224" frameY="-67" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom up0003" x="0" y="727" width="330" height="676" frameX="-224" frameY="-67" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom left0000" x="1790" y="1403" width="478" height="568" frameX="-83" frameY="-186" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom left0001" x="884" y="1403" width="452" height="571" frameX="-91" frameY="-184" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom left0002" x="0" y="1403" width="435" height="572" frameX="-102" frameY="-184" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom left0003" x="0" y="1403" width="435" height="572" frameX="-102" frameY="-184" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom right0000" x="1461" y="1975" width="485" height="557" frameX="-308" frameY="-185" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom right0001" x="483" y="1975" width="489" height="560" frameX="-311" frameY="-183" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom right0002" x="2268" y="1133" width="483" height="564" frameX="-316" frameY="-179" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom right0003" x="2268" y="1133" width="483" height="564" frameX="-316" frameY="-179" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom down0000" x="2757" y="1101" width="364" height="547" frameX="-255" frameY="-192" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom down0001" x="1459" y="600" width="330" height="553" frameX="-260" frameY="-188" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom down0002" x="1863" y="600" width="323" height="554" frameX="-264" frameY="-187" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom down0003" x="1863" y="600" width="323" height="554" frameX="-264" frameY="-187" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom up-alt0000" x="310" y="0" width="397" height="715" frameX="-193" frameY="-31" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom up-alt0001" x="1032" y="0" width="427" height="682" frameX="-207" frameY="-62" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom up-alt0002" x="660" y="727" width="337" height="675" frameX="-206" frameY="-68" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom up-alt0003" x="330" y="727" width="330" height="676" frameX="-224" frameY="-67" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom left-alt0000" x="2268" y="0" width="489" height="568" frameX="-83" frameY="-186" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom left-alt0001" x="2268" y="568" width="469" height="565" frameX="-91" frameY="-190" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom left-alt0002" x="1336" y="1403" width="454" height="569" frameX="-97" frameY="-187" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom left-alt0003" x="435" y="1403" width="449" height="572" frameX="-102" frameY="-184" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom right-alt0000" x="509" y="2539" width="500" height="527" frameX="-255" frameY="-215" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom right-alt0001" x="972" y="1975" width="489" height="560" frameX="-311" frameY="-183" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom right-alt0002" x="0" y="1975" width="483" height="564" frameX="-316" frameY="-179" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom right-alt0003" x="0" y="1975" width="483" height="564" frameX="-316" frameY="-179" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom down-alt0000" x="0" y="2539" width="509" height="546" frameX="-207" frameY="-193" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom down-alt0001" x="2757" y="0" width="474" height="552" frameX="-226" frameY="-189" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom down-alt0002" x="1946" y="1975" width="465" height="554" frameX="-231" frameY="-187" frameWidth="800" frameHeight="800" />
+<SubTexture name="spom down-alt0003" x="2757" y="552" width="465" height="549" frameX="-231" frameY="-192" frameWidth="800" frameHeight="800" />
+</TextureAtlas>

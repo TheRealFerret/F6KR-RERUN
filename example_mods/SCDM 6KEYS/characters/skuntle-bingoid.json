@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "skuntle idle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "skuntle left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "skuntle down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "skuntle up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "skuntle right"
+		},
+		{
+			"offsets": [
+				-3,
+				-2
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "hurt",
+			"indices": [],
+			"name": "skuntle hurt"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "oo",
+			"indices": [],
+			"name": "skuntle oo"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/skuntle",
+	"position": [
+		-205,
+		-120
+	],
+	"healthicon": "skuntle",
+	"flip_x": false,
+	"healthbar_colors": [
+		40,
+		40,
+		80
+	],
+	"camera_position": [
+		130,
+		380
+	],
+	"sing_duration": 4,
+	"scale": 0.5
+}

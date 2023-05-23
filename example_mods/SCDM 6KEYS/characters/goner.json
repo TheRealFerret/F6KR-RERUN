@@ -1,0 +1,81 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "deathLoop",
+			"fps": 12,
+			"name": "goner deathLoop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "deathConfirm",
+			"fps": 12,
+			"name": "goner deathConfirm",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "At last... I have a soul.",
+			"fps": 12,
+			"name": "Now I can play with the others...",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 14,
+			"anim": "firstDeath",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				11
+			],
+			"name": "goner firstDeath"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/goner",
+	"position": [
+		-85,
+		-60
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		0
+	],
+	"camera_position": [
+		-90,
+		270
+	],
+	"sing_duration": 4,
+	"scale": 0.7
+}

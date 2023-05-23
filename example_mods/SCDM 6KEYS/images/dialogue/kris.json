@@ -1,0 +1,25 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		-100,
+		-330
+	],
+	"no_antialiasing": false,
+	"scale": 0.9,
+	"animations": [
+		{
+			"loop_name": "kris kris",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "kris kris0",
+			"anim": "kris",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "kris"
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="seam.png"><SubTexture name="seam idle0000" x="1574" y="0" width="676" height="855" frameX="-113" frameY="-38" frameWidth="900" frameHeight="900" />
+<SubTexture name="seam left0000" x="0" y="893" width="738" height="816" frameX="-104" frameY="-79" frameWidth="900" frameHeight="900" />
+<SubTexture name="seam up0000" x="0" y="0" width="806" height="893" frameX="-65" frameY="-1" frameWidth="900" frameHeight="900" />
+<SubTexture name="seam right0000" x="806" y="0" width="768" height="866" frameX="-132" frameY="-27" frameWidth="900" frameHeight="900" />
+<SubTexture name="seam down0000" x="738" y="893" width="796" height="722" frameX="-96" frameY="-171" frameWidth="900" frameHeight="900" />
+</TextureAtlas>

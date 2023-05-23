@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mike.png"><SubTexture name="mike idle0000" x="3371" y="0" width="518" height="722" frameX="-110" frameY="-98" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike idle0001" x="0" y="2996" width="560" height="720" frameX="-108" frameY="-100" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike idle0002" x="0" y="791" width="542" height="738" frameX="-113" frameY="-82" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike idle0003" x="542" y="791" width="532" height="738" frameX="-114" frameY="-82" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike idle0004" x="1074" y="791" width="527" height="737" frameX="-114" frameY="-83" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike idle0005" x="1617" y="0" width="527" height="737" frameX="-114" frameY="-83" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike idle0006" x="1074" y="791" width="527" height="737" frameX="-114" frameY="-83" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike up0000" x="3371" y="722" width="472" height="720" frameX="-83" frameY="-100" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike up0001" x="3371" y="1442" width="473" height="714" frameX="-87" frameY="-106" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike up0002" x="3371" y="2156" width="469" height="714" frameX="-95" frameY="-106" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike up0003" x="3371" y="2156" width="469" height="714" frameX="-95" frameY="-106" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike left0000" x="1094" y="0" width="523" height="782" frameX="-108" frameY="-38" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike left0001" x="551" y="0" width="543" height="787" frameX="-103" frameY="-33" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike left0002" x="0" y="0" width="551" height="791" frameX="-94" frameY="-29" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike left0003" x="0" y="0" width="551" height="791" frameX="-94" frameY="-29" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike down0000" x="2599" y="2996" width="509" height="666" frameX="-102" frameY="-154" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike down0001" x="3889" y="0" width="515" height="621" frameX="-109" frameY="-199" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike down0002" x="3108" y="2996" width="523" height="640" frameX="-113" frameY="-180" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike down0003" x="3108" y="2996" width="523" height="640" frameX="-113" frameY="-180" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike right0000" x="1892" y="2996" width="707" height="674" frameX="-98" frameY="-146" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike right0001" x="1208" y="2996" width="684" height="695" frameX="-110" frameY="-125" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike right0002" x="560" y="2996" width="648" height="706" frameX="-124" frameY="-114" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike right0003" x="560" y="2996" width="648" height="706" frameX="-124" frameY="-114" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike laugh0000" x="2671" y="0" width="700" height="730" frameX="-95" frameY="-90" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike laugh0001" x="527" y="2266" width="693" height="729" frameX="-89" frameY="-91" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike laugh0002" x="2671" y="730" width="700" height="730" frameX="-95" frameY="-90" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike laugh0003" x="1220" y="2266" width="693" height="729" frameX="-89" frameY="-91" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike laugh0004" x="2671" y="730" width="700" height="730" frameX="-95" frameY="-90" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike laugh0005" x="1913" y="2266" width="693" height="729" frameX="-89" frameY="-91" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike laugh0006" x="2671" y="0" width="700" height="730" frameX="-95" frameY="-90" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike laugh0007" x="2606" y="2266" width="693" height="729" frameX="-89" frameY="-91" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike mtt0000" x="1617" y="737" width="527" height="737" frameX="-114" frameY="-83" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike mtt0001" x="2671" y="1460" width="527" height="730" frameX="-116" frameY="-90" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike mtt0002" x="527" y="1529" width="529" height="736" frameX="-112" frameY="-84" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike mtt0003" x="2144" y="0" width="527" height="737" frameX="-114" frameY="-83" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike mtt0004" x="0" y="2266" width="527" height="730" frameX="-116" frameY="-90" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike mtt0005" x="1056" y="1529" width="529" height="736" frameX="-112" frameY="-84" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike mtt0006" x="2144" y="737" width="527" height="737" frameX="-114" frameY="-83" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike mtt0007" x="2671" y="1460" width="527" height="730" frameX="-116" frameY="-90" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike mtt0008" x="1585" y="1529" width="529" height="736" frameX="-112" frameY="-84" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike mtt0009" x="2144" y="0" width="527" height="737" frameX="-114" frameY="-83" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike mtt0010" x="2671" y="1460" width="527" height="730" frameX="-116" frameY="-90" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike mtt0011" x="2114" y="1529" width="529" height="736" frameX="-112" frameY="-84" frameWidth="820" frameHeight="820" />
+<SubTexture name="mike smile0000" x="0" y="1529" width="527" height="737" frameX="-114" frameY="-83" frameWidth="820" frameHeight="820" />
+</TextureAtlas>

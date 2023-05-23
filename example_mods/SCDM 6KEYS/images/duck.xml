@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="duck.png"><SubTexture name="duck dance0000" x="1494" y="2001" width="744" height="612" frameX="-95" frameY="-228" frameWidth="920" frameHeight="920" />
+<SubTexture name="duck dance0001" x="750" y="2001" width="744" height="615" frameX="-95" frameY="-228" frameWidth="920" frameHeight="920" />
+<SubTexture name="duck dance0002" x="1506" y="1336" width="743" height="624" frameX="-99" frameY="-224" frameWidth="920" frameHeight="920" />
+<SubTexture name="duck dance0003" x="0" y="2001" width="750" height="654" frameX="-105" frameY="-197" frameWidth="920" frameHeight="920" />
+<SubTexture name="duck dance0004" x="2255" y="663" width="753" height="662" frameX="-107" frameY="-186" frameWidth="920" frameHeight="920" />
+<SubTexture name="duck dance0005" x="0" y="669" width="753" height="667" frameX="-107" frameY="-186" frameWidth="920" frameHeight="920" />
+<SubTexture name="duck dance0006" x="1502" y="667" width="753" height="665" frameX="-107" frameY="-186" frameWidth="920" frameHeight="920" />
+<SubTexture name="duck dance0007" x="2255" y="1325" width="743" height="660" frameX="-118" frameY="-191" frameWidth="920" frameHeight="920" />
+<SubTexture name="duck dance0008" x="753" y="669" width="743" height="663" frameX="-118" frameY="-191" frameWidth="920" frameHeight="920" />
+<SubTexture name="duck dance0009" x="0" y="0" width="749" height="669" frameX="-114" frameY="-188" frameWidth="920" frameHeight="920" />
+<SubTexture name="duck dance0010" x="2255" y="0" width="753" height="663" frameX="-109" frameY="-185" frameWidth="920" frameHeight="920" />
+<SubTexture name="duck dance0011" x="753" y="1336" width="753" height="664" frameX="-107" frameY="-186" frameWidth="920" frameHeight="920" />
+<SubTexture name="duck dance0012" x="1502" y="0" width="753" height="667" frameX="-107" frameY="-186" frameWidth="920" frameHeight="920" />
+<SubTexture name="duck dance0013" x="0" y="1336" width="753" height="665" frameX="-107" frameY="-186" frameWidth="920" frameHeight="920" />
+<SubTexture name="duck dance0014" x="749" y="0" width="753" height="669" frameX="-107" frameY="-186" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="rouxls.png"><SubTexture name="rouxls up0000" x="0" y="0" width="559" height="874" frameX="-217" frameY="-46" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls left0000" x="559" y="0" width="634" height="844" frameX="-172" frameY="-76" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls right0000" x="1193" y="0" width="608" height="825" frameX="-237" frameY="-95" frameWidth="920" frameHeight="920" />
+<SubTexture name="rouxls down0000" x="0" y="874" width="704" height="727" frameX="-147" frameY="-193" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

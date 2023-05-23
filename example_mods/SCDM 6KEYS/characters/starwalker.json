@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "starwalker idle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "starwalker left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "starwalker down"
+		},
+		{
+			"offsets": [
+				0,
+				70
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "starwalker up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "starwalker right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/starwalker",
+	"position": [
+		-275,
+		10
+	],
+	"healthicon": "no",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		35
+	],
+	"camera_position": [
+		260,
+		150
+	],
+	"sing_duration": 4,
+	"scale": 0.7
+}

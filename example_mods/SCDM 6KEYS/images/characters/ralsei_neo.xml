@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ralsei_neo.png"><SubTexture name="ralsei_neo idle0000" x="724" y="337" width="362" height="334" frameX="-254" frameY="-331" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo idle0001" x="0" y="679" width="362" height="334" frameX="-254" frameY="-331" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo idle0002" x="362" y="679" width="362" height="334" frameX="-254" frameY="-331" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo up0000" x="362" y="0" width="362" height="339" frameX="-254" frameY="-326" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo up0001" x="724" y="0" width="362" height="337" frameX="-254" frameY="-328" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo up0002" x="724" y="0" width="362" height="337" frameX="-254" frameY="-328" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo down0000" x="362" y="1013" width="362" height="304" frameX="-254" frameY="-361" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo down0001" x="0" y="1013" width="362" height="307" frameX="-254" frameY="-358" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo down0002" x="0" y="1013" width="362" height="307" frameX="-254" frameY="-358" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo left0000" x="724" y="679" width="362" height="326" frameX="-254" frameY="-339" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo left0001" x="1086" y="0" width="362" height="324" frameX="-254" frameY="-341" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo left0002" x="1086" y="0" width="362" height="324" frameX="-254" frameY="-341" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo right0000" x="1086" y="646" width="362" height="321" frameX="-254" frameY="-344" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo right0001" x="1086" y="324" width="362" height="322" frameX="-254" frameY="-343" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo right0002" x="1086" y="324" width="362" height="322" frameX="-254" frameY="-343" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo heal0000" x="0" y="0" width="362" height="341" frameX="-254" frameY="-324" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo heal0001" x="0" y="341" width="362" height="338" frameX="-254" frameY="-327" frameWidth="920" frameHeight="920" />
+<SubTexture name="ralsei_neo heal0002" x="362" y="341" width="362" height="338" frameX="-254" frameY="-327" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

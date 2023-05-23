@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="nubert.png"><SubTexture name="nubert idle0000" x="2044" y="587" width="387" height="280" frameX="-210" frameY="-344" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert idle0001" x="2044" y="305" width="382" height="282" frameX="-214" frameY="-342" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert right0000" x="0" y="1535" width="452" height="337" frameX="-210" frameY="-288" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert right0001" x="452" y="1535" width="446" height="334" frameX="-210" frameY="-291" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert left0000" x="898" y="1535" width="451" height="332" frameX="-153" frameY="-293" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert left0001" x="1349" y="1535" width="440" height="328" frameX="-159" frameY="-296" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert down0000" x="2044" y="1362" width="454" height="196" frameX="-181" frameY="-429" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert down0001" x="2044" y="1147" width="419" height="215" frameX="-197" frameY="-410" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert up0000" x="407" y="0" width="340" height="425" frameX="-235" frameY="-202" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert up0001" x="747" y="0" width="352" height="413" frameX="-225" frameY="-212" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert glasses0000" x="2044" y="867" width="405" height="280" frameX="-192" frameY="-344" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert glasses0001" x="2044" y="0" width="484" height="305" frameX="-112" frameY="-319" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert glasses0002" x="1099" y="0" width="558" height="390" frameX="-39" frameY="-234" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert glasses0003" x="0" y="429" width="562" height="396" frameX="-34" frameY="-237" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert glasses0004" x="0" y="0" width="407" height="429" frameX="-190" frameY="-258" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert glasses0005" x="1146" y="825" width="382" height="355" frameX="-214" frameY="-342" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert idle-alt0000" x="0" y="1181" width="387" height="354" frameX="-210" frameY="-344" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert idle-alt0001" x="1099" y="390" width="382" height="356" frameX="-214" frameY="-342" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert right-alt0000" x="387" y="1181" width="387" height="354" frameX="-210" frameY="-344" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert right-alt0001" x="562" y="429" width="382" height="356" frameX="-214" frameY="-342" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert up-alt0000" x="774" y="1181" width="387" height="354" frameX="-210" frameY="-344" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert up-alt0001" x="0" y="825" width="382" height="356" frameX="-214" frameY="-342" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert down-alt0000" x="1161" y="1181" width="387" height="354" frameX="-210" frameY="-344" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert down-alt0001" x="382" y="825" width="382" height="356" frameX="-214" frameY="-342" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert left-alt0000" x="1657" y="0" width="387" height="354" frameX="-210" frameY="-344" frameWidth="800" frameHeight="800" />
+<SubTexture name="nubert left-alt0001" x="764" y="825" width="382" height="356" frameX="-214" frameY="-342" frameWidth="800" frameHeight="800" />
+</TextureAtlas>

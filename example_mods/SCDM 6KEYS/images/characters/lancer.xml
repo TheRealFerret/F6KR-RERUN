@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="lancer.png"><SubTexture name="lancer idle0000" x="1367" y="0" width="349" height="593" frameX="-293" frameY="-221" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer idle0001" x="883" y="668" width="345" height="599" frameX="-298" frameY="-216" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer idle0002" x="0" y="668" width="340" height="606" frameX="-302" frameY="-209" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer idle0003" x="1027" y="0" width="340" height="610" frameX="-303" frameY="-205" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer idle0004" x="1027" y="0" width="340" height="610" frameX="-303" frameY="-205" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer idle0005" x="1027" y="0" width="340" height="610" frameX="-303" frameY="-205" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer left0000" x="541" y="1858" width="539" height="563" frameX="-90" frameY="-251" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer left0001" x="0" y="1858" width="541" height="573" frameX="-95" frameY="-241" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer left0002" x="2220" y="0" width="536" height="575" frameX="-103" frameY="-239" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer up0000" x="0" y="0" width="340" height="668" frameX="-293" frameY="-153" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer up0001" x="340" y="0" width="343" height="665" frameX="-290" frameY="-156" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer up0002" x="683" y="0" width="344" height="662" frameX="-289" frameY="-158" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer down0000" x="1485" y="1858" width="412" height="545" frameX="-298" frameY="-269" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer down0001" x="1080" y="1858" width="405" height="554" frameX="-305" frameY="-261" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer down0002" x="2220" y="1147" width="401" height="560" frameX="-308" frameY="-255" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer right0000" x="1665" y="1274" width="512" height="579" frameX="-306" frameY="-236" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer right0001" x="0" y="1274" width="502" height="584" frameX="-307" frameY="-231" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer right0002" x="1716" y="586" width="495" height="585" frameX="-308" frameY="-230" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer ouch0000" x="1027" y="0" width="340" height="610" frameX="-303" frameY="-205" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer ouch0001" x="340" y="668" width="543" height="605" frameX="-297" frameY="-212" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer ouch0002" x="2220" y="575" width="535" height="572" frameX="-227" frameY="-247" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer ouch0003" x="502" y="1274" width="625" height="583" frameX="-154" frameY="-235" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer ouch0004" x="1127" y="1274" width="538" height="583" frameX="-221" frameY="-233" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer ouch0005" x="1716" y="0" width="504" height="586" frameX="-256" frameY="-230" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer ouch0006" x="1716" y="0" width="504" height="586" frameX="-254" frameY="-230" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer ouch0007" x="1716" y="0" width="504" height="586" frameX="-254" frameY="-230" frameWidth="920" frameHeight="920" />
+<SubTexture name="lancer ouch0008" x="1716" y="0" width="504" height="586" frameX="-254" frameY="-230" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

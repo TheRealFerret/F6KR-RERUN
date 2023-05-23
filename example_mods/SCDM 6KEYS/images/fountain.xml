@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="fountain.png"><SubTexture name="fountain loop0000" x="0" y="0" width="707" height="920" frameX="-107" frameY="0" frameWidth="920" frameHeight="920" />
+<SubTexture name="fountain loop0001" x="707" y="0" width="707" height="920" frameX="-108" frameY="0" frameWidth="920" frameHeight="920" />
+<SubTexture name="fountain loop0002" x="1414" y="0" width="716" height="920" frameX="-102" frameY="0" frameWidth="920" frameHeight="920" />
+<SubTexture name="fountain loop0003" x="0" y="920" width="618" height="920" frameX="-137" frameY="0" frameWidth="920" frameHeight="920" />
+<SubTexture name="fountain loop0004" x="618" y="920" width="618" height="920" frameX="-134" frameY="0" frameWidth="920" frameHeight="920" />
+<SubTexture name="fountain loop0005" x="1236" y="920" width="646" height="920" frameX="-141" frameY="0" frameWidth="920" frameHeight="920" />
+<SubTexture name="fountain loop0006" x="2130" y="0" width="682" height="920" frameX="-112" frameY="0" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

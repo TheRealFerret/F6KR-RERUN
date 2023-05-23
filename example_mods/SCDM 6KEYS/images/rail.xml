@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="rail.png"><SubTexture name="rail move0000" x="0" y="0" width="1920" height="94" frameX="0" frameY="-180" frameWidth="1920" frameHeight="320" />
+<SubTexture name="rail move0001" x="0" y="94" width="1920" height="94" frameX="0" frameY="-180" frameWidth="1920" frameHeight="320" />
+<SubTexture name="rail move0002" x="0" y="188" width="1920" height="94" frameX="0" frameY="-180" frameWidth="1920" frameHeight="320" />
+<SubTexture name="rail move0003" x="0" y="282" width="1920" height="94" frameX="0" frameY="-180" frameWidth="1920" frameHeight="320" />
+<SubTexture name="rail move0004" x="0" y="376" width="1920" height="94" frameX="0" frameY="-180" frameWidth="1920" frameHeight="320" />
+</TextureAtlas>

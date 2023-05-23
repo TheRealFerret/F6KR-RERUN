@@ -1,0 +1,63 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		-110,
+		-180
+	],
+	"scale": 0.9,
+	"animations": [
+		{
+			"loop_name": "imw lancer stand0",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "imw lancer stand0000",
+			"anim": "stand",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "imw lancer left0",
+			"idle_offsets": [
+				-10,
+				10
+			],
+			"idle_name": "imw lancer left0000",
+			"anim": "left",
+			"loop_offsets": [
+				-10,
+				10
+			]
+		},
+		{
+			"loop_name": "imw lancer down0",
+			"idle_offsets": [
+				0,
+				10
+			],
+			"idle_name": "imw lancer down0000",
+			"anim": "down",
+			"loop_offsets": [
+				0,
+				10
+			]
+		},
+		{
+			"loop_name": "imw lancer smile0",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "imw lancer smile0000",
+			"anim": "smile",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "imw lancer"
+}

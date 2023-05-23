@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				226,
+				172
+			],
+			"anim": "idle",
+			"fps": 12,
+			"name": "rouxls idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				259,
+				161
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "rouxls left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				197,
+				170
+			],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "rouxls down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				244,
+				173
+			],
+			"anim": "singUP",
+			"fps": 12,
+			"name": "rouxls up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				251,
+				170
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "rouxls right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				243,
+				167
+			],
+			"anim": "worms",
+			"fps": 12,
+			"name": "rouxls worms",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Rouxls",
+	"position": [
+		-120,
+		60
+	],
+	"healthicon": "eth",
+	"flip_x": false,
+	"healthbar_colors": [
+		43,
+		75,
+		154
+	],
+	"camera_position": [
+		-10,
+		-50
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

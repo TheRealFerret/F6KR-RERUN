@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bef.png"><SubTexture name="bef dark0000" x="521" y="0" width="630" height="591" frameX="-164" frameY="-384" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="bef idle0000" x="1151" y="0" width="587" height="583" frameX="-193" frameY="-375" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="bef left0000" x="1159" y="618" width="553" height="570" frameX="-145" frameY="-387" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="bef right0000" x="578" y="618" width="581" height="580" frameX="-265" frameY="-376" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="bef up0000" x="0" y="0" width="521" height="618" frameX="-259" frameY="-341" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="bef down0000" x="0" y="1199" width="534" height="509" frameX="-227" frameY="-451" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="bef hey0000" x="0" y="618" width="578" height="581" frameX="-197" frameY="-380" frameWidth="1000" frameHeight="1000" />
+</TextureAtlas>

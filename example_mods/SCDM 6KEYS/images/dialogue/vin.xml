@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="vin.png"><SubTexture name="vin idle0000" x="565" y="0" width="672" height="807" frameX="-153" frameY="-138" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vin down0000" x="828" y="942" width="693" height="616" frameX="-139" frameY="-331" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vin left0000" x="1237" y="0" width="699" height="798" frameX="-110" frameY="-147" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vin up0000" x="0" y="0" width="565" height="942" frameX="-163" frameY="-6" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="vin right0000" x="0" y="942" width="828" height="696" frameX="-141" frameY="-248" frameWidth="1000" frameHeight="1000" />
+</TextureAtlas>

@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				4,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "idle",
+			"loop": false,
+			"name": "throsh idle"
+		},
+		{
+			"offsets": [
+				0,
+				1
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "throsh right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "throsh left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "throsh down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singUP",
+			"loop": false,
+			"name": "throsh up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "throsh idle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "throsh idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/throsh",
+	"position": [
+		-350,
+		-20
+	],
+	"healthicon": "susie",
+	"flip_x": false,
+	"healthbar_colors": [
+		202,
+		71,
+		255
+	],
+	"camera_position": [
+		60,
+		90
+	],
+	"sing_duration": 4,
+	"scale": 0.65
+}

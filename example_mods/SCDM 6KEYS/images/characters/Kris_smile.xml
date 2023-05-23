@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Kris_smile.png"><SubTexture name="Kris_smile idle0000" x="1547" y="464" width="328" height="458" frameX="-280" frameY="-236" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile idle0001" x="992" y="1112" width="332" height="452" frameX="-276" frameY="-242" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile idle0002" x="0" y="1112" width="331" height="462" frameX="-277" frameY="-232" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile idle0003" x="1547" y="0" width="328" height="464" frameX="-280" frameY="-230" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile idle0004" x="331" y="1112" width="329" height="460" frameX="-279" frameY="-234" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile idle0005" x="660" y="1112" width="332" height="453" frameX="-276" frameY="-241" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile idle0006" x="0" y="1112" width="331" height="462" frameX="-277" frameY="-232" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile idle0007" x="1547" y="0" width="328" height="464" frameX="-280" frameY="-230" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile idle0008" x="1547" y="0" width="328" height="464" frameX="-280" frameY="-230" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile right0000" x="832" y="0" width="309" height="492" frameX="-345" frameY="-206" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile right0001" x="0" y="620" width="323" height="492" frameX="-337" frameY="-204" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile right0002" x="323" y="620" width="329" height="492" frameX="-331" frameY="-204" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile up0000" x="0" y="0" width="281" height="620" frameX="-322" frameY="-100" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile up0001" x="281" y="0" width="276" height="605" frameX="-326" frameY="-114" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile up0002" x="557" y="0" width="275" height="599" frameX="-327" frameY="-120" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile left0000" x="652" y="620" width="412" height="479" frameX="-201" frameY="-218" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile left0001" x="1141" y="0" width="406" height="478" frameX="-204" frameY="-217" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile left0002" x="1141" y="478" width="405" height="478" frameX="-205" frameY="-217" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile down0000" x="1324" y="1112" width="336" height="447" frameX="-272" frameY="-253" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile down0001" x="1875" y="0" width="327" height="420" frameX="-281" frameY="-277" frameWidth="920" frameHeight="920" />
+<SubTexture name="Kris_smile down0002" x="1875" y="0" width="327" height="420" frameX="-281" frameY="-277" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

@@ -248,6 +248,9 @@ class PlayState extends MusicBeatState
 	public var pendulumMode:Bool = false;
 	public var cpuControlled:Bool = false;
 	public var practiceMode:Bool = false;
+	public static var opponentChart:Bool = false;
+	public var invisibleNotes:Bool = false;
+	public var randomMode:Bool = false;
 
 	public var botplaySine:Float = 0;
 	public var botplayTxt:FlxText;
@@ -840,10 +843,13 @@ class PlayState extends MusicBeatState
 		healthLoss = ClientPrefs.getGameplaySetting('healthloss', 1);
 		healthDrain = ClientPrefs.getGameplaySetting('healthdrain', 0);
 		instakillOnMiss = ClientPrefs.getGameplaySetting('instakill', false);
+		opponentChart = ClientPrefs.getGameplaySetting('opponentplay', false);
 		sickOnly = ClientPrefs.getGameplaySetting('sickonly', false);
 		fadeOut = ClientPrefs.getGameplaySetting('fadeout', false);
 		fadeIn = ClientPrefs.getGameplaySetting('fadein', false);
+		invisibleNotes = ClientPrefs.getGameplaySetting('invisiblenotes', false);
 		drunkGame = ClientPrefs.getGameplaySetting('drunkgame', false);
+		randomMode = ClientPrefs.getGameplaySetting('randommode', false);
 		pussyMode = ClientPrefs.getGameplaySetting('pussymode', false);
 		hellMode = ClientPrefs.getGameplaySetting('hellmode', false);
 		pendulumMode = ClientPrefs.getGameplaySetting('pendulummode', false);
@@ -852,6 +858,11 @@ class PlayState extends MusicBeatState
 
 		if (healthDrain > 0)
 			healthDrainMod = true;
+		if (curSong.toLowerCase() == 'bombastic'||curSong.toLowerCase() == 'lost cause'||curSong.toLowerCase() == 'phantasm'||curSong.toLowerCase() == 'trinity')
+			opponentChart = false;
+
+		if (curSong.toLowerCase() == 'fatality')
+			FlxG.fullscreen = false;
 
 		// var gameCam:FlxCamera = FlxG.camera;
 		camGame = new FlxCamera();
@@ -3896,7 +3907,7 @@ class PlayState extends MusicBeatState
 		add(healthBarBG);
 		if(ClientPrefs.downScroll) healthBarBG.y = 0.11 * FlxG.height;
 
-		flippedHealthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, LEFT_TO_RIGHT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
+		flippedHealthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, (opponentChart ? RIGHT_TO_LEFT : LEFT_TO_RIGHT), Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
 		'health', 0, 2);
 		flippedHealthBar.scrollFactor.set();
 		// healthBar
@@ -3904,7 +3915,7 @@ class PlayState extends MusicBeatState
 		flippedHealthBar.alpha = 0;
 		add(flippedHealthBar);
 
-		healthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, RIGHT_TO_LEFT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
+		healthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, (opponentChart ? LEFT_TO_RIGHT : RIGHT_TO_LEFT), Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
 		'health', 0, 2);
 		healthBar.scrollFactor.set();
 		// healthBar
@@ -5252,11 +5263,15 @@ class PlayState extends MusicBeatState
 	}
 
 	public function reloadHealthBarColors() {
-		flippedHealthBar.createFilledBar(FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]),
-		FlxColor.fromRGB(boyfriend.healthColorArray[0], boyfriend.healthColorArray[1], boyfriend.healthColorArray[2]));
-
-		healthBar.createFilledBar(FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]),
-		FlxColor.fromRGB(boyfriend.healthColorArray[0], boyfriend.healthColorArray[1], boyfriend.healthColorArray[2]));
+		if (!opponentChart) flippedHealthBar.createFilledBar(FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]),
+			FlxColor.fromRGB(boyfriend.healthColorArray[0], boyfriend.healthColorArray[1], boyfriend.healthColorArray[2]));
+		else flippedHealthBar.createFilledBar(FlxColor.fromRGB(boyfriend.healthColorArray[0], boyfriend.healthColorArray[1], boyfriend.healthColorArray[2]),
+			FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]));
+		
+		if (!opponentChart) healthBar.createFilledBar(FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]),
+			FlxColor.fromRGB(boyfriend.healthColorArray[0], boyfriend.healthColorArray[1], boyfriend.healthColorArray[2]));
+		else healthBar.createFilledBar(FlxColor.fromRGB(boyfriend.healthColorArray[0], boyfriend.healthColorArray[1], boyfriend.healthColorArray[2]),
+			FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]));
 
 		flippedHealthBar.updateBar();
 		healthBar.updateBar();
@@ -5886,7 +5901,7 @@ class PlayState extends MusicBeatState
 		var introAlts:Array<String> = introAssets.get('default');
 		if (isPixelStage) introAlts = introAssets.get('pixel');
 		if (vtanSong) introAlts = introAssets.get('vtan');
-		if (curSong == 'Too Slow Dside') introAlts = introAssets.get('dside');
+		if (curSong.toLowerCase() == 'too slow dside') introAlts = introAssets.get('dside');
 		
 		for (asset in introAlts)
 			Paths.image(asset);
@@ -6446,14 +6461,22 @@ class PlayState extends MusicBeatState
 				if (songNotes[1] > -1)
 				{ // Real notes
 					var daStrumTime:Float = songNotes[0];
-					var daNoteData:Int = Std.int(songNotes[1] % Note.ammo[mania]);
-
+					var daNoteData:Int = 0;
+					if (!randomMode)
+						daNoteData = Std.int(songNotes[1] % Note.ammo[mania]);
+					if (randomMode)
+						daNoteData = FlxG.random.int(0, 5);
+						
 					var gottaHitNote:Bool = section.mustHitSection;
 
-					if (songNotes[1] > (Note.ammo[mania] - 1))
+					if (songNotes[1] > (Note.ammo[mania] - 1) && !opponentChart)
 					{
 						gottaHitNote = !section.mustHitSection;
 					}
+					else if (songNotes[1] <= (Note.ammo[mania] - 1) && opponentChart)
+						{
+							gottaHitNote = !section.mustHitSection;
+						}
 
 					var oldNote:Note;
 					if (unspawnNotes.length > 0)
@@ -6792,7 +6815,9 @@ class PlayState extends MusicBeatState
 
 			if (player == 1)
 			{
-				playerStrums.add(babyArrow);
+				if (!opponentChart || opponentChart && ClientPrefs.middleScroll) playerStrums.add(babyArrow);
+				else opponentStrums.add(babyArrow);
+
 				if (curSong.toLowerCase() == 'lost cause' && !ClientPrefs.middleScroll)
 					babyArrow.x -= 620;
 				if (curSong.toLowerCase() == 'fatality' && !ClientPrefs.middleScroll)
@@ -6809,7 +6834,9 @@ class PlayState extends MusicBeatState
 						babyArrow.x += FlxG.width / 2 + 25;
 					}
 				}
-				opponentStrums.add(babyArrow);
+				if (!opponentChart || opponentChart && ClientPrefs.middleScroll) opponentStrums.add(babyArrow);
+				else playerStrums.add(babyArrow);
+
 				if (curSong.toLowerCase() == 'lost cause' && !ClientPrefs.middleScroll)
 					babyArrow.x += 1240; //620
 				if (curSong.toLowerCase() == 'fatality' && !ClientPrefs.middleScroll)
@@ -6821,7 +6848,7 @@ class PlayState extends MusicBeatState
 			strumLineNotes.add(babyArrow);
 			babyArrow.postAddedToGroup();
 
-			if (ClientPrefs.showKeybindsOnStart && player == 1) {
+			if (ClientPrefs.showKeybindsOnStart && player == 1 ||ClientPrefs.showKeybindsOnStart && opponentChart) {
 				for (j in 0...keysArray[mania][i].length) {
 					var daKeyTxt:FlxText = new FlxText(babyArrow.x, babyArrow.y - 10, 0, InputFormatter.getKeyName(keysArray[mania][i][j]), 32);
 					daKeyTxt.setFormat(Paths.font(gameFont), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -7656,12 +7683,12 @@ class PlayState extends MusicBeatState
 		var iconOffset:Int = 26;
 
 		if (healthBarFlipped){
-			iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 100, 0, 100, 0) * 0.01) - iconOffset);
-			iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 100, 0, 100, 0) * 0.01)) - (iconP2.width - iconOffset);
+			iconP1.x = (opponentChart ? -593 : 0) + healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 100, (opponentChart ? 0 : 0), 100, 0) * 0.01) - iconOffset);
+			iconP2.x = (opponentChart ? -593 : 0) + healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 100, (opponentChart ? 0 : 0), 100, 0) * 0.01)) - (iconP2.width - iconOffset);
 		}
 		else{
-			iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) + (150 * iconP1.scale.x - 150) / 2 - iconOffset;
-			iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) - (150 * iconP2.scale.x) / 2 - iconOffset * 2;	
+			iconP1.x = (opponentChart ? -593 : 0) + healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, (opponentChart ? -100 : 100), 100, 0) * 0.01)) + (150 * iconP1.scale.x - 150) / 2 - iconOffset;
+			iconP2.x = (opponentChart ? -593 : 0) + healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, (opponentChart ? -100 : 100), 100, 0) * 0.01)) - (150 * iconP2.scale.x) / 2 - iconOffset * 2;	
 		}
 	
 		if (health > 2)
@@ -7669,25 +7696,25 @@ class PlayState extends MusicBeatState
 
 		if (healthBarFlipped){
 			if (healthBar.percent < 20)
-				iconP2.animation.curAnim.curFrame = 1;
+				(opponentChart ? iconP1 : iconP2).animation.curAnim.curFrame = 1;
 			else
-				iconP2.animation.curAnim.curFrame = 0;
+				(opponentChart ? iconP1 : iconP2).animation.curAnim.curFrame = 0;
 	
 			if (healthBar.percent > 80)
-				iconP1.animation.curAnim.curFrame = 1;
+				(opponentChart ? iconP2 : iconP1).animation.curAnim.curFrame = 1;
 			else
-				iconP1.animation.curAnim.curFrame = 0;
+				(opponentChart ? iconP2 : iconP1).animation.curAnim.curFrame = 0;
 		}
 		else{
 			if (healthBar.percent < 20)
-				iconP1.animation.curAnim.curFrame = 1;
+				(opponentChart ? iconP2 : iconP1).animation.curAnim.curFrame = 1;
 			else
-				iconP1.animation.curAnim.curFrame = 0;
+				(opponentChart ? iconP2 : iconP1).animation.curAnim.curFrame = 0;
 	
 			if (healthBar.percent > 80)
-				iconP2.animation.curAnim.curFrame = 1;
+				(opponentChart ? iconP1 : iconP2).animation.curAnim.curFrame = 1;
 			else
-				iconP2.animation.curAnim.curFrame = 0;
+				(opponentChart ? iconP1 : iconP2).animation.curAnim.curFrame = 0;
 		}
 		switch (dad.curCharacter)
 		{
@@ -7904,27 +7931,27 @@ class PlayState extends MusicBeatState
 		}
 
 		if(SONG.song.toLowerCase() == 'too slow dside' && !pussyMode){
-			opponentStrums.forEachAlive( function(strum:StrumNote){
+			opponentStrums.forEachAlive(function(strum:StrumNote){
 				if(freezeCounter>0){
-					if(strum.alphaM>.5)
-						strum.alphaM-=elapsed*5;
-					if(strum.alphaM<=.5)strum.alphaM=.5;
+					if(strum.alpha>.5)
+						strum.alpha-=elapsed*5;
+					if(strum.alpha<=.5)strum.alpha=.5;
 				}else{
-					if(strum.alphaM<1)
-						strum.alphaM+=elapsed*5;
-					if(strum.alphaM>=1)strum.alphaM=1;
+					if(strum.alpha<1)
+						strum.alpha+=elapsed*5;
+					if(strum.alpha>=1)strum.alpha=1;
 				}
 			});
 
-			playerStrums.forEachAlive( function(strum:StrumNote){
+			playerStrums.forEachAlive(function(strum:StrumNote){
 				if(freezeCounter>0){
-					if(strum.alphaM>.5)
-						strum.alphaM-=elapsed*5;
-					if(strum.alphaM<=.5)strum.alphaM=.5;
+					if(strum.alpha>.5)
+						strum.alpha-=elapsed*5;
+					if(strum.alpha<=.5)strum.alpha=.5;
 				}else{
-					if(strum.alphaM<1)
-						strum.alphaM+=elapsed*5;
-					if(strum.alphaM>=1)strum.alphaM=1;
+					if(strum.alpha<1)
+						strum.alpha+=elapsed*5;
+					if(strum.alpha>=1)strum.alpha=1;
 				}
 			});
 		}
@@ -7944,6 +7971,12 @@ class PlayState extends MusicBeatState
 			} else if(boyfriend.animation.curAnim != null && boyfriend.holdTimer > Conductor.stepCrochet * (0.0011 / FlxG.sound.music.pitch) * boyfriend.singDuration && boyfriend.animation.curAnim.name.startsWith('sing') && !boyfriend.animation.curAnim.name.endsWith('miss')) {
 				boyfriend.dance();
 				//boyfriend.animation.curAnim.finish();
+			}
+				if(cpuControlled && opponentChart && dad.holdTimer > Conductor.stepCrochet * 0.001 * dad.singDuration && dad.animation.curAnim.name.startsWith('sing') && !dad.animation.curAnim.name.endsWith('miss')) {
+					dad.dance();
+			}
+				if(cpuControlled && opponentChart && mom.holdTimer > Conductor.stepCrochet * 0.001 * mom.singDuration && mom.animation.curAnim.name.startsWith('sing') && !mom.animation.curAnim.name.endsWith('miss')) {
+					mom.dance();
 			}
 
 			if(startedCountdown)
@@ -8022,6 +8055,9 @@ class PlayState extends MusicBeatState
 							goodNoteHit(daNote);
 						}
 					}
+
+					if(invisibleNotes)
+						daNote.alpha = 0;
 
 					var center:Float = strumY + Note.swagWidth / 2;
 					if(strumGroup.members[daNote.noteData].sustainReduce && daNote.isSustainNote && (daNote.mustPress || !daNote.ignoreNote) &&
@@ -9460,9 +9496,9 @@ class PlayState extends MusicBeatState
 		if(achievementObj != null) {
 			return;
 		} else {
-			var achieve:String = checkForAchievement(['bopeebo_pfc', 'ballistic_95acc', 'ballistichq_95acc', 'madness_fc', 'expurgation_95acc', 'foolhardy_95acc', 'sporting_95acc', 'tooslow_95acc', 'tooslowencore_95acc', 'endless_95acc', 'oldendless_95acc',
+			var achieve:String = checkForAchievement(['bopeebo_pfc', 'ballistic_95acc', 'ballistichq_95acc', 'madness_fc', 'expurgation_95acc', 'foolhardy_95acc', 'sporting_95acc', 'tooslow_95acc', 'tooslowdside_95acc', 'tooslowencore_95acc', 'endless_95acc', 'oldendless_95acc',
 			'cycles_fc', 'execution_fc', 'sunshine_95acc', 'chaos_95acc', 'faker_fc', 'blacksun_95acc', 'fatality_90acc', 'novillains_95acc', 'noheroes_95acc', 'phantasm_95acc', 'lostcause_95acc', 'reactor_95acc', 'doublekill_95acc', 'defeat_fc', 'heartbeat_fc', 
-			'pretender_fc', 'insanestreamer_fc', 'idk_fc', 'torture_fc', 'sage_fc', 'infitrigger_2miss', 'ebola_immune', 'honorbound_95acc', 'eyelander_98acc', 'strongmann_95acc', 'acceptance_fc', 'delirious_95acc', 'recursed_fc', 'bombastic_95acc', 'abuse_fc', 
+			'pretender_fc', 'insanestreamer_fc', 'idk_fc', 'torture_fc', 'sage_fc', 'infitrigger_2miss', 'ebola_immune', 'honorbound_95acc', 'eyelander_98acc', 'strongmann_95acc', 'hyperlink2_95acc', 'acceptance_fc', 'delirious_95acc', 'recursed_fc', 'bombastic_95acc', 'abuse_fc', 
 			'trinity_90acc', 'iamgod_95acc', 'superscare_95acc', 'attack_95acc', 'blueballed_100', 'fourkeyonly', 'insanity']);
 
 			if(achieve != null) {
@@ -10094,7 +10130,10 @@ class PlayState extends MusicBeatState
 	private function keyShit():Void
 	{
 		// FlxG.watch.addQuick('asdfa', upP);
-		if (startedCountdown && !boyfriend.stunned && generatedMusic)
+		var char:Character = boyfriend;
+		if (opponentChart && opponent2sing == false) char = dad;
+		if (opponentChart && opponent2sing == true) char = mom;
+		if (startedCountdown && !char.stunned && generatedMusic)
 		{
 			// rewritten inputs???
 			if(freezeCounter<=0){
@@ -10108,7 +10147,7 @@ class PlayState extends MusicBeatState
 				});
 			}
 
-			if (keysArePressed() && !endingSong) {
+			if (keysArePressed() && !endingSong && !opponentChart) {
 				#if ACHIEVEMENTS_ALLOWED
 				var achieve:String = checkForAchievement(['oversinging']);
 				if (achieve != null) {
@@ -10121,6 +10160,12 @@ class PlayState extends MusicBeatState
 				boyfriend.dance();
 				//boyfriend.animation.curAnim.finish();
 			}
+			if (dad.holdTimer > Conductor.stepCrochet * 0.001 * dad.singDuration 
+				&& dad.animation.curAnim.name.startsWith('sing') && !dad.animation.curAnim.name.endsWith('miss'))
+					dad.dance();
+			if (mom.holdTimer > Conductor.stepCrochet * 0.001 * mom.singDuration 
+				&& mom.animation.curAnim.name.startsWith('sing') && !mom.animation.curAnim.name.endsWith('miss'))
+					mom.dance();
 		}
 	}
 
@@ -10314,6 +10359,8 @@ class PlayState extends MusicBeatState
 		if(daNote.gfNote) {
 			char = gf;
 		}
+		if (opponentChart && opponent2sing == false||opponentChart && !daNote.gfNote) char = dad;
+		if (opponentChart && opponent2sing == true || opponentChart && daNote.noteType == 'Opponent 2 Sing') char = mom;
 
 		if(char != null && !daNote.noMissAnimation && char.hasMissAnimations)
 		{
@@ -10445,8 +10492,11 @@ class PlayState extends MusicBeatState
 				boyfriend.stunned = false;
 			});*/
 
-			if(boyfriend.hasMissAnimations) {
-				boyfriend.playAnim('sing' + Note.keysShit.get(mania).get('anims')[direction] + 'miss', true);
+			var char:Character = boyfriend;
+			if (opponentChart && opponent2sing == false) char = dad;
+			if (opponentChart && opponent2sing == true) char = mom;
+			if(char.hasMissAnimations) {
+				char.playAnim('sing' + Note.keysShit.get(mania).get('anims')[direction] + 'miss', true);
 			}
 			vocals.volume = 0;
 		}
@@ -10455,42 +10505,50 @@ class PlayState extends MusicBeatState
 
 	function opponentNoteHit(note:Note):Void
 	{
-		if (Paths.formatToSongPath(SONG.song) != 'tutorial' || !songIsWeird)
+		if (!opponentChart && Paths.formatToSongPath(SONG.song) != 'tutorial' || !songIsWeird)
 			camZooming = true;
 
 		if (soldierShake)
 			FlxG.camera.shake(0.015,0.04);
 
+		var char:Character = dad;
+		if(opponentChart) char = boyfriend;
 		if(note.noteType == 'Hey!' && dad.animOffsets.exists('hey')) {
-			dad.playAnim('hey', true);
-			dad.specialAnim = true;
-			dad.heyTimer = 0.6;
+			char.playAnim('hey', true);
+			char.specialAnim = true;
+			char.heyTimer = 0.6;
 		} else if(!note.noAnimation) {
 			var altAnim:String = note.animSuffix;
 
 			if (SONG.notes[curSection] != null)
 			{
-				if (SONG.notes[curSection].altAnim && !SONG.notes[curSection].gfSection) {
+				if (SONG.notes[curSection].altAnim && !SONG.notes[curSection].gfSection && !opponentChart) {
 					altAnim = '-alt';
 				}
 			}
 
 			var char:Character = dad;
+			if(opponentChart) char = boyfriend;
 			var animToPlay:String = 'sing' + Note.keysShit.get(mania).get('anims')[note.noteData] + altAnim;
 			if(note.gfNote) {
 				char = gf;
 			}
-			else if(note.noteType == 'Opponent 2 Sing' || opponent2sing == true) {
-				char = mom;
+			if(opponentChart) {
+				boyfriend.playAnim(animToPlay, true);
+				boyfriend.holdTimer = 0;
 			}
-			else if (note.noteType == 'Both Opponents Sing' || bothOpponentsSing == true) {
+			if(note.noteType == 'Opponent 2 Sing' && !opponentChart|| opponent2sing == true && !opponentChart) {
+				mom.playAnim(animToPlay, true);
+				mom.holdTimer = 0;
+			}
+			if (note.noteType == 'Both Opponents Sing' && !opponentChart|| bothOpponentsSing == true && !opponentChart) {
 				mom.playAnim(animToPlay, true);
 				mom.holdTimer = 0;
 				dad.playAnim(animToPlay, true);
 				dad.holdTimer = 0;
 			}
 
-			switch(dad.curCharacter)
+			switch(char.curCharacter)
 			{
 				case 'delirium': 
 					if (!pussyMode){
@@ -10507,16 +10565,16 @@ class PlayState extends MusicBeatState
 					}
 			}
 
-			if(char != null)
+			if(char != null && !opponentChart)
 			{
 				char.playAnim(animToPlay, true);
 				char.holdTimer = 0;
 			}
 		}
 
-		if (dad.curCharacter == 'extricky')
+		if (char.curCharacter == 'extricky')
 			{
-				if (dad.animation.curAnim.name == 'singUP')
+				if (char.animation.curAnim.name == 'singUP')
 				{
 					trace('spikes');
 					exSpikes.visible = true;
@@ -10535,7 +10593,7 @@ class PlayState extends MusicBeatState
 				}
 			}
 
-		switch(dad.curCharacter)
+		switch(char.curCharacter)
 		{
 			case 'tricky': // 20% chance
 				if (FlxG.random.bool(20) && !spookyRendered && !note.isSustainNote) // create spooky text :flushed:
@@ -10567,6 +10625,7 @@ class PlayState extends MusicBeatState
 		note.hitByOpponent = true;
 
 		callOnLuas('opponentNoteHit', [notes.members.indexOf(note), Math.abs(note.noteData), note.noteType, note.isSustainNote]);
+		callOnLuas((opponentChart ? 'goodNoteHitFix' : 'opponentNoteHitFix'), [notes.members.indexOf(note), Math.abs(note.noteData), note.noteType, note.isSustainNote]);
 
 		if (!note.isSustainNote)
 		{
@@ -10574,11 +10633,14 @@ class PlayState extends MusicBeatState
 			notes.remove(note, true);
 			note.destroy();
 		}
-		
 	}
 
 	function goodNoteHit(note:Note):Void
 	{
+		if (opponentChart) {
+			if (Paths.formatToSongPath(SONG.song) != 'tutorial')
+				camZooming = true;
+		}
 		if (!note.wasGoodHit)
 		{
 			if(cpuControlled && (note.ignoreNote || note.hitCausesMiss)) return;
@@ -10627,6 +10689,9 @@ class PlayState extends MusicBeatState
 									{
 												health -= 0.00025;
 									}, 9000000);
+							}
+							else if (opponentChart){
+								health += 0;
 							}
 						case 'Deli Note':
 							if (!pussyMode){
@@ -10720,6 +10785,9 @@ class PlayState extends MusicBeatState
 			if(!note.noAnimation) {
 				var animToPlay:String = 'sing' + Note.keysShit.get(mania).get('anims')[note.noteData];
 
+				var char:Character = boyfriend;
+				if(opponentChart && opponent2sing == false||opponentChart && !note.gfNote) char = dad;
+				if (opponentChart && opponent2sing == true || opponentChart && note.noteType == 'Opponent 2 Sing') char = mom;
 				if(note.gfNote)
 				{
 					if(gf != null)
@@ -10728,17 +10796,36 @@ class PlayState extends MusicBeatState
 						gf.holdTimer = 0;
 					}
 				}
-				else{
+				if (!opponentChart) {
 					boyfriend.playAnim(animToPlay + note.animSuffix, true);
 					boyfriend.holdTimer = 0;
 				}
+				if (opponentChart && opponent2sing == false||opponentChart && !note.gfNote){
+					dad.playAnim(animToPlay, true);
+					dad.holdTimer = 0;
+				}
+				if (opponentChart && opponent2sing == true || opponentChart && note.noteType == 'Opponent 2 Sing'){
+					mom.playAnim(animToPlay, true);
+					mom.holdTimer = 0;
+				}
+				if (opponentChart && note.noteType == 'Both Opponents Sing'|| bothOpponentsSing == true && opponentChart){
+					dad.playAnim(animToPlay, true);
+					dad.holdTimer = 0;
+					mom.playAnim(animToPlay, true);
+					mom.holdTimer = 0;
+				}
+				
 			}
 
 				if(note.noteType == 'Hey!') {
-					if(boyfriend.animOffsets.exists('hey')) {
-						boyfriend.playAnim('hey', true);
-						boyfriend.specialAnim = true;
-						boyfriend.heyTimer = 0.6;
+					var char:Character = boyfriend;
+					if(opponentChart && opponent2sing == false) char = dad;
+					if (opponentChart && opponent2sing == true || opponentChart && note.noteType == 'Opponent 2 Sing') char = mom;
+					
+					if(char.animOffsets.exists('hey')) {
+						char.playAnim('hey', true);
+						char.specialAnim = true;
+						char.heyTimer = 0.6;
 					}
 
 					if(gf != null && gf.animOffsets.exists('cheer')) {
@@ -10783,6 +10870,7 @@ class PlayState extends MusicBeatState
 
 			
 			callOnLuas('goodNoteHit', [notes.members.indexOf(note), leData, leType, isSus]);
+			callOnLuas((opponentChart ? 'opponentNoteHitFix' : 'goodNoteHitFix'), [notes.members.indexOf(note), leData, leType, isSus]);
 
 			if (!note.isSustainNote)
 			{
@@ -12426,7 +12514,7 @@ class PlayState extends MusicBeatState
 					FlxTween.tween(dadGroup, {alpha: 0}, 0.4);
 				}
 			case 'infitrigger':
-				if (!pussyMode){
+				if (!pussyMode || !opponentChart){
 					switch (curStep)
 					{
 						case 1797:
@@ -12662,13 +12750,24 @@ class PlayState extends MusicBeatState
 		// generateStaticArrows(0);
 		// generateStaticArrows(1);
 
-		if (!ClientPrefs.middleScroll)
+		if (!ClientPrefs.middleScroll && !opponentChart)
 			{
 				playerStrums.forEach(function(spr:FlxSprite)
 					{
 						spr.x -= 322;
 					});
 					opponentStrums.forEach(function(spr:FlxSprite)
+					{
+						spr.x += 10000;
+					});
+			}
+		else if (!ClientPrefs.middleScroll)
+			{
+				opponentStrums.forEach(function(spr:FlxSprite)
+					{
+						spr.x += 322;
+					});
+					playerStrums.forEach(function(spr:FlxSprite)
 					{
 						spr.x += 10000;
 					});
@@ -13093,7 +13192,10 @@ class PlayState extends MusicBeatState
 
 	function StrumPlayAnim(isDad:Bool, id:Int, time:Float) {
 		var spr:StrumNote = null;
-		if(isDad) {
+		if (isDad && opponentChart) {
+			spr = opponentStrums.members[id];
+		}
+		else if(isDad) {
 			spr = strumLineNotes.members[id];
 		} else {
 			spr = playerStrums.members[id];
@@ -13260,227 +13362,237 @@ class PlayState extends MusicBeatState
 				switch(achievementName)
 				{
 					case 'bopeebo_pfc':
-						if(Paths.formatToSongPath(SONG.song) == 'bopeebo' && ratingPercent >= 1 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'bopeebo' && ratingPercent >= 1 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185119);
 						}
 					case 'ballistic_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'ballistic' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'ballistic' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185120);
 						}
 					case 'ballistichq_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'ballistic-(hq)' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'ballistic-(hq)' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185122);
 						}
 					case 'madness_fc':
-						if(Paths.formatToSongPath(SONG.song) == 'madness' && songMisses < 1 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'madness' && songMisses < 1 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185123);
 						}
 					case 'expurgation_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'expurgation' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !pussyMode) {
+						if(Paths.formatToSongPath(SONG.song) == 'expurgation' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !pussyMode && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185125);
 						}
 					case 'foolhardy_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'foolhardy' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'foolhardy' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185126);
 						}
 					case 'sporting_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'sporting' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'sporting' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185127);
 						}
 					case 'tooslow_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'too-slow' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'too-slow' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(187353);
 						}
 					case 'tooslowencore_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'too-slow-encore' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'too-slow-encore' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(187354);
 						}
+					case 'tooslowdside_95acc':
+						if(Paths.formatToSongPath(SONG.song) == 'too-slow-dside' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
+							unlock = true;
+							GameJoltAPI.getTrophy(188808);
+						}
 					case 'endless_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'endless' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'endless' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(187355);
 						}
 					case 'oldendless_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'endless-old' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'endless-old' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(187356);
 						}
 					case 'cycles_fc':
-						if(Paths.formatToSongPath(SONG.song) == 'cycles' && songMisses < 1 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'cycles' && songMisses < 1 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(187350);
 						}
 					case 'execution_fc':
-						if(Paths.formatToSongPath(SONG.song) == 'execution' && songMisses < 1 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'execution' && songMisses < 1 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(187351);
 						}
 					case 'sunshine_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'sunshine' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'sunshine' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(187357);
 						}
 					case 'chaos_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'chaos' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'chaos' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(187358);
 						}
 					case 'faker_fc':
-						if(Paths.formatToSongPath(SONG.song) == 'faker' && songMisses < 1 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'faker' && songMisses < 1 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(187352);
 						}
 					case 'blacksun_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'black-sun' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'black-sun' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(187359);
 						}
 					case 'fatality_90acc':
-						if(Paths.formatToSongPath(SONG.song) == 'fatality' && ratingPercent >= 0.9 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'fatality' && ratingPercent >= 0.9 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(187360);
 						}
 					case 'novillains_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'no-villains' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'no-villains' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185128);
 						}
 					case 'noheroes_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'no-heroes' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'no-heroes' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185394);
 						}
 					case 'phantasm_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'phantasm' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'phantasm' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185130);
 						}
 					case 'lostcause_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'lost-cause' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !pussyMode) {
+						if(Paths.formatToSongPath(SONG.song) == 'lost-cause' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !pussyMode && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185131);
 						}
 					case 'reactor_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'reactor' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'reactor' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185132);
 						}	
 					case 'doublekill_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'double-kill' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'double-kill' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185133);
 						}											
 					case 'defeat_fc':
-						if(Paths.formatToSongPath(SONG.song) == 'defeat' && songMisses < 1 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'defeat' && songMisses < 1 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185135);
 						}
 					case 'heartbeat_fc':
-						if(Paths.formatToSongPath(SONG.song) == 'heartbeat' && songMisses < 1 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'heartbeat' && songMisses < 1 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185136);
 						}						
 					case 'pretender_fc':
-						if(Paths.formatToSongPath(SONG.song) == 'pretender' && songMisses < 1 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'pretender' && songMisses < 1 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185137);
 						}
 					case 'insanestreamer_fc':
-						if(Paths.formatToSongPath(SONG.song) == 'insane-streamer' && songMisses < 1 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'insane-streamer' && songMisses < 1 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185138);
 						}
 					case 'idk_fc':
-						if(Paths.formatToSongPath(SONG.song) == 'idk' && songMisses < 1 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'idk' && songMisses < 1 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185139);
 						}			
 					case 'torture_fc':
-						if(Paths.formatToSongPath(SONG.song) == 'torture' && songMisses < 1 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'torture' && songMisses < 1 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185141);
 						}																	
 					case 'sage_fc':
-						if(Paths.formatToSongPath(SONG.song) == 'sage' && songMisses < 1 && !usedPractice && !changedDifficulty && !pussyMode) {
+						if(Paths.formatToSongPath(SONG.song) == 'sage' && songMisses < 1 && !usedPractice && !changedDifficulty && !pussyMode && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185142);
 						}
 					case 'infitrigger_2miss':
-						if(Paths.formatToSongPath(SONG.song) == 'infitrigger' && songMisses <= 2 && !usedPractice && !changedDifficulty && !pussyMode) {
+						if(Paths.formatToSongPath(SONG.song) == 'infitrigger' && songMisses <= 2 && !usedPractice && !changedDifficulty && !pussyMode && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185143);
 						}
 					case 'ebola_immune':
-						if(Paths.formatToSongPath(SONG.song) == 'infitrigger' && totalEbolaNotesHit >= 5 && !usedPractice && !changedDifficulty && !pussyMode) {
+						if(Paths.formatToSongPath(SONG.song) == 'infitrigger' && totalEbolaNotesHit >= 5 && !usedPractice && !changedDifficulty && !pussyMode && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185144);
 						}
 					case 'honorbound_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'honorbound' && ratingPercent >= 0.95 && !usedPractice && !pussyMode) {
+						if(Paths.formatToSongPath(SONG.song) == 'honorbound' && ratingPercent >= 0.95 && !usedPractice && !pussyMode && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185145);
 						}
 					case 'eyelander_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'eyelander' && ratingPercent >= 0.95 && !usedPractice && !pussyMode) {
+						if(Paths.formatToSongPath(SONG.song) == 'eyelander' && ratingPercent >= 0.95 && !usedPractice && !pussyMode && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185146);
 						}
 					case 'strongmann_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'strongmann' && ratingPercent >= 0.95 && !usedPractice) {
+						if(Paths.formatToSongPath(SONG.song) == 'strongmann' && ratingPercent >= 0.95 && !usedPractice && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185147);
 						}
+					case 'hyperlink2_95acc':
+						if(Paths.formatToSongPath(SONG.song) == 'hyperlink-reloaded' && ratingPercent >= 0.95 && !usedPractice && !opponentChart && !randomMode) {
+							unlock = true;
+							GameJoltAPI.getTrophy(194413);
+						}
 					case 'acceptance_fc':
-						if(Paths.formatToSongPath(SONG.song) == 'acceptance' && songMisses < 1 && !usedPractice) {
+						if(Paths.formatToSongPath(SONG.song) == 'acceptance' && songMisses < 1 && !usedPractice && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185395);
 						}
 					case 'delirious_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'delirious' && ratingPercent >= 0.95 && !usedPractice) {
+						if(Paths.formatToSongPath(SONG.song) == 'delirious' && ratingPercent >= 0.95 && !usedPractice && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185396);
 						}
 					case 'recursed_fc':
-						if(Paths.formatToSongPath(SONG.song) == 'recursed' && songMisses < 1 && !usedPractice && !pussyMode) {
+						if(Paths.formatToSongPath(SONG.song) == 'recursed' && songMisses < 1 && !usedPractice && !pussyMode && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185148);
 						}
 					case 'bombastic_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'bombastic' && ratingPercent >= 0.95 && !usedPractice && !pussyMode) {
+						if(Paths.formatToSongPath(SONG.song) == 'bombastic' && ratingPercent >= 0.95 && !usedPractice && !pussyMode && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185149);
 						}
 					case 'abuse_fc':
-						if(Paths.formatToSongPath(SONG.song) == 'abuse' && songMisses < 1 && !usedPractice && !pussyMode) {
+						if(Paths.formatToSongPath(SONG.song) == 'abuse' && songMisses < 1 && !usedPractice && !pussyMode && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185151);
 						}
 					case 'trinity_90acc':
-						if(Paths.formatToSongPath(SONG.song) == 'trinity' && ratingPercent >= 0.9 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'trinity' && ratingPercent >= 0.9 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(187361);
 						}
 					case 'iamgod_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'i-am-god' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'i-am-god' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(187362);
 						}
 					case 'superscare_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'superscare' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty) {
+						if(Paths.formatToSongPath(SONG.song) == 'superscare' && ratingPercent >= 0.95 && !usedPractice && !changedDifficulty && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(187363);
 						}
 					case 'attack_95acc':
-						if(Paths.formatToSongPath(SONG.song) == 'attack' && ratingPercent >= 0.95 && !usedPractice) {
+						if(Paths.formatToSongPath(SONG.song) == 'attack' && ratingPercent >= 0.95 && !usedPractice && !opponentChart && !randomMode) {
 							unlock = true;
 							GameJoltAPI.getTrophy(185152);
 						}	
@@ -13502,7 +13614,7 @@ class PlayState extends MusicBeatState
 							}
 						}
 					case 'insanity':
-						if (instakillOnMiss && fadeOut && fadeIn && drunkGame && !pussyMode && pendulumMode && !usedPractice && !changedDifficulty && Paths.formatToSongPath(SONG.song) != 'bopeebo') {
+						if (instakillOnMiss && fadeOut && fadeIn && drunkGame && !pussyMode && pendulumMode && !usedPractice && !changedDifficulty && !opponentChart && Paths.formatToSongPath(SONG.song) != 'bopeebo') {
 							unlock = true;
 							GameJoltAPI.getTrophy(185156);
 						}					

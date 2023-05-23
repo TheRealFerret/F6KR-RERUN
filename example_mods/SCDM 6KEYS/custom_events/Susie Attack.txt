@@ -1,0 +1,1 @@
+Value 1: Grace period (Must be higher than 0.6 but lower than 2)

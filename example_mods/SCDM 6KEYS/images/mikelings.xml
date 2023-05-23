@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mikelings.png"><SubTexture name="mikelings vroom0000" x="0" y="0" width="1236" height="467" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0001" x="2472" y="0" width="1236" height="465" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0002" x="0" y="467" width="1236" height="467" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0003" x="2472" y="465" width="1236" height="465" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0004" x="1236" y="0" width="1236" height="467" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0005" x="2472" y="930" width="1236" height="465" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0006" x="1236" y="467" width="1236" height="467" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0007" x="2472" y="1395" width="1236" height="465" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0008" x="0" y="934" width="1236" height="467" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0009" x="2472" y="1860" width="1236" height="465" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0010" x="1236" y="934" width="1236" height="467" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0011" x="0" y="2335" width="1236" height="465" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0012" x="0" y="1401" width="1236" height="467" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0013" x="1236" y="2335" width="1236" height="465" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0014" x="1236" y="1401" width="1236" height="467" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0015" x="2472" y="2335" width="1236" height="465" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0016" x="0" y="1868" width="1236" height="467" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0017" x="0" y="2800" width="1236" height="465" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0018" x="1236" y="1868" width="1236" height="467" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+<SubTexture name="mikelings vroom0019" x="1236" y="2800" width="1236" height="465" frameX="-19" frameY="-29" frameWidth="1300" frameHeight="500" />
+</TextureAtlas>

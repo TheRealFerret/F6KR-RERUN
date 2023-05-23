@@ -14,6 +14,7 @@ class ClientPrefs {
 	public static var flashing:Bool = true;
 	public static var globalAntialiasing:Bool = true;
 	public static var noteSplashes:Bool = true;
+	public static var fullScreen:Bool = false;
 	public static var lowQuality:Bool = false;
 	public static var shaders:Bool = true;
 	public static var framerate:Int = 60;
@@ -63,16 +64,18 @@ class ClientPrefs {
 		'healthloss' => 1.0,
 		'healthdrain' => 0,
 		'instakill' => false,
+		'opponentplay' => false,
 		'sickonly' => false,
 		'fadeout' => false,
 		'fadein' => false,
+		'invisiblenotes' => false,
 		'drunkgame' => false,
+		'randommode' => false,
 		'pussymode' => false,
 		'hellmode' => false,
 		'pendulummode' => false,
 		'practice' => false,
-		'botplay' => false,
-		'opponentplay' => false
+		'botplay' => false
 	];
 
 	public static var comboOffset:Array<Int> = [0, 0, 0, 0];
@@ -310,6 +313,7 @@ class ClientPrefs {
 		FlxG.save.data.flashing = flashing;
 		FlxG.save.data.globalAntialiasing = globalAntialiasing;
 		FlxG.save.data.noteSplashes = noteSplashes;
+		FlxG.save.data.fullScreen = fullScreen;
 		FlxG.save.data.lowQuality = lowQuality;
 		FlxG.save.data.shaders = shaders;
 		FlxG.save.data.framerate = framerate;
@@ -379,6 +383,9 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.noteSplashes != null) {
 			noteSplashes = FlxG.save.data.noteSplashes;
+		}
+		if(FlxG.save.data.fullScreen != null) {
+			fullScreen = FlxG.save.data.fullScreen;
 		}
 		if(FlxG.save.data.lowQuality != null) {
 			lowQuality = FlxG.save.data.lowQuality;

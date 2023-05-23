@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="jev.png"><SubTexture name="jev idle0000" x="0" y="675" width="610" height="586" frameX="-128" frameY="-129" frameWidth="800" frameHeight="800" />
+<SubTexture name="jev smug0000" x="1243" y="675" width="454" height="492" frameX="-188" frameY="-283" frameWidth="800" frameHeight="800" />
+<SubTexture name="jev down0000" x="0" y="1261" width="719" height="445" frameX="-77" frameY="-269" frameWidth="800" frameHeight="800" />
+<SubTexture name="jev up0000" x="0" y="0" width="668" height="675" frameX="-66" frameY="-5" frameWidth="800" frameHeight="800" />
+<SubTexture name="jev left0000" x="668" y="0" width="544" height="608" frameX="-58" frameY="-131" frameWidth="800" frameHeight="800" />
+<SubTexture name="jev right0000" x="610" y="675" width="633" height="536" frameX="-150" frameY="-181" frameWidth="800" frameHeight="800" />
+<SubTexture name="jev smile0000" x="1212" y="0" width="669" height="599" frameX="-79" frameY="-94" frameWidth="800" frameHeight="800" />
+</TextureAtlas>

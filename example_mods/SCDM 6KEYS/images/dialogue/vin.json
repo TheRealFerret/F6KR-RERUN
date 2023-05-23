@@ -1,0 +1,77 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-220,
+		-230
+	],
+	"no_antialiasing": false,
+	"scale": 0.75,
+	"animations": [
+		{
+			"loop_name": "vin idle",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "vin idle0",
+			"anim": "idle",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "vin up",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "vin up0",
+			"anim": "up",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "vin left",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "vin left0",
+			"anim": "left",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "vin right",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "vin right0",
+			"anim": "right",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "vin down",
+			"idle_offsets": [
+				0,
+				10
+			],
+			"idle_name": "vin down0",
+			"anim": "down",
+			"loop_offsets": [
+				0,
+				10
+			]
+		}
+	],
+	"image": "vin"
+}

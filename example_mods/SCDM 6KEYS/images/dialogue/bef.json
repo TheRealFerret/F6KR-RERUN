@@ -1,0 +1,103 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		20,
+		-340
+	],
+	"no_antialiasing": false,
+	"scale": 0.95,
+	"animations": [
+		{
+			"loop_name": "bef dark",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bef dark0",
+			"anim": "dark",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bef idle",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bef idle0",
+			"anim": "idle",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bef hey",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bef hey0",
+			"anim": "hey",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bef up",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bef up0",
+			"anim": "up",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bef left",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bef left0",
+			"anim": "left",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bef right",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bef right0",
+			"anim": "right",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "bef down",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "bef down0",
+			"anim": "down",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "bef"
+}

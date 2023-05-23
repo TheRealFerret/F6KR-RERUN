@@ -1,0 +1,25 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-250,
+		-180
+	],
+	"no_antialiasing": true,
+	"scale": 0.75,
+	"animations": [
+		{
+			"loop_name": "starwalker idle",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "starwalker idle0000",
+			"anim": "idle",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "starwalker"
+}

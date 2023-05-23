@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="kris.png"><SubTexture name="kris kris0000" x="0" y="0" width="659" height="680" frameX="-92" frameY="-240" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

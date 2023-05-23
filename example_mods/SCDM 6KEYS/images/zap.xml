@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="zap.png"><SubTexture name=" zap zap0000" x="1248" y="0" width="504" height="675" frameX="-181" frameY="-38" frameWidth="720" frameHeight="720" />
+<SubTexture name=" zap zap0001" x="0" y="0" width="528" height="720" frameX="-166" frameY="0" frameWidth="720" frameHeight="720" />
+<SubTexture name=" zap zap0002" x="0" y="720" width="487" height="545" frameX="-182" frameY="-147" frameWidth="720" frameHeight="720" />
+<SubTexture name=" zap zap0003" x="487" y="720" width="340" height="434" frameX="-278" frameY="-255" frameWidth="720" frameHeight="720" />
+<SubTexture name=" zap zap0004" x="827" y="720" width="124" height="141" frameX="-437" frameY="-355" frameWidth="720" frameHeight="720" />
+<SubTexture name=" zap zap0005" x="528" y="0" width="720" height="720" frameX="0" frameY="0" frameWidth="720" frameHeight="720" />
+<SubTexture name=" zap zap0006" x="528" y="0" width="720" height="720" frameX="0" frameY="0" frameWidth="720" frameHeight="720" />
+<SubTexture name=" zap zap0007" x="528" y="0" width="720" height="720" frameX="0" frameY="0" frameWidth="720" frameHeight="720" />
+</TextureAtlas>

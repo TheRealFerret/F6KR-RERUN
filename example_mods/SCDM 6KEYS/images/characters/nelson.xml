@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="nelson.png"><SubTexture name="nelson dance left0000" x="2831" y="2449" width="721" height="730" frameX="-32" frameY="-148" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson dance left0001" x="2921" y="1475" width="714" height="736" frameX="-36" frameY="-143" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson dance left0002" x="714" y="1706" width="714" height="742" frameX="-36" frameY="-137" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson dance left0003" x="2212" y="0" width="709" height="743" frameX="-39" frameY="-136" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson dance right0000" x="0" y="2449" width="721" height="732" frameX="-32" frameY="-148" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson dance right0001" x="2921" y="738" width="714" height="737" frameX="-36" frameY="-143" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson dance right0002" x="0" y="1706" width="714" height="743" frameX="-36" frameY="-137" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson dance right0003" x="2212" y="0" width="709" height="743" frameX="-39" frameY="-136" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson left0000" x="3715" y="1458" width="698" height="726" frameX="-17" frameY="-110" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson left0001" x="1425" y="2449" width="703" height="731" frameX="-13" frameY="-116" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson left0002" x="2212" y="743" width="704" height="732" frameX="-11" frameY="-119" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson right0000" x="2187" y="3181" width="795" height="720" frameX="-112" frameY="-138" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson right0001" x="3715" y="0" width="793" height="729" frameX="-107" frameY="-137" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson right0002" x="1428" y="1706" width="794" height="738" frameX="-98" frameY="-139" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson down0000" x="0" y="3181" width="729" height="725" frameX="-28" frameY="-148" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson down0001" x="4508" y="0" width="733" height="708" frameX="-23" frameY="-156" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson down0002" x="0" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson up0000" x="0" y="0" width="747" height="859" frameX="-15" frameY="-43" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson up0001" x="1494" y="0" width="718" height="847" frameX="-10" frameY="-54" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson up0002" x="718" y="859" width="720" height="839" frameX="-10" frameY="-61" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson left-alt0000" x="3715" y="2184" width="698" height="726" frameX="-17" frameY="-110" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson left-alt0001" x="2128" y="2449" width="703" height="731" frameX="-13" frameY="-116" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson left-alt0002" x="721" y="2449" width="704" height="732" frameX="-11" frameY="-119" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson right-alt0000" x="2982" y="3181" width="795" height="720" frameX="-112" frameY="-138" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson right-alt0001" x="3715" y="729" width="793" height="729" frameX="-107" frameY="-137" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson right-alt0002" x="2921" y="0" width="794" height="738" frameX="-98" frameY="-139" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson down-alt0000" x="729" y="3181" width="729" height="725" frameX="-28" frameY="-148" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson down-alt0001" x="4508" y="708" width="733" height="708" frameX="-23" frameY="-156" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson down-alt0002" x="736" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson up-alt0000" x="747" y="0" width="747" height="859" frameX="-15" frameY="-43" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson up-alt0001" x="0" y="859" width="718" height="847" frameX="-10" frameY="-54" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson up-alt0002" x="1438" y="859" width="720" height="839" frameX="-10" frameY="-61" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0000" x="1458" y="3181" width="729" height="725" frameX="-28" frameY="-148" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0001" x="4508" y="1416" width="733" height="708" frameX="-23" frameY="-156" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0002" x="1472" y="3906" width="738" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0003" x="2210" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0004" x="2210" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0005" x="2210" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0006" x="2210" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0007" x="2946" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0008" x="3682" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0009" x="4418" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0010" x="5241" y="0" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0011" x="5241" y="688" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0012" x="5241" y="688" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0013" x="5241" y="1376" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0014" x="5241" y="2064" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0015" x="5241" y="2064" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0016" x="3682" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0017" x="5241" y="2752" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0018" x="5241" y="3440" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0019" x="0" y="4594" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0020" x="5241" y="2064" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0021" x="4418" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0022" x="5241" y="2064" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0023" x="736" y="4594" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0024" x="5241" y="2064" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0025" x="5241" y="1376" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0026" x="5241" y="1376" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0027" x="5241" y="1376" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0028" x="5241" y="1376" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0029" x="5241" y="1376" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0030" x="5241" y="1376" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0031" x="4508" y="2124" width="733" height="708" frameX="-23" frameY="-156" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0032" x="1472" y="4594" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0033" x="2208" y="4594" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0034" x="4418" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0035" x="5241" y="0" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0036" x="5241" y="0" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0037" x="5241" y="688" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0038" x="5241" y="688" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0039" x="2944" y="4594" width="747" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0040" x="3691" y="4594" width="839" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0041" x="4530" y="4594" width="845" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0042" x="4530" y="4594" width="845" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0043" x="0" y="5282" width="845" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0044" x="845" y="5282" width="845" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0045" x="845" y="5282" width="845" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0046" x="845" y="5282" width="845" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0047" x="845" y="5282" width="845" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0048" x="845" y="5282" width="845" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0049" x="845" y="5282" width="845" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0050" x="845" y="5282" width="845" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson foryou0051" x="845" y="5282" width="845" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0000" x="1458" y="3181" width="729" height="725" frameX="-28" frameY="-148" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0001" x="4508" y="1416" width="733" height="708" frameX="-23" frameY="-156" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0002" x="1472" y="3906" width="738" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0003" x="2210" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0004" x="2210" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0005" x="2210" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0006" x="2210" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0007" x="2210" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0008" x="2210" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0009" x="2210" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0010" x="2210" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0011" x="2210" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0012" x="2946" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0013" x="3682" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0014" x="4418" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0015" x="5241" y="0" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0016" x="5241" y="0" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0017" x="5241" y="688" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0018" x="5241" y="1376" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0019" x="5241" y="1376" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0020" x="1690" y="5282" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0021" x="4418" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0022" x="4418" y="3906" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0023" x="2426" y="5282" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0024" x="3162" y="5282" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0025" x="5241" y="2064" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0026" x="5241" y="2064" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0027" x="5241" y="2064" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0028" x="1690" y="5282" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+<SubTexture name="nelson forme0029" x="3898" y="5282" width="736" height="688" frameX="-22" frameY="-161" frameWidth="920" frameHeight="920" />
+</TextureAtlas>

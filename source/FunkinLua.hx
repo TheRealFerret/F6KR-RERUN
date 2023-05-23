@@ -173,6 +173,7 @@ class FunkinLua {
 		set('healthDrainMult', PlayState.instance.healthDrain);
 		set('playbackRate', PlayState.instance.playbackRate);
 		set('instakillOnMiss', PlayState.instance.instakillOnMiss);
+		set('opponentPlay', PlayState.opponentChart);
 		set('sickOnly', PlayState.instance.sickOnly);
 		set('drunkGame', PlayState.instance.drunkGame);
 		set('pussyMode', PlayState.instance.pussyMode);

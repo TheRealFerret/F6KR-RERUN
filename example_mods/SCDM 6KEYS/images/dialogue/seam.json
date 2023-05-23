@@ -1,0 +1,76 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		-110,
+		-130
+	],
+	"scale": 0.8,
+	"animations": [
+		{
+			"loop_name": "seam idle",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "seam idle0",
+			"anim": "idle",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "seam up",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "seam up0",
+			"anim": "up",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "seam down",
+			"idle_offsets": [
+				-10,
+				50
+			],
+			"idle_name": "seam down0",
+			"anim": "down",
+			"loop_offsets": [
+				-10,
+				50
+			]
+		},
+		{
+			"loop_name": "seam left",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "seam left0",
+			"anim": "left",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "seam right",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "seam right0",
+			"anim": "right",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "seam"
+}

@@ -1,0 +1,90 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-100,
+		-100
+	],
+	"no_antialiasing": false,
+	"scale": 1.25,
+	"animations": [
+		{
+			"loop_name": "mikehawk normal",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "mikehawk normal0",
+			"anim": "normal",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "mikehawk up",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "mikehawk up0",
+			"anim": "up",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "mikehawk left",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "mikehawk left0",
+			"anim": "left",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "mikehawk right",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "mikehawk right0",
+			"anim": "right",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "mikehawk down",
+			"idle_offsets": [
+				20,
+				1
+			],
+			"idle_name": "mikehawk down0",
+			"anim": "down",
+			"loop_offsets": [
+				20,
+				1
+			]
+		},
+		{
+			"loop_name": "mikehawk sweat",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "mikehawk sweat0",
+			"anim": "sweat",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "mikehawk"
+}

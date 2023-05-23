@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				166,
+				102
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "susie idle0"
+		},
+		{
+			"offsets": [
+				210,
+				101
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "susie left0"
+		},
+		{
+			"offsets": [
+				176,
+				95
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "susie down0"
+		},
+		{
+			"offsets": [
+				162,
+				96
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "susie up0"
+		},
+		{
+			"offsets": [
+				182,
+				99
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "susie right0"
+		},
+		{
+			"offsets": [
+				120,
+				100
+			],
+			"loop": false,
+			"fps": 15,
+			"anim": "atk",
+			"indices": [],
+			"name": "susie atk"
+		},
+		{
+			"offsets": [
+				158,
+				99
+			],
+			"loop": false,
+			"fps": 10,
+			"anim": "stop",
+			"indices": [],
+			"name": "susie stop"
+		},
+		{
+			"offsets": [
+				164,
+				98
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "susie idle-alt"
+		},
+		{
+			"offsets": [
+				191,
+				100
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "susie left-alt"
+		},
+		{
+			"offsets": [
+				180,
+				90
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "susie down-alt"
+		},
+		{
+			"offsets": [
+				150,
+				100
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "susie up-alt"
+		},
+		{
+			"offsets": [
+				188,
+				98
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "susie right-alt"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/susie",
+	"position": [
+		-120,
+		-300
+	],
+	"healthicon": "susie",
+	"flip_x": false,
+	"healthbar_colors": [
+		202,
+		71,
+		255
+	],
+	"camera_position": [
+		-40,
+		170
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

@@ -1,0 +1,89 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-160,
+		-500
+	],
+	"scale": 0.7,
+	"animations": [
+		{
+			"loop_name": "imw susie angry talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "imw susie angry talk0000",
+			"anim": "angry talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "imw susie angry0",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "imw susie angry0000",
+			"anim": "angry",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "imw susie angrier0",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "imw susie angrier0000",
+			"anim": "angrier",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "imw susie smile talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "imw susie smile talk0000",
+			"anim": "smile talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "imw susie smile0",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "imw susie smile0000",
+			"anim": "smile",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "imw susie sad0",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "imw susie sad0000",
+			"anim": "sad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "imw susie"
+}

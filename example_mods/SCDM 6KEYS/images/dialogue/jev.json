@@ -1,0 +1,102 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-110,
+		-130
+	],
+	"scale": 0.8,
+	"animations": [
+		{
+			"loop_name": "jev idle",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "jev idle0",
+			"anim": "idle",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "jev up",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "jev up0",
+			"anim": "up",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "jev down",
+			"idle_offsets": [
+				-10,
+				50
+			],
+			"idle_name": "jev down0",
+			"anim": "down",
+			"loop_offsets": [
+				-10,
+				50
+			]
+		},
+		{
+			"loop_name": "jev left",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "jev left0",
+			"anim": "left",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "jev right",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "jev right0",
+			"anim": "right",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "jev smug",
+			"idle_offsets": [
+				0,
+				10
+			],
+			"idle_name": "jev smug0",
+			"anim": "smug",
+			"loop_offsets": [
+				0,
+				10
+			]
+		},
+		{
+			"loop_name": "jev smile",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "jev smile0",
+			"anim": "smile",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "jev"
+}

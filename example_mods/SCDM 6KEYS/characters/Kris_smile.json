@@ -1,0 +1,87 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				146,
+				122
+			],
+			"loop": true,
+			"fps": 9,
+			"anim": "idle",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			],
+			"name": "Kris_smile idle"
+		},
+		{
+			"offsets": [
+				144,
+				121
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Kris_smile left"
+		},
+		{
+			"offsets": [
+				144,
+				127
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Kris_smile down"
+		},
+		{
+			"offsets": [
+				140,
+				134
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Kris_smile up"
+		},
+		{
+			"offsets": [
+				142,
+				122
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Kris_smile right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Kris_smile",
+	"position": [
+		-120,
+		60
+	],
+	"healthicon": "Kris",
+	"flip_x": true,
+	"healthbar_colors": [
+		91,
+		249,
+		255
+	],
+	"camera_position": [
+		40,
+		-70
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

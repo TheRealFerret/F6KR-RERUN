@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				146,
+				122
+			],
+			"indices": [],
+			"fps": 9,
+			"anim": "idle",
+			"loop": true,
+			"name": "Susie_smile idle"
+		},
+		{
+			"offsets": [
+				150,
+				122
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Susie_smile left"
+		},
+		{
+			"offsets": [
+				145,
+				115
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Susie_smile down"
+		},
+		{
+			"offsets": [
+				147,
+				123
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Susie_smile right"
+		},
+		{
+			"offsets": [
+				147,
+				122
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Susie_smile up0"
+		},
+		{
+			"offsets": [
+				147,
+				118
+			],
+			"indices": [],
+			"fps": 5,
+			"anim": "laugh",
+			"loop": false,
+			"name": "Susie_smile up-alt"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Susie_smile",
+	"position": [
+		-120,
+		60
+	],
+	"healthicon": "susie",
+	"flip_x": false,
+	"healthbar_colors": [
+		202,
+		71,
+		255
+	],
+	"camera_position": [
+		330,
+		-20
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

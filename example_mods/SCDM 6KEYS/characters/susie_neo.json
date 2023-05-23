@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				101,
+				119
+			],
+			"indices": [],
+			"fps": 9,
+			"anim": "idle",
+			"loop": true,
+			"name": "susie_neo idle"
+		},
+		{
+			"offsets": [
+				102,
+				119
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "susie_neo left"
+		},
+		{
+			"offsets": [
+				101,
+				119
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "susie_neo down"
+		},
+		{
+			"offsets": [
+				100,
+				119
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "susie_neo right"
+		},
+		{
+			"offsets": [
+				101,
+				119
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "singUP",
+			"loop": false,
+			"name": "susie_neo up"
+		},
+		{
+			"offsets": [
+				101,
+				119
+			],
+			"indices": [],
+			"fps": 5,
+			"anim": "laugh",
+			"loop": false,
+			"name": "susie_neo laugh that is never going to be used lmao"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/susie_neo",
+	"position": [
+		-130,
+		170
+	],
+	"healthicon": "susie",
+	"flip_x": false,
+	"healthbar_colors": [
+		202,
+		71,
+		255
+	],
+	"camera_position": [
+		330,
+		-20
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

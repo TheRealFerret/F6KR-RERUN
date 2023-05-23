@@ -100,6 +100,9 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 		var option:GameplayOption = new GameplayOption('Instakill on Miss', 'instakill', 'bool', false);
 		optionsArray.push(option);
 
+		var option:GameplayOption = new GameplayOption('Play as Opponent\n(VERY Experimental)', 'opponentplay', 'bool', false);
+		optionsArray.push(option);
+
 		var option:GameplayOption = new GameplayOption('Sick Only', 'sickonly', 'bool', false);
 		optionsArray.push(option);
 
@@ -109,7 +112,13 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 		var option:GameplayOption = new GameplayOption('Fade In', 'fadein', 'bool', false);
 		optionsArray.push(option);
 
+		var option:GameplayOption = new GameplayOption('Invisible Notes', 'invisiblenotes', 'bool', false);
+		optionsArray.push(option);
+
 		var option:GameplayOption = new GameplayOption('Drunk Game', 'drunkgame', 'bool', false);
+		optionsArray.push(option);
+
+		var option:GameplayOption = new GameplayOption('Random Mode', 'randommode', 'bool', false);
 		optionsArray.push(option);
 
 		var option:GameplayOption = new GameplayOption('Pussy Mode', 'pussymode', 'bool', false);

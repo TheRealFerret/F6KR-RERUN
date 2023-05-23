@@ -1,0 +1,177 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				59,
+				81
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "jevil left0"
+		},
+		{
+			"offsets": [
+				71,
+				58
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "jevil down0"
+		},
+		{
+			"offsets": [
+				54,
+				83
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "jevil up0"
+		},
+		{
+			"offsets": [
+				-17,
+				65
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "jevil right0"
+		},
+		{
+			"offsets": [
+				76,
+				60
+			],
+			"loop": true,
+			"fps": 12,
+			"anim": "laugh",
+			"indices": [],
+			"name": "jevil laugh"
+		},
+		{
+			"offsets": [
+				80,
+				50
+			],
+			"loop": false,
+			"fps": 11,
+			"anim": "anything",
+			"indices": [],
+			"name": "jevil anything"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				60
+			],
+			"anim": "danceRight",
+			"fps": 12,
+			"name": "jevil dance right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				70
+			],
+			"anim": "danceLeft",
+			"fps": 12,
+			"name": "jevil dance left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				50
+			],
+			"anim": "DanceRIGHT",
+			"fps": 12,
+			"name": "jevil dance right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				54,
+				80
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "jevil left-alt"
+		},
+		{
+			"offsets": [
+				50,
+				70
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "jevil down-alt"
+		},
+		{
+			"offsets": [
+				0,
+				80
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "jevil right-alt"
+		},
+		{
+			"offsets": [
+				40,
+				90
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "jevil up-alt"
+		},
+		{
+			"offsets": [
+				74,
+				57
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "oh",
+			"indices": [],
+			"name": "jevil oh"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/jevil",
+	"position": [
+		-220,
+		50
+	],
+	"healthicon": "jevil",
+	"flip_x": false,
+	"healthbar_colors": [
+		123,
+		81,
+		216
+	],
+	"camera_position": [
+		60,
+		60
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

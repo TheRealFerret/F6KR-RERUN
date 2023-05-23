@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="starwalker.png"><SubTexture name="starwalker idle0000" x="1026" y="0" width="497" height="690" frameX="-224" frameY="-120" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="starwalker idle0001" x="1523" y="0" width="494" height="688" frameX="-224" frameY="-123" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="starwalker idle0002" x="0" y="879" width="494" height="686" frameX="-225" frameY="-124" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="starwalker left0000" x="1116" y="879" width="651" height="591" frameX="-75" frameY="-194" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="starwalker left0001" x="494" y="879" width="622" height="613" frameX="-72" frameY="-188" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="starwalker up0000" x="521" y="0" width="505" height="777" frameX="-176" frameY="-82" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="starwalker up0001" x="0" y="0" width="521" height="879" frameX="-164" frameY="-34" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="starwalker down0000" x="2017" y="868" width="646" height="260" frameX="-115" frameY="-555" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="starwalker down0001" x="2017" y="573" width="611" height="295" frameX="-151" frameY="-520" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="starwalker right0000" x="0" y="1565" width="682" height="561" frameX="-247" frameY="-257" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="starwalker right0001" x="2017" y="0" width="662" height="573" frameX="-240" frameY="-245" frameWidth="1000" frameHeight="1000" />
+</TextureAtlas>

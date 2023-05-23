@@ -1,0 +1,25 @@
+{
+	"position": [
+		-100,
+		-330
+	],
+	"dialogue_pos": "center",
+	"no_antialiasing": false,
+	"scale": 0.9,
+	"image": "ralsei",
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "normal",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "ralsei normal0000",
+			"loop_name": "ralsei normal"
+		}
+	]
+}

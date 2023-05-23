@@ -36,6 +36,14 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 		title = 'Graphics';
 		rpcTitle = 'Graphics Settings Menu'; //for Discord Rich Presence
 
+		var option:Option = new Option('Fullscreen', //Name
+			'If checked, the game gets set to fullscreen\n(Will be disabled on songs that change window properties).', //Description
+			'fullScreen', //Save data variable name
+			'bool', //Variable type
+			false); //Default value
+		option.onChange = onChangeFullscreen;
+		addOption(option);
+
 		//I'd suggest using "Low Quality" as an example for making your own option since it is the simplest here
 		var option:Option = new Option('Low Quality', //Name
 			'If checked, disables some background details,\ndecreases loading times and improves performance.', //Description
@@ -102,4 +110,8 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 			FlxG.updateFramerate = ClientPrefs.framerate;
 		}
 	}
+	function onChangeFullscreen()
+		{
+			FlxG.fullscreen = ClientPrefs.fullScreen;
+		}
 }
