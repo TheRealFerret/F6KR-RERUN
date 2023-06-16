@@ -7189,7 +7189,7 @@ class PlayState extends MusicBeatState
 					var daNoteData:Int = 0;
 					if (!randomMode)
 						daNoteData = Std.int(songNotes[1] % Note.ammo[mania]);
-					if (randomMode && curSong.toLowerCase() == 'triple trouble')
+					if (randomMode && curSong.toLowerCase() != 'triple trouble')
 						daNoteData = FlxG.random.int(0, 5);
 						
 					var gottaHitNote:Bool = section.mustHitSection;
