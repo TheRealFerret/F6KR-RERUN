@@ -80,7 +80,13 @@ class ChartingState extends MusicBeatState
 		'Majin Note',
 		'Fatal Note',
 		'Static Note',
-		'Ice Note'
+		'Ice Note',
+		'Bob Musthit',
+		'Bob Warning',
+		'Hurt Note Hell',
+		'Static Note Hell',
+		'Pixel Note',
+		'Phantom Note'
 	];
 	private var noteTypeIntMap:Map<Int, String> = new Map<Int, String>();
 	private var noteTypeMap:Map<String, Null<Int>> = new Map<String, Null<Int>>();

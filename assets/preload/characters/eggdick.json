@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-13
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "eggman-soul left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				23,
+				8
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "eggman-soul down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-31,
+				45
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "eggman-soul up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				5
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "eggman-soul right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "eggman-soul idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/huevos",
+	"position": [
+		-450,
+		-250
+	],
+	"healthicon": "dick",
+	"flip_x": false,
+	"healthbar_colors": [
+		30,
+		80,
+		94
+	],
+	"camera_position": [
+		10,
+		60
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -8226,7 +8226,7 @@
 		"stage": "defeatold",
 		"needsVoices": true,
 		"validScore": true,
-		"speed": 3,
+		"speed": 3.2,
 		"bpm": 200
 	}
 }

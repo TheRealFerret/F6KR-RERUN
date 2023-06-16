@@ -177,6 +177,7 @@ class FunkinLua {
 		set('sickOnly', PlayState.instance.sickOnly);
 		set('drunkGame', PlayState.instance.drunkGame);
 		set('pussyMode', PlayState.instance.pussyMode);
+		set('hellMode', PlayState.instance.hellMode);
 		set('botPlay', PlayState.instance.cpuControlled);
 		set('practice', PlayState.instance.practiceMode);
 

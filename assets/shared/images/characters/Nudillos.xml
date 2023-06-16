@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Nudillos.png">
+<SubTexture name="knuckles idle0000" x="323" y="571" width="323" height="488" frameX="-238" frameY="-191" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles idle0001" x="323" y="571" width="323" height="488" frameX="-238" frameY="-191" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles idle0002" x="0" y="571" width="323" height="493" frameX="-241" frameY="-186" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles idle0003" x="0" y="571" width="323" height="493" frameX="-241" frameY="-186" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles idle0004" x="891" y="0" width="321" height="498" frameX="-244" frameY="-181" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles idle0005" x="891" y="0" width="321" height="498" frameX="-244" frameY="-181" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles idle0006" x="571" y="0" width="320" height="499" frameX="-244" frameY="-180" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles idle0007" x="571" y="0" width="320" height="499" frameX="-244" frameY="-180" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles idle0008" x="571" y="0" width="320" height="499" frameX="-244" frameY="-180" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles idle0009" x="571" y="0" width="320" height="499" frameX="-244" frameY="-180" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles idle0010" x="571" y="0" width="320" height="499" frameX="-244" frameY="-180" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles idle0011" x="571" y="0" width="320" height="499" frameX="-244" frameY="-180" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles down0000" x="1111" y="1064" width="430" height="366" frameX="-193" frameY="-309" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles down0001" x="1111" y="1064" width="430" height="366" frameX="-193" frameY="-309" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles down0002" x="1212" y="432" width="409" height="371" frameX="-205" frameY="-304" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles down0003" x="1212" y="432" width="409" height="371" frameX="-205" frameY="-304" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles left0000" x="547" y="1064" width="564" height="372" frameX="-50" frameY="-303" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles left0001" x="547" y="1064" width="564" height="372" frameX="-50" frameY="-303" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles left0002" x="0" y="1064" width="547" height="378" frameX="-66" frameY="-297" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles left0003" x="0" y="1064" width="547" height="378" frameX="-66" frameY="-297" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles up0000" x="0" y="0" width="280" height="571" frameX="-312" frameY="-115" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles up0001" x="0" y="0" width="280" height="571" frameX="-312" frameY="-115" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles up0002" x="280" y="0" width="291" height="558" frameX="-305" frameY="-127" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles up0003" x="280" y="0" width="291" height="558" frameX="-305" frameY="-127" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles right0000" x="1212" y="0" width="484" height="432" frameX="-308" frameY="-252" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles right0001" x="1212" y="0" width="484" height="432" frameX="-308" frameY="-252" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles right0002" x="646" y="571" width="468" height="440" frameX="-310" frameY="-244" frameWidth="1086" frameHeight="732" />
+<SubTexture name="knuckles right0003" x="646" y="571" width="468" height="440" frameX="-310" frameY="-244" frameWidth="1086" frameHeight="732" />
+</TextureAtlas>

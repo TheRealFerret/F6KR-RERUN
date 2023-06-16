@@ -1,0 +1,26 @@
+{
+	"storyName": "yea",
+	"hideFreeplay": false,
+	"weekBackground": "yea",
+	"difficulties": "6key",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		""
+	],
+	"songs": [
+		[
+			"Darnell Wet Fart",
+			"starved",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "yea"
+}

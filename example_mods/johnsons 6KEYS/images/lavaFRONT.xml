@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lavaFRONT.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fathog instancia 10000" x="1" y="1" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10001" x="1" y="1" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10002" x="1797" y="1" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10003" x="3593" y="1" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10004" x="5389" y="1" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10005" x="1" y="604" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10006" x="1797" y="604" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10007" x="3593" y="604" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10008" x="5389" y="604" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10009" x="1" y="1207" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10010" x="1797" y="1207" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10011" x="3593" y="1207" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10012" x="5389" y="1207" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10013" x="5389" y="1207" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10014" x="1" y="1810" width="1787" height="594"/>
+	<SubTexture name="fathog instancia 10015" x="1797" y="1810" width="1787" height="594"/>
+</TextureAtlas>

@@ -138,4 +138,9 @@ class CoolUtil
 		FlxG.openURL(site);
 		#end
 	}
+
+	public static function calcSectionLength(multiplier:Float = 1.0):Float
+	{
+		return (Conductor.stepCrochet / (64 / multiplier)) / PlayState.instance.playbackRate;
+	}
 }

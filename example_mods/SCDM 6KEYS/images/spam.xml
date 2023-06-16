@@ -2,22 +2,10 @@
 <TextureAtlas imagePath="spam.png">
 	<!-- Created with Adobe Animate version 21.0.6.41649 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="B tail0000" x="5" y="5" width="50" height="64"/>
-	<SubTexture name="B hold0000" x="60" y="5" width="50" height="44"/>
 	<SubTexture name="B0000" x="115" y="5" width="157" height="154"/>
-	<SubTexture name="C tail0000" x="5" y="5" width="50" height="64"/>
-	<SubTexture name="C hold0000" x="60" y="5" width="50" height="44"/>
 	<SubTexture name="C0000" x="277" y="5" width="157" height="154"/>
 	<SubTexture name="A0000" x="5" y="164" width="154" height="157"/>
-	<SubTexture name="A tail0000" x="5" y="5" width="50" height="64"/>
-	<SubTexture name="A hold0000" x="60" y="5" width="50" height="44"/>
-	<SubTexture name="D tail0000" x="5" y="5" width="50" height="64"/>
-	<SubTexture name="D hold0000" x="60" y="5" width="50" height="44"/>
 	<SubTexture name="D0000" x="164" y="164" width="154" height="157"/>
-	<SubTexture name="I tail0000" x="5" y="5" width="50" height="64"/>
-	<SubTexture name="I hold0000" x="60" y="5" width="50" height="44"/>
-	<SubTexture name="I0000" x="164" y="164" width="154" height="157"/>
 	<SubTexture name="F0000" x="5" y="164" width="154" height="157"/>
-	<SubTexture name="F tail0000" x="5" y="5" width="50" height="64"/>
-	<SubTexture name="F hold0000" x="60" y="5" width="50" height="44"/>
+	<SubTexture name="I0000" x="164" y="164" width="154" height="157"/>
 </TextureAtlas>

@@ -1,0 +1,5 @@
+(PLEASE USE PHILLYGLOWLUA INSTEAD OF THIS ONE)
+
+Will look weird on some Stages
+Value 1: 0/1/2/3 = OFF/ON/Reset Gradient/ON and Reset
+Value 2: Color here (EX: fdB3a6)

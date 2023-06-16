@@ -7158,7 +7158,7 @@
 		"stage": "SONICstage",
 		"validScore": true,
 		"bpm": 135,
-		"speed": 3,
+		"speed": 3.2,
 		"noteStyle": null
 	}
 }

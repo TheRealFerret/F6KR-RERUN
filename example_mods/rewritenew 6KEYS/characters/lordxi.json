@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				40,
+				60
+			],
+			"loop": true,
+			"fps": 30,
+			"anim": "idle",
+			"indices": [],
+			"name": "Lordxi idle"
+		},
+		{
+			"offsets": [
+				40,
+				60
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Lordxi left"
+		},
+		{
+			"offsets": [
+				40,
+				60
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Lordxi down"
+		},
+		{
+			"offsets": [
+				40,
+				60
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Lordxi right"
+		},
+		{
+			"offsets": [
+				40,
+				60
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Lordxi up"
+		},
+		{
+			"offsets": [
+				40,
+				60
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "laugh",
+			"indices": [],
+			"name": "Lordxi laugh"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Lordxi",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "lord_x-dark-icon",
+	"flip_x": false,
+	"healthbar_colors": [
+		60,
+		60,
+		80
+	],
+	"camera_position": [
+		-50,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

@@ -1,0 +1,3 @@
+Will look weird on some Stages
+Value 1: 0/1/2/3/4 = OFF/ON/Reset Gradient/ON and Reset/Set Default Colors
+Value 2: Colors here (EX: fdB3a6 or ff0000, 00ff00, ffffff)

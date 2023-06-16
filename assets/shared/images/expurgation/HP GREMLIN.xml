@@ -34,5 +34,4 @@
 <SubTexture name="HP Gremlin ANIMATION0030" x="1151" y="1461" width="499" height="342" frameX="-264" frameY="-237" frameWidth="915" frameHeight="816"/>
 <SubTexture name="HP Gremlin ANIMATION0031" x="1675" y="1461" width="396" height="364" frameX="-467" frameY="-263" frameWidth="915" frameHeight="816"/>
 <SubTexture name="HP Gremlin ANIMATION0032" x="2096" y="1461" width="380" height="327" frameX="-535" frameY="-354" frameWidth="915" frameHeight="816"/>
-<SubTexture name="HP Gremlin ANIMATION0033" x="2501" y="1461" width="0" height="0" frameX="-180" frameY="-124" frameWidth="915" frameHeight="816"/>
 </TextureAtlas>

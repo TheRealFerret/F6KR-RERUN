@@ -1,0 +1,111 @@
+{
+	"song": {
+		"events": [
+			[
+				58666.6666666667,
+				[
+					[
+						"Screen Shake",
+						"2.5, 0.01",
+						""
+					],
+					[
+						"Change Character",
+						"Dad",
+						"ultrairio"
+					],
+					[
+						"Play Animation",
+						"scream",
+						"Dad"
+					]
+				]
+			],
+			[
+				104000,
+				[
+					[
+						"Cinematics (UnderLap)",
+						"1",
+						"70"
+					],
+					[
+						"Set Cam Zoom",
+						"0.65",
+						"1"
+					],
+					[
+						"Change Character",
+						"Dad",
+						"Irio"
+					]
+				]
+			],
+			[
+				125333.333333333,
+				[
+					[
+						"Cinematics (UnderLap)",
+						"1",
+						"0"
+					],
+					[
+						"Set Cam Zoom",
+						"0.5",
+						"0.2"
+					]
+				]
+			],
+			[
+				125666.666666666,
+				[
+					[
+						"Two_Flashes",
+						"1",
+						"FFFFFF"
+					],
+					[
+						"Change Character",
+						"Dad",
+						"ultrairio"
+					]
+				]
+			],
+			[
+				136000,
+				[
+					[
+						"Set Cam Zoom",
+						"0.7",
+						"0.2"
+					]
+				]
+			],
+			[
+				147000,
+				[
+					[
+						"Two_Flashes",
+						"1.5",
+						"FFFFFF"
+					],
+					[
+						"Set Cam Zoom",
+						"0.5",
+						"1"
+					]
+				]
+			],
+			[
+				156000,
+				[
+					[
+						"Flash Camera",
+						"0.01",
+						"000000"
+					]
+				]
+			]
+		]
+	}
+}

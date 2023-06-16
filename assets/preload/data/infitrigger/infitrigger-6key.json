@@ -9595,7 +9595,7 @@
 		"stage": "bonus",
 		"needsVoices": true,
 		"validScore": true,
-		"speed": 3,
+		"speed": 3.2,
 		"bpm": 220,
 		"noteStyle": null
 	}

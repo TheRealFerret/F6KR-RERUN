@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="youplay.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="youplay0000" x="1" y="1" width="1176" height="466"/>
+	<SubTexture name="youplay0001" x="1186" y="1" width="1176" height="466"/>
+	<SubTexture name="youplay0002" x="2371" y="1" width="1176" height="466"/>
+	<SubTexture name="youplay0003" x="1" y="476" width="1176" height="466"/>
+	<SubTexture name="youplay0004" x="1186" y="476" width="1176" height="466"/>
+	<SubTexture name="youplay0005" x="2371" y="476" width="1176" height="466"/>
+	<SubTexture name="youplay0006" x="1" y="951" width="1176" height="466"/>
+	<SubTexture name="youplay0007" x="1186" y="951" width="1176" height="466"/>
+	<SubTexture name="youplay0008" x="2371" y="951" width="1176" height="466"/>
+	<SubTexture name="youplay0009" x="1" y="1426" width="1176" height="466"/>
+	<SubTexture name="youplay0010" x="1186" y="1426" width="1176" height="466"/>
+	<SubTexture name="youplay0011" x="1" y="1426" width="1176" height="466"/>
+	<SubTexture name="youplay0012" x="1186" y="1426" width="1176" height="466"/>
+	<SubTexture name="youplay0013" x="1" y="1426" width="1176" height="466"/>
+	<SubTexture name="youplay0014" x="1186" y="1426" width="1176" height="466"/>
+	<SubTexture name="youplay0015" x="1" y="1426" width="1176" height="466"/>
+	<SubTexture name="youplay0016" x="1186" y="1426" width="1176" height="466"/>
+	<SubTexture name="youplay0017" x="1" y="1426" width="1176" height="466"/>
+	<SubTexture name="youplay0018" x="1186" y="951" width="1176" height="466"/>
+	<SubTexture name="youplay0019" x="2371" y="951" width="1176" height="466"/>
+	<SubTexture name="youplay0020" x="2371" y="1426" width="1176" height="466"/>
+	<SubTexture name="youplay0021" x="1" y="1901" width="1176" height="466"/>
+	<SubTexture name="youplay0022" x="1186" y="1901" width="1176" height="466"/>
+	<SubTexture name="youplay0023" x="2371" y="1901" width="1176" height="466"/>
+	<SubTexture name="youplay0024" x="1" y="2376" width="1176" height="466"/>
+	<SubTexture name="youplay0025" x="1186" y="1" width="1176" height="466"/>
+	<SubTexture name="youplay0026" x="2371" y="1" width="1176" height="466"/>
+	<SubTexture name="youplay0027" x="1" y="1" width="1176" height="466"/>
+	<SubTexture name="youplay0028" x="1186" y="2376" width="1176" height="466"/>
+	<SubTexture name="youplay0029" x="1186" y="2376" width="1176" height="466"/>
+	<SubTexture name="youplay0030" x="1186" y="2376" width="1176" height="466"/>
+	<SubTexture name="youplay0031" x="1186" y="2376" width="1176" height="466"/>
+	<SubTexture name="youplay0032" x="1186" y="2376" width="1176" height="466"/>
+	<SubTexture name="youplay0033" x="1186" y="2376" width="1176" height="466"/>
+</TextureAtlas>

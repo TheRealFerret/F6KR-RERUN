@@ -8586,7 +8586,7 @@
 		"validScore": true,
 		"stage": "fleet",
 		"needsVoices": true,
-		"speed": 2.6,
+		"speed": 2.8,
 		"bpm": 160,
 		"noteStyle": null
 	}

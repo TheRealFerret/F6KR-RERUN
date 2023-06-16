@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				40,
+				60
+			],
+			"loop": true,
+			"fps": 30,
+			"anim": "idle",
+			"indices": [],
+			"name": "majinexe idle"
+		},
+		{
+			"offsets": [
+				40,
+				60
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "majinexe left"
+		},
+		{
+			"offsets": [
+				40,
+				60
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "majinexe down"
+		},
+		{
+			"offsets": [
+				40,
+				60
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "singUP",
+			"indices": [],
+			"name": "majinexe up"
+		},
+		{
+			"offsets": [
+				40,
+				60
+			],
+			"loop": false,
+			"fps": 30,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "majinexe right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Majinexe",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "majinexe-icons",
+	"flip_x": false,
+	"healthbar_colors": [
+		60,
+		0,
+		255
+	],
+	"camera_position": [
+		-50,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

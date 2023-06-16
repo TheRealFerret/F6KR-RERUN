@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Run", "hellbob", [0, 0, 0]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "6KEYS6KEYS6KEYS",
+	"weekBefore": "tutorial",
+	"weekName": "Week 6K",
+	"difficulties": "6Key",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

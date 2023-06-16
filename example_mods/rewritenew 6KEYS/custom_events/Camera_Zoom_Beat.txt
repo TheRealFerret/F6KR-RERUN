@@ -1,0 +1,8 @@
+Value 1: Amount of beats it will bop
+Value 2: Zoom Multiplier (Default is 1)
+
+This event checks on every step hit, so yes, you can put
+quarter, half and three quarter decimals on value 1.
+
+Also, leave value 1 blank to return to the default
+camera bopping.

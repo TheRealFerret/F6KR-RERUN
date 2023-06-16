@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle instancia"
+		},
+		{
+			"offsets": [
+				20,
+				-90
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down instancia"
+		},
+		{
+			"offsets": [
+				0,
+				160
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up instancia"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				80,
+				10
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "right instancia",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "left instancia",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/irios",
+	"position": [
+		-120,
+		170
+	],
+	"healthicon": "irios",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		20,
+		102
+	],
+	"camera_position": [
+		-270,
+		180
+	],
+	"sing_duration": 6.1,
+	"scale": 0.6
+}

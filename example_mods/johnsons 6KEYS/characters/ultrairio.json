@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				50,
+				-80
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-79,
+				308
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				164,
+				37
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-110,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-70,
+				160
+			],
+			"anim": "scream",
+			"fps": 24,
+			"name": "scream",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/ultrairios",
+	"position": [
+		-20,
+		340
+	],
+	"healthicon": "ultrairios",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		-320,
+		20
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1
+}

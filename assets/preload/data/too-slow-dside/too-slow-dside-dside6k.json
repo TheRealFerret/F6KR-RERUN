@@ -7613,7 +7613,7 @@
 		"validScore": true,
 		"needsVoices": true,
 		"stage": "sonicstagedside",
-		"speed": 2.8,
+		"speed": 3,
 		"bpm": 192
 	}
 }

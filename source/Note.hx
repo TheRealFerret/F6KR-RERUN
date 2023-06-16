@@ -140,6 +140,8 @@ class Note extends FlxSprite
 	public var hitsoundDisabled:Bool = false;
 	public var changeAnim:Bool = true;
 	public var changeColSwap:Bool = true;
+
+	public var noteIsPixel:Bool = false;
 	
 	public function resizeByRatio(ratio:Float) //haha funny twitter shit
 		{
@@ -189,10 +191,51 @@ class Note extends FlxSprite
 					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
 						this.kill();
 					else {
-						ignoreNote = mustPress;
+						if (PlayState.SONG.song.toLowerCase() == 'madness' && !PlayState.opponentChart)
+							ignoreNote = false;
+						else
+							ignoreNote = true;
+
 						hitByOpponent = false;
-						reloadNote('HURT');
-						noteSplashTexture = 'HURTnoteSplashes';
+
+						if (PlayState.SONG.song.toLowerCase() == 'madness'){
+							reloadNote('FIRE');
+							setGraphicSize(Std.int(width * 1.86));
+							noteSplashTexture = 'FIREnoteSplashes';
+						}
+						else{
+							reloadNote('HURT');
+							noteSplashTexture = 'HURTnoteSplashes';
+						}
+
+						colorSwap.hue = 0;
+						colorSwap.saturation = 0;
+						colorSwap.brightness = 0;
+						lowPriority = true;
+						if(isSustainNote) {
+							missHealth = 0.1;
+						} else {
+							missHealth = 0.3;
+						}
+						hitCausesMiss = true;
+					}
+				case 'Hurt Note Hell':
+					if (PlayState.instance.hellMode == false)
+						this.kill();
+					else {
+						ignoreNote = true;
+						hitByOpponent = false;
+
+						if (PlayState.SONG.song.toLowerCase() == 'madness'){
+							reloadNote('FIRE');
+							setGraphicSize(Std.int(width * 1.86));
+							noteSplashTexture = 'FIREnoteSplashes';
+						}
+						else{
+							reloadNote('HURT');
+							noteSplashTexture = 'HURTnoteSplashes';
+						}
+
 						colorSwap.hue = 0;
 						colorSwap.saturation = 0;
 						colorSwap.brightness = 0;
@@ -258,9 +301,17 @@ class Note extends FlxSprite
 					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
 						this.kill();
 					else {
-						ignoreNote = mustPress;
+						ignoreNote = true;
 						hitByOpponent = false;
-						reloadNote('DEATH');
+						if (PlayState.SONG.song.toLowerCase() == 'epiphany')
+							reloadNote('MARKOV');
+						else if (PlayState.SONG.song.toLowerCase() == 'expurgation'){
+							reloadNote('HALO');
+							setGraphicSize(Std.int(width * 3.86));
+						}
+						else
+							reloadNote('DEATH');
+
 						noteSplashTexture = 'HURTnoteSplashes';
 						colorSwap.hue = 0;
 						colorSwap.saturation = 0;
@@ -293,14 +344,17 @@ class Note extends FlxSprite
 					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
 						this.kill();
 					hitByOpponent = false;
+					ignoreNote = true;
 				case 'jumpScareNote':
 					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
 						this.kill();
 					hitByOpponent = false;
+					ignoreNote = true;
 				case 'Bomb Note':
 					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
 						this.kill();
 					hitByOpponent = false;
+					ignoreNote = true;
 				case 'Deli Note':
 					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
 						this.kill();
@@ -309,7 +363,7 @@ class Note extends FlxSprite
 						colorSwap.hue = 0;
 						colorSwap.saturation = 0;
 						colorSwap.brightness = 0;
-						ignoreNote = mustPress;
+						ignoreNote = true;
 						hitByOpponent = false;
 						lowPriority = true;
 						hitCausesMiss = true;
@@ -323,7 +377,7 @@ class Note extends FlxSprite
 						colorSwap.hue = 0;
 						colorSwap.saturation = 0;
 						colorSwap.brightness = 0;
-						ignoreNote = mustPress;
+						ignoreNote = true;
 						lowPriority = true;
 						hitCausesMiss = true;
 						hitByOpponent = false;
@@ -333,13 +387,16 @@ class Note extends FlxSprite
 				case 'Static Note':
 					if (PlayState.instance.pussyMode == false)
 						reloadNote('STATIC');
+				case 'Static Note Hell':
+					if (PlayState.instance.hellMode == true)
+						reloadNote('STATIC');
 				case 'Ice Note':
 					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
 						this.kill();
 					else {
 						//hitbox*=.5;
 						lowPriority = true;
-						ignoreNote = mustPress;
+						ignoreNote = true;
 						hitByOpponent = false;
 						reloadNote('ICE');
 						noteSplashTexture = 'ICEnoteSplashes';
@@ -347,6 +404,46 @@ class Note extends FlxSprite
 						colorSwap.saturation = 0;
 						colorSwap.brightness = 0;
 					}
+				case 'Bob Musthit':
+					if (PlayState.instance.pussyMode == true)
+						hitHealth = 0.03;
+					else {
+						//hitbox*=.5;
+						reloadNote('BOB');
+						colorSwap.hue = 0;
+						colorSwap.saturation = 0;
+						colorSwap.brightness = 0;
+						hitHealth = 0.03;
+					}
+				case 'Bob Warning':
+					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
+						this.kill();
+					else {
+						//hitbox*=.5;
+						lowPriority = true;
+						ignoreNote = true;
+						hitByOpponent = false;
+						reloadNote('BOBINVERT');
+						colorSwap.hue = 0;
+						colorSwap.saturation = 0;
+						colorSwap.brightness = 0;
+						hitCausesMiss = true;
+					}
+				case 'spam':
+					if (PlayState.instance.hellMode == false)
+						this.kill();
+					ignoreNote = true;
+					hitByOpponent = false;
+				case 'Pixel Note':
+					noteIsPixel = true;
+					reloadNote('SONIC');
+				case 'Phantom Note':
+					lowPriority = true;
+					ignoreNote = true;
+					hitByOpponent = false;
+					reloadNote('PHANTOM');
+					ignoreNote = true;
+					hitCausesMiss = true;
 			}
 			noteType = value;
 		}
@@ -408,7 +505,7 @@ class Note extends FlxSprite
 
 			offsetX -= width / 2;
 
-			if (PlayState.isPixelStage)
+			if (PlayState.isPixelStage||noteIsPixel)
 				offsetX += 30 * Note.pixelScales[mania];
 
 			if (prevNote.isSustainNote)
@@ -421,7 +518,7 @@ class Note extends FlxSprite
 					prevNote.scale.y *= PlayState.instance.songSpeed;
 				}
 
-				if(PlayState.isPixelStage) { ///Y E  A H
+				if(PlayState.isPixelStage||noteIsPixel) { ///Y E  A H
 					prevNote.scale.y *= 1.19;
 					prevNote.scale.y *= (6 / height); //Auto adjust note size
 				}
@@ -429,7 +526,7 @@ class Note extends FlxSprite
 				// prevNote.setGraphicSize();
 			}
 
-			if(PlayState.isPixelStage) {
+			if(PlayState.isPixelStage||noteIsPixel) {
 				scale.y *= PlayState.daPixelZoom;
 				updateHitbox();
 			}
@@ -499,9 +596,42 @@ class Note extends FlxSprite
 				}*/
 			}
 		} else {
-			frames = Paths.getSparrowAtlas(blahblah);
-			loadNoteAnims();
-			antialiasing = ClientPrefs.globalAntialiasing;
+			if (noteIsPixel){
+				if(isSustainNote) {
+					loadGraphic(Paths.image('pixelUI/' + blahblah + 'ENDS'));
+					width = width / pixelNotesDivisionValue;
+					height = height / 2;
+					originalHeightForCalcs = height;
+					loadGraphic(Paths.image('pixelUI/' + blahblah + 'ENDS'), true, Math.floor(width), Math.floor(height));
+				} else {
+					loadGraphic(Paths.image('pixelUI/' + blahblah));
+					width = width / pixelNotesDivisionValue;
+					height = height / 5;
+					loadGraphic(Paths.image('pixelUI/' + blahblah), true, Math.floor(width), Math.floor(height));
+				}
+				defaultWidth = width;
+				setGraphicSize(Std.int(width * PlayState.daPixelZoom * Note.pixelScales[mania]));
+				loadPixelNoteAnims();
+				antialiasing = false;
+	
+				if(isSustainNote) {
+					offsetX += lastNoteOffsetXForPixelAutoAdjusting;
+					lastNoteOffsetXForPixelAutoAdjusting = (width - 7) * (PlayState.daPixelZoom / 2);
+					offsetX -= lastNoteOffsetXForPixelAutoAdjusting;
+					
+					/*if(animName != null && !animName.endsWith('end'))
+					{
+						lastScaleY /= lastNoteScaleToo;
+						lastNoteScaleToo = (6 / height);
+						lastScaleY *= lastNoteScaleToo; 
+					}*/
+				}
+			}
+			else{
+				frames = Paths.getSparrowAtlas(blahblah);
+				loadNoteAnims();
+				antialiasing = ClientPrefs.globalAntialiasing;
+			}
 		}
 		if(isSustainNote) {
 			scale.y = lastScaleY;

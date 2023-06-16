@@ -150,6 +150,14 @@ class FreeplayState extends MusicBeatState
 
 		add(scoreText);
 
+		var switchBF:FlxText = new FlxText(800, 75, 0, "Press \"ONE\" to change BF", 32);
+		switchBF.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		add(switchBF);
+
+		var switchGF:FlxText = new FlxText(800, 125, 0, "Press \"TWO\" to change GF", 32);
+		switchGF.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		add(switchGF);
+
 		if(curSelected >= songs.length) curSelected = 0;
 		bg.color = songs[curSelected].color;
 		intendedColor = bg.color;
@@ -197,6 +205,8 @@ class FreeplayState extends MusicBeatState
 		text.setFormat(Paths.font("vcr.ttf"), size, FlxColor.WHITE, RIGHT);
 		text.scrollFactor.set();
 		add(text);
+
+
 		super.create();
 	}
 
@@ -319,6 +329,24 @@ class FreeplayState extends MusicBeatState
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 			MusicBeatState.switchState(new MainMenuState());
 		}
+
+		if (FlxG.keys.justPressed.ONE)
+			{
+				persistentUpdate = false;
+				if(colorTween != null) {
+					colorTween.cancel();
+				}
+				MusicBeatState.switchState(new BFSelectState());
+			}
+
+		if (FlxG.keys.justPressed.TWO)
+			{
+				persistentUpdate = false;
+				if(colorTween != null) {
+					colorTween.cancel();
+				}
+				MusicBeatState.switchState(new GFSelectState());
+			}
 
 		if(ctrl)
 		{

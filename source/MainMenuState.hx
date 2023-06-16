@@ -29,7 +29,7 @@ class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.6.3'; //This is also used for Discord RPC
 	public static var extraKeysVersion:String = '0.3';
-	public static var f6krVersion:String = '0.3.4';
+	public static var f6krVersion:String = '0.4.0';
 	public static var curSelected:Int = 0;
 	public static var launchChance:Dynamic = null;
 
@@ -42,7 +42,8 @@ class MainMenuState extends MusicBeatState
 		#if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'credits',
 		'options',
-		'gamejolt'
+		'gamejolt',
+		'discord'
 	];
 
 	var magenta:FlxSprite;
@@ -231,9 +232,9 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (optionShit[curSelected] == 'donate')
+				if (optionShit[curSelected] == 'discord')
 				{
-					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
+					CoolUtil.browserLoad('https://discord.com/invite/nxxa34eBYF');
 				}
 				else
 				{

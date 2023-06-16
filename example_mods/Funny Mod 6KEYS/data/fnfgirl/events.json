@@ -1,0 +1,56 @@
+{
+	"song": {
+		"events": [
+			[
+				38400,
+				[
+					[
+						"Image Flash",
+						"white",
+						"0.01"
+					],
+					[
+						"Change Character",
+						"1",
+						"funnyhotdoggf"
+					]
+				]
+			],
+			[
+				83111.1111111111,
+				[
+					[
+						"Change Character",
+						"1",
+						"funnygf"
+					]
+				]
+			],
+			[
+				108800,
+				[
+					[
+						"Hey!",
+						"gf",
+						""
+					]
+				]
+			],
+			[
+				147466.666666667,
+				[
+					[
+						"Change Character",
+						"1",
+						"funnyhotdoggf"
+					],
+					[
+						"Image Flash",
+						"white",
+						"0.01"
+					]
+				]
+			]
+		]
+	}
+}

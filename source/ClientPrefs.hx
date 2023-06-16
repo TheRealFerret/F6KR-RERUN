@@ -7,6 +7,9 @@ import flixel.graphics.FlxGraphic;
 import Controls;
 
 class ClientPrefs {
+	public static var bfSkin:String = 'bf';
+	public static var gfSkin:String = 'gf';
+	public static var happybob:Bool = false;
 	public static var downScroll:Bool = false;
 	public static var middleScroll:Bool = false;
 	public static var opponentStrums:Bool = true;
@@ -306,6 +309,7 @@ class ClientPrefs {
 	}*/
 
 	public static function saveSettings() {
+		FlxG.save.data.happybob = happybob;
 		FlxG.save.data.downScroll = downScroll;
 		FlxG.save.data.middleScroll = middleScroll;
 		FlxG.save.data.opponentStrums = opponentStrums;
@@ -317,6 +321,8 @@ class ClientPrefs {
 		FlxG.save.data.lowQuality = lowQuality;
 		FlxG.save.data.shaders = shaders;
 		FlxG.save.data.framerate = framerate;
+		FlxG.save.data.bfSkin = bfSkin;
+		FlxG.save.data.gfSkin = gfSkin;
 		//FlxG.save.data.cursing = cursing;
 		//FlxG.save.data.violence = violence;
 		FlxG.save.data.camZooms = camZooms;
@@ -360,6 +366,9 @@ class ClientPrefs {
 	}
 
 	public static function loadPrefs() {
+		if(FlxG.save.data.happybob != null) {
+			happybob = FlxG.save.data.happybob;
+		}
 		if(FlxG.save.data.downScroll != null) {
 			downScroll = FlxG.save.data.downScroll;
 		}
@@ -402,6 +411,12 @@ class ClientPrefs {
 				FlxG.drawFramerate = framerate;
 				FlxG.updateFramerate = framerate;
 			}
+		}
+		if(FlxG.save.data.bfSkin != null) {
+			bfSkin = FlxG.save.data.bfSkin;
+		}
+		if(FlxG.save.data.gfSkin != null) {
+			gfSkin = FlxG.save.data.gfSkin;
 		}
 		/*if(FlxG.save.data.cursing != null) {
 			cursing = FlxG.save.data.cursing;

@@ -60,7 +60,11 @@ function onUpdate(elapsed)
 end
 
 function noteMiss(id, direction, noteType, isSustainNote)
-    miss = miss + 1
+    if noteType == 'Bomb Note' then
+        miss = miss + 3
+    else
+        miss = miss + 1
+    end
     playSound('xMiss')
 
     xUpdate()

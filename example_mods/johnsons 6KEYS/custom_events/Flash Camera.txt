@@ -1,0 +1,3 @@
+Flashbang kabooom
+
+Value 1: Speed of the flashbang

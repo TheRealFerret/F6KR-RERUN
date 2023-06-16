@@ -6569,7 +6569,7 @@
 		"needsVoices": true,
 		"stage": "chantown",
 		"validScore": true,
-		"speed": 2.8,
+		"speed": 3,
 		"bpm": 202,
 		"noteStyle": null
 	}

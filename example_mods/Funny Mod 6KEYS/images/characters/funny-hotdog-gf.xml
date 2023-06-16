@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="funny-hotdog-gf.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="funnyhotdogidle0000" x="0" y="0" width="362" height="573" frameX="0" frameY="0" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0001" x="0" y="0" width="362" height="573" frameX="0" frameY="0" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0002" x="0" y="0" width="362" height="573" frameX="0" frameY="0" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0003" x="0" y="0" width="362" height="573" frameX="0" frameY="0" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0004" x="367" y="0" width="362" height="573" frameX="0" frameY="-10" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0005" x="734" y="0" width="362" height="573" frameX="0" frameY="-10" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0006" x="734" y="0" width="362" height="573" frameX="0" frameY="-10" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0007" x="1101" y="0" width="362" height="573" frameX="0" frameY="-10" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0008" x="1468" y="0" width="362" height="573" frameX="0" frameY="-10" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0009" x="1468" y="0" width="362" height="573" frameX="0" frameY="-10" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0010" x="0" y="578" width="362" height="573" frameX="0" frameY="0" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0011" x="367" y="578" width="362" height="573" frameX="0" frameY="0" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0012" x="367" y="578" width="362" height="573" frameX="0" frameY="0" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0013" x="367" y="578" width="362" height="573" frameX="0" frameY="0" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0014" x="367" y="578" width="362" height="573" frameX="0" frameY="0" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0015" x="734" y="578" width="362" height="573" frameX="0" frameY="-8" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0016" x="1101" y="578" width="362" height="573" frameX="0" frameY="-8" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0017" x="1101" y="578" width="362" height="573" frameX="0" frameY="-8" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0018" x="1468" y="578" width="362" height="573" frameX="0" frameY="-8" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0019" x="0" y="1156" width="362" height="573" frameX="0" frameY="-8" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0020" x="0" y="1156" width="362" height="573" frameX="0" frameY="-8" frameWidth="362" frameHeight="583"/>
+	<SubTexture name="funnyhotdogidle0021" x="0" y="1156" width="362" height="573" frameX="0" frameY="-8" frameWidth="362" frameHeight="583"/>
+</TextureAtlas>

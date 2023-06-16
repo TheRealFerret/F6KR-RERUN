@@ -49,6 +49,7 @@ class GameOverSubstate extends MusicBeatSubstate
 	public static var endSoundName:String = 'gameOverEnd';
 
 	public static var instance:GameOverSubstate;
+	public static var crashdeath:Bool = false;
 
 	public static function resetVariables() {
 		characterName = 'bf-dead';
@@ -112,7 +113,8 @@ class GameOverSubstate extends MusicBeatSubstate
 			case 'black sun':
 
 			default:
-				FlxG.sound.play(Paths.sound(deathSoundName));
+				if (!crashdeath)
+					FlxG.sound.play(Paths.sound(deathSoundName));
 		}
 		Conductor.changeBPM(100);
 
@@ -126,6 +128,8 @@ class GameOverSubstate extends MusicBeatSubstate
 						FlxG.sound.play(Paths.soundRandom('death/demo_', 1, 3),1);
 					case 'honor':
 						FlxG.sound.play(Paths.soundRandom('death/soldier_', 1, 4),1);
+					case 'issue'|'issue-two'|'issue-three':
+						FlxG.sound.play(Paths.sound('death/skill'),1);
 				}
 			});
 
@@ -252,6 +256,11 @@ class GameOverSubstate extends MusicBeatSubstate
 		camFollowPos = new FlxObject(0, 0, 1, 1);
 		camFollowPos.setPosition(FlxG.camera.scroll.x + (FlxG.camera.width / 2), FlxG.camera.scroll.y + (FlxG.camera.height / 2));
 		add(camFollowPos);
+
+		if (crashdeath){
+			FlxG.sound.play(Paths.sound('JarringMonikaSound'));
+			boyfriend.playAnim('crashDeath');
+		}
 	}
 
 	var isFollowingAlready:Bool = false;
@@ -271,12 +280,12 @@ class GameOverSubstate extends MusicBeatSubstate
 			camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 		}
 
-		if (controls.ACCEPT)
+		if (controls.ACCEPT && !crashdeath)
 		{
 			endBullshit();
 		}
 
-		if (controls.BACK)
+		if (controls.BACK && !crashdeath)
 		{
 			FlxG.sound.music.stop();
 			PlayState.deathCounter = 0;
@@ -292,6 +301,14 @@ class GameOverSubstate extends MusicBeatSubstate
 			FlxG.sound.playMusic(Paths.music('freakyMenu'));
 			PlayState.instance.callOnLuas('onGameOverConfirm', [false]);
 		}
+
+		if (boyfriend.animation.curAnim.name == 'crashDeath' && boyfriend.animation.finished)
+			{
+				new FlxTimer().start(.5, function(timer:FlxTimer)
+				{
+					Sys.exit(0);
+				});
+			}
 
 		if (boyfriend.animation.curAnim != null && boyfriend.animation.curAnim.name == 'firstDeath')
 		{
@@ -422,7 +439,7 @@ class GameOverSubstate extends MusicBeatSubstate
 			FlxG.sound.music.stop();
 			switch(PlayState.SONG.song.toLowerCase())
 			{
-				case "too slow", "too slow encore", "endless", "endless old", "cycles", "sunshine", "fatality", "chaos", "faker", "black sun", "execution":
+				case "too slow", "you cant run", "triple trouble", "too slow encore", "endless", "endless old", "cycles", "sunshine", "fatality", "chaos", "faker", "black sun", "execution":
 					new FlxTimer().start(0.1, function(tmr:FlxTimer)
 						{
 							coolcamera.flash(FlxColor.RED, 2);

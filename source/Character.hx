@@ -83,6 +83,8 @@ class Character extends FlxSprite
 	public var trailAdjusted:Bool = false; //
 	public var animations:Array<FlxAnimation> = []; //
 
+	public var alreadyLoaded:Bool = true; //Used by "Change Character" event
+
 	public static var DEFAULT_CHARACTER:String = 'bf'; //In case a character is missing, it will use BF on its place
 	public function new(x:Float, y:Float, ?character:String = 'bf', ?isPlayer:Bool = false)
 	{

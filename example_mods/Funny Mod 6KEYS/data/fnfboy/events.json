@@ -1,0 +1,106 @@
+{
+	"song": {
+		"events": [
+			[
+				19112.9032258065,
+				[
+					[
+						"Image Flash",
+						"white",
+						"0.01"
+					],
+					[
+						"Change Character",
+						"0",
+						"funnypicogamer"
+					]
+				]
+			],
+			[
+				26975.8064516129,
+				[
+					[
+						"Play Animation",
+						"3",
+						""
+					],
+					[
+						"Image Flash",
+						"white",
+						"0.01"
+					],
+					[
+						"Change Character",
+						"0",
+						"blank"
+					],
+					[
+						"Change Character",
+						"1",
+						"blank"
+					]
+				]
+			],
+			[
+				27822.5806451613,
+				[
+					[
+						"Image Flash",
+						"white",
+						"0.01"
+					]
+				]
+			],
+			[
+				30725.8064516129,
+				[
+					[
+						"Image Flash",
+						"white",
+						"0.01"
+					]
+				]
+			],
+			[
+				31693.5483870968,
+				[
+					[
+						"Image Flash",
+						"white",
+						"0.01"
+					]
+				]
+			],
+			[
+				34475.8064516129,
+				[
+					[
+						"Change Character",
+						"0",
+						"funnycouch"
+					],
+					[
+						"Play Animation",
+						"2",
+						""
+					],
+					[
+						"Image Flash",
+						"white",
+						"0.01"
+					]
+				]
+			],
+			[
+				41975.8064516129,
+				[
+					[
+						"Image Flash",
+						"kill",
+						"0.01"
+					]
+				]
+			]
+		]
+	}
+}

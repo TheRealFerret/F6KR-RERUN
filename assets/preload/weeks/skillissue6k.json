@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Skill Issue", "snoiper", [249, 249, 249]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "6KEYS6KEYS6KEYS",
+	"weekBefore": "tf26k",
+	"weekName": "skillissue6k",
+	"difficulties": "6Key, Tryhard6k",
+	"startUnlocked": false,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

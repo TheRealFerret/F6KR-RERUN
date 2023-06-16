@@ -3789,7 +3789,7 @@
 		"needsVoices": true,
 		"validScore": true,
 		"stage": "LordXStage",
-		"speed": 3,
+		"speed": 3.2,
 		"bpm": 150
 	}
 }

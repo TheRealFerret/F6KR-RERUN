@@ -3775,7 +3775,7 @@
 		"allowGFskin": true,
 		"validScore": true,
 		"allowPet": true,
-		"speed": 2.8,
+		"speed": 3,
 		"events": [],
 		"gfVersion": "gf",
 		"allowBFskin": true,

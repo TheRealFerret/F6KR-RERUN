@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="funny-gf.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="funnyidle0000" x="0" y="0" width="295" height="573" frameX="0" frameY="0" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0001" x="0" y="0" width="295" height="573" frameX="0" frameY="0" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0002" x="0" y="0" width="295" height="573" frameX="0" frameY="0" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0003" x="0" y="0" width="295" height="573" frameX="0" frameY="0" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0004" x="0" y="0" width="295" height="573" frameX="0" frameY="-10" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0005" x="0" y="0" width="295" height="573" frameX="0" frameY="-10" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0006" x="0" y="0" width="295" height="573" frameX="0" frameY="-10" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0007" x="300" y="0" width="295" height="573" frameX="0" frameY="-10" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0008" x="300" y="0" width="295" height="573" frameX="0" frameY="-10" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0009" x="300" y="0" width="295" height="573" frameX="0" frameY="-10" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0010" x="300" y="0" width="295" height="573" frameX="0" frameY="0" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0011" x="300" y="0" width="295" height="573" frameX="0" frameY="0" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0012" x="300" y="0" width="295" height="573" frameX="0" frameY="0" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0013" x="300" y="0" width="295" height="573" frameX="0" frameY="0" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0014" x="300" y="0" width="295" height="573" frameX="0" frameY="0" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0015" x="300" y="0" width="295" height="573" frameX="0" frameY="-8" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0016" x="300" y="0" width="295" height="573" frameX="0" frameY="-8" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0017" x="300" y="0" width="295" height="573" frameX="0" frameY="-8" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0018" x="0" y="0" width="295" height="573" frameX="0" frameY="-8" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0019" x="0" y="0" width="295" height="573" frameX="0" frameY="-8" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0020" x="0" y="0" width="295" height="573" frameX="0" frameY="-8" frameWidth="295" frameHeight="583"/>
+	<SubTexture name="funnyidle0021" x="0" y="0" width="295" height="573" frameX="0" frameY="-8" frameWidth="295" frameHeight="583"/>
+</TextureAtlas>

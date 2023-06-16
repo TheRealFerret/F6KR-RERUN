@@ -1,0 +1,9 @@
+Flashbang kabooom
+
+Value 1: Speed of the flashbang
+
+Value 2: Color of the flashbang,
+Example:
+FFFFFF = White flashbang
+FF0000 = Red flashbang
+
