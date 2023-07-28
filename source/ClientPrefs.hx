@@ -15,6 +15,7 @@ class ClientPrefs {
 	public static var opponentStrums:Bool = true;
 	public static var showFPS:Bool = true;
 	public static var flashing:Bool = true;
+	public static var autoPause:Bool = true;
 	public static var globalAntialiasing:Bool = true;
 	public static var noteSplashes:Bool = true;
 	public static var fullScreen:Bool = false;
@@ -283,7 +284,9 @@ class ClientPrefs {
 		'note_1817'	=> [I, NONE],
 		'note_1818'	=> [O, NONE],
 		
-		
+		'gp_dodge'		=> [SPACE, NONE],
+		'gp_pendulum'	=> [SPACE, NONE],
+
 		'ui_left'		=> [A, LEFT],
 		'ui_down'		=> [S, DOWN],
 		'ui_up'			=> [W, UP],
@@ -315,6 +318,7 @@ class ClientPrefs {
 		FlxG.save.data.opponentStrums = opponentStrums;
 		FlxG.save.data.showFPS = showFPS;
 		FlxG.save.data.flashing = flashing;
+		FlxG.save.data.autoPause = autoPause;
 		FlxG.save.data.globalAntialiasing = globalAntialiasing;
 		FlxG.save.data.noteSplashes = noteSplashes;
 		FlxG.save.data.fullScreen = fullScreen;

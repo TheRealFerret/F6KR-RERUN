@@ -33,7 +33,7 @@ class BFSelectState extends MusicBeatState
   var left:FlxSprite;
   var right:FlxSprite;
   var boyfrien:Character;
-  public static var thebfriends = ["bf","pico-player","tankman-player"];
+  public static var thebfriends = ["bf","pico-player","tankman-player","bob-playable"];
 
   var selectableBfriends:Array<String>=[];
   var selectedChar:Int = 0;

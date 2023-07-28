@@ -220,7 +220,7 @@ class Note extends FlxSprite
 						hitCausesMiss = true;
 					}
 				case 'Hurt Note Hell':
-					if (PlayState.instance.hellMode == false)
+					if (PlayState.instance.hellMode == false || PlayState.instance.randomMode == true)
 						this.kill();
 					else {
 						ignoreNote = true;
@@ -265,16 +265,17 @@ class Note extends FlxSprite
 						colorSwap.brightness = 0;
 					}
 				case 'Ebola Note':
-					ignoreNote = mustPress;
-					if (PlayState.opponentChart)
-						hitByOpponent = false;
-					reloadNote('EBOLA');
-					colorSwap.hue = 0;
-					colorSwap.saturation = 0;
-					colorSwap.brightness = 0;
-					lowPriority = true;
-					if (PlayState.instance.pussyMode == false || PlayState.instance.randomMode == false)
+					if (PlayState.instance.pussyMode == true || PlayState.instance.randomMode == true)
+						this.kill();
+					else{
+						ignoreNote = true;
+						reloadNote('EBOLA');
+						colorSwap.hue = 0;
+						colorSwap.saturation = 0;
+						colorSwap.brightness = 0;
+						lowPriority = true;
 						hitCausesMiss = true;
+					}
 				case 'Drunk Note':
 					if (PlayState.instance.pussyMode == true)
 						hitHealth = 0.03;
@@ -444,6 +445,14 @@ class Note extends FlxSprite
 					reloadNote('PHANTOM');
 					ignoreNote = true;
 					hitCausesMiss = true;
+				case 'Non OpponentPlay Note':
+					if (PlayState.opponentChart == true)
+						this.kill();
+				case 'Ebola Note Cancer Lord':
+					reloadNote('EBOLA');
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
 			}
 			noteType = value;
 		}

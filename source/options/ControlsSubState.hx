@@ -48,6 +48,10 @@ class ControlsSubState extends MusicBeatSubstate {
 	public function new() {
 		super();
 
+		optionShit.push([true]);
+		optionShit.push([true]);
+		optionShit.push([true, defaultKey]);
+
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.color = 0xFFea71fd;
 		bg.screenCenter();

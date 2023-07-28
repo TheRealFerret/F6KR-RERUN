@@ -16,6 +16,7 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import flixel.FlxCamera;
 import flixel.util.FlxStringUtil;
+import options.OptionsState;
 
 class PauseSubState extends MusicBeatSubstate
 {
@@ -26,7 +27,6 @@ class PauseSubState extends MusicBeatSubstate
 	var difficultyChoices = [];
 	var curSelected:Int = 0;
 
-	public static var wasInSong:Bool;
 	var pauseMusic:FlxSound;
 	var practiceText:FlxText;
 	var skipTimeText:FlxText;
@@ -304,18 +304,23 @@ class PauseSubState extends MusicBeatSubstate
 				case 'Options':
 					if (exitStateTimeDelay <= 0.0)
 						{
-							wasInSong = true;
-							PlayState.deathCounter = 0;
-							PlayState.seenCutscene = false;
+							PlayState.instance.paused = true; // For lua
+							PlayState.instance.vocals.volume = 0;
 							MusicBeatState.switchState(new options.OptionsState());
-							FlxG.sound.playMusic(Paths.music('freakyMenu'));
+							if(ClientPrefs.pauseMusic != 'None')
+							{
+								FlxG.sound.playMusic(Paths.music(Paths.formatToSongPath(ClientPrefs.pauseMusic)), pauseMusic.volume);
+								FlxTween.tween(FlxG.sound.music, {volume: 1}, 0.8);
+								FlxG.sound.music.time = pauseMusic.time;
+							}
+							OptionsState.onPlayState = true;
 						}
 				case "Exit to menu":
 					if (exitStateTimeDelay <= 0.0)
 						{
 							PlayState.deathCounter = 0;
 							PlayState.seenCutscene = false;
-
+		
 							WeekData.loadTheFirstEnabledMod();
 							if(PlayState.isStoryMode) {
 								MusicBeatState.switchState(new StoryMenuState());
@@ -326,6 +331,7 @@ class PauseSubState extends MusicBeatSubstate
 							FlxG.sound.playMusic(Paths.music('freakyMenu'));
 							PlayState.changedDifficulty = false;
 							PlayState.chartingMode = false;
+							FlxG.camera.followLerp = 0;
 						}
 			}
 		}

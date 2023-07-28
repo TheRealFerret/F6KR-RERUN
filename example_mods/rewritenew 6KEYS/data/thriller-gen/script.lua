@@ -8,11 +8,19 @@ function onUpdate(elapsed)
 -- Opponent arrows: 0-5
 -- Player arrows: 6-11
 -- hide and show the opponents arrows
-for i=0,5 do
--- Alpha is 0 (0 being invisible)
-noteTweenAlpha(i+16, i, math.floor(curStep/9999), 0.3)
-noteTweenAlpha(i+16, i, math.floor(curStep/9999), 4-7)
-end
+if opponentPlay then
+    for i=6,11 do
+        -- Alpha is 0 (0 being invisible)
+        noteTweenAlpha(i+16, i, math.floor(curStep/9999), 0.3)
+        noteTweenAlpha(i+16, i, math.floor(curStep/9999), 4-7)
+        end
+else
+    for i=0,5 do
+        -- Alpha is 0 (0 being invisible)
+        noteTweenAlpha(i+16, i, math.floor(curStep/9999), 0.3)
+        noteTweenAlpha(i+16, i, math.floor(curStep/9999), 4-7)
+        end
 end
 
+end
 

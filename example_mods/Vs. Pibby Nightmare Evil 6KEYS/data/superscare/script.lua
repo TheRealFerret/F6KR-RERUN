@@ -1,11 +1,15 @@
 local shaking = false;
 
 function onCreate()
-	if not hideHud or opponentPlay then
-		setProperty('iconP2.x', -250)
-		setProperty('iconP1.x', -250)
+	if not hideHud then
+		if opponentPlay then
+			
+		else
+			setProperty('iconP2.x', -250)
+			setProperty('iconP1.x', -250)
+		end
 	end
-	if not hideHud or not opponentPlay then
+	if not hideHud then
 	makeAnimatedLuaSprite('icon3', nil, getProperty('iconP2.x'), getProperty('iconP2.y'))
 	loadGraphic('icon3', 'icons/icon-'..getProperty('gf.healthIcon'), 150)
 	addAnimation('icon3', 'icons/icon-'..getProperty('gf.healthIcon'), {0, 1}, 0, true)
@@ -34,7 +38,7 @@ function onCreate()
 	end
 end
 function onUpdatePost()
-	if not hideHud or not opponentPlay then
+	if not hideHud then
 	setProperty('icon3.y', getProperty('iconP2.y') - 50)
 	setProperty('icon3.x', getProperty('iconP2.x') - 50)
 	setProperty('icon3.scale.x', getProperty('iconP2.scale.x') - 0.15)
@@ -42,10 +46,19 @@ function onUpdatePost()
 	setObjectOrder('icon3', getObjectOrder('iconP2') + 1)
 	setProperty('icon3.angle', getProperty('iconP2.angle'))
 	end
-	if getProperty('health') > 1.6 and not opponentPlay then
-		setProperty('icon3.animation.curAnim.curFrame', '1')
+
+	if opponentPlay then
+		if getProperty('health') < 0.4 then
+			setProperty('icon3.animation.curAnim.curFrame', '1')
+		else
+			setProperty('icon3.animation.curAnim.curFrame', '0')
+		end
 	else
-		setProperty('icon3.animation.curAnim.curFrame', '0')
+		if getProperty('health') > 1.6 then
+			setProperty('icon3.animation.curAnim.curFrame', '1')
+		else
+			setProperty('icon3.animation.curAnim.curFrame', '0')
+		end
 	end
 end
 function onBeatHit()
@@ -66,15 +79,17 @@ function onBeatHit()
 		setProperty('dad.color', getColorFromHex('ffffff'))
 		shaking = true;
 	end
-	if curBeat >= 416 and not opponentPlay then
+	if curBeat >= 416 then
 		shaking = false;
 		doTweenAlpha('fadeb', 'black', 1, 0.7, 'linear')
-		noteTweenAlpha("NoteFade", 0, 0, 0.45, linear)
-		noteTweenAlpha("NoteFade2", 1, 0, 0.5, linear)
-		noteTweenAlpha("NoteFade3", 2, 0, 0.55, linear)
-		noteTweenAlpha("NoteFade4", 3, 0, 0.6, linear)
-		noteTweenAlpha("NoteFade5", 4, 0, 0.65, linear)
-		noteTweenAlpha("NoteFade6", 5, 0, 0.7, linear)
+		if not opponentPlay then
+			noteTweenAlpha("NoteFade", 0, 0, 0.45, linear)
+			noteTweenAlpha("NoteFade2", 1, 0, 0.5, linear)
+			noteTweenAlpha("NoteFade3", 2, 0, 0.55, linear)
+			noteTweenAlpha("NoteFade4", 3, 0, 0.6, linear)
+			noteTweenAlpha("NoteFade5", 4, 0, 0.65, linear)
+			noteTweenAlpha("NoteFade6", 5, 0, 0.7, linear)
+		end
 	end
 	if curBeat >= 424 then
 		doTweenAlpha('fadeb', 'black', 0, 0.5, 'linear')
@@ -94,15 +109,16 @@ function onBeatHit()
 	end
 end
 function opponentNoteHit()
-
+	if not opponentPlay then
         health = getProperty('health')
         if getProperty('health') > 0.4 then
             setProperty('health', health- 0.02);
         end
 
-		if shaking == true and not opponentPlay then
+		if shaking == true then
 			triggerEvent('Screen Shake', '0.1, 0.003', '0.1, 0.002');
 		end
+	end
 end
 function goodNoteHit()
 	if shaking == true and opponentPlay then

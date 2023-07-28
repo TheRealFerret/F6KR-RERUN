@@ -35,3 +35,11 @@ function goodNoteHit(id, noteData, noteType, isSustainNote)
 		characterPlayAnim('boyfriend', 'singRIGHT', true);
 	end
 end
+
+function opponentNoteHit(id, noteData, noteType, isSustainNote)
+	if noteType == 'shield' and opponentPlay then
+		playSound('defend', 0.46);
+		triggerEvent('Add Camera Zoom','0.2', '0.02');
+		characterPlayAnim('boyfriend', 'singRIGHT', true);
+	end
+end	

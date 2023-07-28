@@ -12,8 +12,6 @@ function onCreate()
 	makeLuaSprite('dangle','dangle', -1000, -200);
 	setScrollFactor('dangle', 1, 1);
 	addLuaSprite('dangle', false);
-
-	close(true); --For performance reasons, close this script once the stage is fully loaded, as this script won't be used anymore after loading the stage
 end
 
 function onBeatHit()

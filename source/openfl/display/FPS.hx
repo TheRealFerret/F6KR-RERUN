@@ -46,10 +46,10 @@ class FPS extends TextField
 		currentFPS = 0;
 		selectable = false;
 		mouseEnabled = false;
-		defaultTextFormat = new TextFormat("_sans", 14, color);
+		defaultTextFormat = new TextFormat("VCR OSD Mono", 16, color);
 		autoSize = LEFT;
 		multiline = true;
-		text = "FPS: ";
+		text = "Ferret\'s 6 Key Recharts | " + MainMenuState.f6krVersion + "\nFPS: ";
 
 		cacheCount = 0;
 		currentTime = 0;
@@ -78,25 +78,21 @@ class FPS extends TextField
 
 		var currentCount = times.length;
 		currentFPS = Math.round((currentCount + cacheCount) / 2);
-		if (currentFPS > ClientPrefs.framerate) currentFPS = ClientPrefs.framerate;
+		if (currentFPS > ClientPrefs.framerate)
+			currentFPS = ClientPrefs.framerate;
 
 		if (currentCount != cacheCount /*&& visible*/)
 		{
-			text = "FPS: " + currentFPS;
+			text = "Ferret\'s 6 Key Recharts | " + MainMenuState.f6krVersion + "\nFPS: " + currentFPS;
 			var memoryMegas:Float = 0;
-			
 			#if openfl
 			memoryMegas = Math.abs(FlxMath.roundDecimal(System.totalMemory / 1000000, 1));
 			text += "\nMemory: " + memoryMegas + " MB";
 			#end
 
-			text += "\nFerret\'s 6 Key Recharts v" + MainMenuState.f6krVersion;
-
 			textColor = 0xFFFFFFFF;
 			if (memoryMegas > 3000 || currentFPS <= ClientPrefs.framerate / 2)
-			{
 				textColor = 0xFFFF0000;
-			}
 
 			#if (gl_stats && !disable_cffi && (!html5 || !canvas))
 			text += "\ntotalDC: " + Context3DStats.totalDrawCalls();

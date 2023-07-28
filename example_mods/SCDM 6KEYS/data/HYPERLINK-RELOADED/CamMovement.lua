@@ -57,24 +57,16 @@ EnemyNoteFuncs = { --IM DRUNK WOOOOOOOOOO
 	end
 }
 
-function goodNoteHit(id, direction, noteType, isSustainNote)
+function onUpdate(elapsed)
     if PlayerNoteFuncs[direction+1] and mustHitSection == true then 
         PlayerNoteFuncs[direction+1]() -- Executes function at curStep in stepHitFuncs
     end
-end
-
-function opponentNoteHit(id, direction, noteType, isSustainNote)
-    if EnemyNoteFuncs[direction+1] and mustHitSection == false then 
+	if EnemyNoteFuncs[direction+1] and mustHitSection == false then 
         EnemyNoteFuncs[direction+1]() -- Executes function at curStep in stepHitFuncs
     end
-end
-
-function onBeatHit()
-	if curBeat%2==0 then
-		if mustHitSection == false and getProperty('dad.animation.curAnim.name') == 'idle' then
-			triggerEvent('Camera Follow Pos', '', '')
-		elseif mustHitSection == true and getProperty('boyfriend.animation.curAnim.name') == 'idle' then
-			triggerEvent('Camera Follow Pos', '', '')
-		end
+	if mustHitSection == false and getProperty('dad.animation.curAnim.name') == 'idle' then
+		triggerEvent('Camera Follow Pos', '', '')
+	elseif mustHitSection == true and getProperty('boyfriend.animation.curAnim.name') == 'idle' then
+		triggerEvent('Camera Follow Pos', '', '')
 	end
 end

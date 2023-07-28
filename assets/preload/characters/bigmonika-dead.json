@@ -70,8 +70,8 @@
 	"no_antialiasing": false,
 	"image": "characters/big_monikia_death",
 	"position": [
-		0,
-		0
+		-9800,
+		10200
 	],
 	"healthicon": "bigmonika",
 	"flip_x": true,

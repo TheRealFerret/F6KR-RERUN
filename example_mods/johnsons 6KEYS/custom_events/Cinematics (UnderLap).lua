@@ -1,6 +1,6 @@
 --Created by RamenDominoes (Please credit if using this, thanks! <3)
 
-HudAssets = {'healthBarBG','healthBar','scoreTxt','iconP1','iconP2','timeBar','timeBarBG','timeTxt'}
+HudAssets = {'healthBarBG','flippedHealthBar','scoreTxt','iconP1','iconP2','timeBar','timeBarBG','timeTxt'}
 Index = 1
 
 function onCreatePost()

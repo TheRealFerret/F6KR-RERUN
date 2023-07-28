@@ -41,6 +41,9 @@ class FreeplayState extends MusicBeatState
 	var intendedScore:Int = 0;
 	var intendedRating:Float = 0;
 
+	var switchBF:FlxText;
+	var switchGF:FlxText;
+
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 	private var curPlaying:Bool = false;
 
@@ -52,8 +55,8 @@ class FreeplayState extends MusicBeatState
 
 	override function create()
 	{
-		//Paths.clearStoredMemory();
-		//Paths.clearUnusedMemory();
+		Paths.clearStoredMemory();
+		Paths.clearUnusedMemory();
 		
 		persistentUpdate = true;
 		PlayState.isStoryMode = false;
@@ -140,22 +143,22 @@ class FreeplayState extends MusicBeatState
 		scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
 		scoreText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT);
 
-		scoreBG = new FlxSprite(scoreText.x - 6, 0).makeGraphic(1, 66, 0xFF000000);
+		scoreBG = new FlxSprite(scoreText.x - 6, 0).makeGraphic(1, 1, 0xFF000000);
 		scoreBG.alpha = 0.6;
 		add(scoreBG);
 
-		diffText = new FlxText(scoreText.x, scoreText.y + 36, 0, "", 24);
+		diffText = new FlxText(scoreText.x, scoreText.y + scoreText.height + 8, 0, "", 24);
 		diffText.font = scoreText.font;
 		add(diffText);
 
 		add(scoreText);
 
-		var switchBF:FlxText = new FlxText(800, 75, 0, "Press \"ONE\" to change BF", 32);
-		switchBF.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		switchBF = new FlxText(scoreText.x, diffText.y + diffText.height + 16, 0, "Press \"ONE\" to change BF", 24);
+		switchBF.font = scoreText.font;
 		add(switchBF);
 
-		var switchGF:FlxText = new FlxText(800, 125, 0, "Press \"TWO\" to change GF", 32);
-		switchGF.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		switchGF = new FlxText(scoreText.x, switchBF.y + switchBF.height + 8, 0, "Press \"TWO\" to change GF", 24);
+		switchGF.font = scoreText.font;
 		add(switchGF);
 
 		if(curSelected >= songs.length) curSelected = 0;
@@ -552,12 +555,21 @@ class FreeplayState extends MusicBeatState
 	}
 
 	private function positionHighscore() {
-		scoreText.x = FlxG.width - scoreText.width - 6;
+		scoreText.x = FlxG.width - scoreText.width - 8;
 
-		scoreBG.scale.x = FlxG.width - scoreText.x + 6;
-		scoreBG.x = FlxG.width - (scoreBG.scale.x / 2);
 		diffText.x = Std.int(scoreBG.x + (scoreBG.width / 2));
 		diffText.x -= diffText.width / 2;
+		
+		switchBF.x = Std.int(scoreBG.x + (scoreBG.width / 2));
+		switchBF.x -= switchBF.width / 2;
+
+		switchGF.x = Std.int(scoreBG.x + (scoreBG.width / 2));
+		switchGF.x -= switchGF.width / 2;
+
+		scoreBG.scale.x = FlxG.width - scoreText.x + 8;
+		scoreBG.scale.y = switchGF.y + switchGF.height + 8;
+
+		scoreBG.x = FlxG.width - (scoreBG.scale.x / 2);
 	}
 }
 

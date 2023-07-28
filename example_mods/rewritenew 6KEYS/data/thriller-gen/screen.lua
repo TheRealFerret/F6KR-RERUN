@@ -1,7 +1,7 @@
 function onCreatePost()
  for i = 0, 5 do
   if not middlescroll then
-   setPropertyFromGroup('strumLineNotes', i, 'x', getPropertyFromGroup('strumLineNotes', i, 'x') + 90)
+   setPropertyFromGroup('strumLineNotes', i, 'x', getPropertyFromGroup('strumLineNotes', i, 'x') + 100)
   end
  end
  

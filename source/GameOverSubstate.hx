@@ -310,7 +310,7 @@ class GameOverSubstate extends MusicBeatSubstate
 				});
 			}
 
-		if (boyfriend.animation.curAnim != null && boyfriend.animation.curAnim.name == 'firstDeath')
+		if (boyfriend.animation.curAnim != null && boyfriend.animation.curAnim.name == 'firstDeath' && !crashdeath)
 		{
 			if(boyfriend.animation.curAnim.curFrame >= 12 && !isFollowingAlready)
 			{

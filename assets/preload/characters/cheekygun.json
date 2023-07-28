@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-36,
+				2
+			],
+			"loop": false,
+			"anim": "Shoot",
+			"fps": 24,
+			"name": "Cheeky PEW PEW",
+			"indices": []
+		},
+		{
+			"offsets": [
+				245,
+				3
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Cheeky NOTE LEFT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				14,
+				35
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Cheeky NOTE DOWN",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				3
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Cheeky NOTE UP",
+			"indices": []
+		},
+		{
+			"offsets": [
+				96,
+				3
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Cheeky NOTE RIGHT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Cheeky Idle Dance",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/cheekgun",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "cheekgun",
+	"flip_x": false,
+	"healthbar_colors": [
+		63,
+		191,
+		246
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 2.25
+}

@@ -20,7 +20,11 @@ function onCreate()
 	addHaxeLibrary('Event','openfl.events')
 	--add needed haxe libraries for video and openfl events
 
-
+	makeLuaSprite('videoSprite','',0,50)
+	scaleObject('videoSprite', 1.2, 1.2);
+	setScrollFactor('videoSprite', 0, 0);
+	addLuaSprite('videoSprite', true)
+	setProperty('videoSprite.alpha', 0.0001);
 
 end
 
@@ -60,11 +64,8 @@ function onResume()
 end
 function onStepHit()
  if curStep == 648 then
-	makeLuaSprite('videoSprite','',0,50)
-	setProperty('videoSprite.visible', true);
-	setScrollFactor('videoSprite', 0, 0);
-	addLuaSprite('videoSprite', true)
-	
+	setProperty('videoSprite.alpha', 1);
+
 	--run the main haxe code
 	runHaxeCode([[
 

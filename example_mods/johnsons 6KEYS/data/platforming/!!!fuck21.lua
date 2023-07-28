@@ -9,15 +9,17 @@ function onGameOver()
 end
 
 function onCreate()
- makeAnimatedLuaSprite('youplay', 'youplay', -120, -120)
+ if opponentPlay == false then
+    makeAnimatedLuaSprite('youplay', 'youplay', -120, -120)
+ end
  setPropertyFromClass('GameOverSubstate', 'characterName', 'johndeath');
- setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'death');
- setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'death');
+ setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'deathjohn');
+ setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'deathjohn');
 end
 
 function onCountdownTick(counter)
 
-    if counter == 4 then
+    if counter == 4 and opponentPlay == false then
         addAnimationByPrefix('youplay', 'youplay', 'youplay', 20, false)
         objectPlayAnimation('youplay', 'youplay', false)
         
@@ -36,11 +38,6 @@ function swapFont()
 	setProperty("timeTxt.size",32);
 	setProperty("timeTxt.y",getProperty("timeTxt.y") + -10);
 	setProperty('timeTxt.antialiasing', false)
-
-	setObjectOrder('iconP1', 3);
-	setObjectOrder('iconP2', 3);
-	setObjectOrder('healthBar', 1);
-	setObjectOrder('healthBarBG', 1);
 end
 
 function onCreatePost()
@@ -49,33 +46,12 @@ function onCreatePost()
     doTweenZoom('camz','camGame',tonumber(0.4),tonumber(1),'sineInOut')
 end
 
-function onUpdatePost()
-
-    P1Mult = getProperty('healthBar.x') + ((getProperty('healthBar.width') *        getProperty('healthBar.percent') * 0.01) + (150 * getProperty('iconP1.scale.x') - 150) / 2 - 26)
-
-    P2Mult = getProperty('healthBar.x') + ((getProperty('healthBar.width') * getProperty('healthBar.percent') * 0.01) - (150 * getProperty('iconP2.scale.x')) / 2 - 26 * 2)
-
-    setProperty('iconP1.x',P1Mult - 110)
-
-    setProperty('iconP1.origin.x',240)
-
-    setProperty('iconP1.flipX',true)
-
-    setProperty('iconP2.x',P2Mult + 110)
-
-    setProperty('iconP2.origin.x',-100)
-
-    setProperty('iconP2.flipX',true)
-
-    setProperty('healthBar.flipX',true)
-
-end
-
 function onSongStart()
-
-    objectPlayAnimation('youplay', 'youplay', false)
-        
-    addLuaSprite('youplay', true)
+    if opponentPlay == true then
+        objectPlayAnimation('youplay', 'youplay', false)
+            
+        addLuaSprite('youplay', true)
+    end
 
     noteTweenX('NoteMove1', 6, 30, 1, 'circOut')
     noteTweenX('NoteMove2', 7, 120, 1, 'circOut')
@@ -177,10 +153,13 @@ function onBeatHit()
     end
 
 
+    if curBeat == 468 then
+        setProperty('camGame.alpha', 0)
+    end
 end
 
 function opponentNoteHit()
-    if curBeat >= 176 then
+    if curBeat >= 176 and opponentPlay == false then
 
 
 
@@ -190,4 +169,15 @@ function opponentNoteHit()
     end
 
 end
+end
+
+function goodNoteHit()
+    if curBeat >= 176 and opponentPlay == true then
+
+
+
+    health = getProperty('health')
+    setProperty('health', health +0.03);
+    
+    end
 end

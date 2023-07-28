@@ -1,12 +1,8 @@
 {
 	"song": {
 		"player1": "bf-alt",
-		"events": [],
-		"gfVersion": "gf",
-		"player2": "cancer",
 		"notes": [
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						0,
@@ -44,10 +40,10 @@
 						204.545454545455
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						1090.90909090909,
@@ -85,10 +81,10 @@
 						204.545454545455
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						2181.81818181818,
@@ -126,10 +122,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						3272.72727272727,
@@ -187,10 +183,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						4363.63636363636,
@@ -248,10 +244,10 @@
 						1840.90909090909
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						6272.72727272727,
@@ -299,10 +295,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						6545.45454545455,
@@ -320,10 +316,10 @@
 						477.272727272727
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						7636.36363636364,
@@ -346,10 +342,10 @@
 						477.272727272727
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						8727.27272727273,
@@ -387,10 +383,10 @@
 						204.545454545455
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						9818.18181818182,
@@ -428,10 +424,10 @@
 						204.545454545455
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						10909.0909090909,
@@ -469,10 +465,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						12000,
@@ -530,10 +526,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						13090.9090909091,
@@ -591,10 +587,10 @@
 						1840.90909090909
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						15000,
@@ -642,10 +638,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						15272,
@@ -663,10 +659,10 @@
 						477
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						16363,
@@ -709,10 +705,10 @@
 						1022.72727272727
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						17454.5454545455,
@@ -760,10 +756,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						18545.4545454546,
@@ -821,10 +817,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						19636.3636363636,
@@ -875,10 +871,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						20727.2727272727,
@@ -935,10 +931,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						21818.1818181818,
@@ -986,10 +982,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						22909.0909090909,
@@ -1042,10 +1038,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						24000,
@@ -1090,10 +1086,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						25090.9090909091,
@@ -1156,10 +1152,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						26181.8181818182,
@@ -1207,10 +1203,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						27272.7272727273,
@@ -1274,10 +1270,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						28363.6363636363,
@@ -1326,10 +1322,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						29454.5454545454,
@@ -1383,10 +1379,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						30545.4545454545,
@@ -1434,10 +1430,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						31636.3636363636,
@@ -1490,10 +1486,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						32727.2727272727,
@@ -1537,10 +1533,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						33818.1818181818,
@@ -1619,10 +1615,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						34909.0909090909,
@@ -1655,10 +1651,10 @@
 						204.545454545455
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						36204.5454545455,
@@ -1716,52 +1712,46 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						37090.9090909091,
 						4,
-						0,
 						0
 					],
 					[
 						37227.2727272727,
 						2,
-						0,
 						0
 					],
 					[
 						37363.6363636364,
 						4,
-						0,
 						0
 					],
 					[
 						37500,
 						1,
-						0,
 						0
 					],
 					[
 						37636.3636363636,
 						0,
-						204.545454545455,
-						0
+						204.545454545455
 					],
 					[
 						37909.0909090909,
 						4,
-						204.545454545455,
-						0
+						204.545454545455
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						38318.1818181818,
@@ -1824,10 +1814,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						39272.7272727273,
@@ -1860,10 +1850,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						40363.6363636364,
@@ -1911,52 +1901,46 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						41454.5454545455,
 						1,
-						0,
 						0
 					],
 					[
 						41590.9090909091,
 						1,
-						0,
 						0
 					],
 					[
 						41727.2727272727,
 						4,
-						136.363636363636,
-						0
+						136.363636363636
 					],
 					[
 						42000,
 						3,
-						136.363636363636,
-						0
+						136.363636363636
 					],
 					[
 						42272.7272727273,
 						4,
-						0,
 						0
 					],
 					[
 						42409.0909090909,
 						1,
-						0,
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						42545.4545454545,
@@ -2015,10 +1999,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						43636.3636363637,
@@ -2057,10 +2041,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						44931.8181818182,
@@ -2118,10 +2102,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						45818.1818181818,
@@ -2160,10 +2144,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						47045.4545454546,
@@ -2216,10 +2200,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						48000,
@@ -2258,10 +2242,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						49090.9090909091,
@@ -2315,10 +2299,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						50181.8181818182,
@@ -2351,10 +2335,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						51272.7272727273,
@@ -2403,10 +2387,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						52363.6363636363,
@@ -2439,10 +2423,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						53454.5454545454,
@@ -2465,10 +2449,10 @@
 						204.545454545455
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						54545.4545454545,
@@ -2516,10 +2500,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						55636.3636363636,
@@ -2582,10 +2566,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						56727.2727272727,
@@ -2618,10 +2602,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						57818.1818181818,
@@ -2650,10 +2634,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						58909.0909090909,
@@ -2707,10 +2691,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						60000,
@@ -2773,10 +2757,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						61090.909090909,
@@ -2799,10 +2783,10 @@
 						204.545454545455
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						62181.8181818181,
@@ -2860,10 +2844,10 @@
 						0
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						63272.7272727272,
@@ -2892,10 +2876,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						64363.6363636363,
@@ -2959,10 +2943,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						65454.5454545454,
@@ -3011,10 +2995,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						66545.4545454545,
@@ -3063,10 +3047,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						67636.3636363636,
@@ -3115,10 +3099,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						68727.2727272727,
@@ -3187,10 +3171,10 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
 				"sectionNotes": [
 					[
 						69818.1818181818,
@@ -3246,9 +3230,12 @@
 						"Ebola Note"
 					]
 				],
+				"lengthInSteps": 16,
 				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						70909.0909090909,
@@ -3304,16 +3291,12 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 180,
 				"changeBPM": false,
-				"bpm": 180
+				"mustHitSection": false
 			},
 			{
-				"lengthInSteps": 16,
-				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						72000,
@@ -3369,12 +3352,16 @@
 						"Ebola Note"
 					]
 				],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
 				"altAnim": false,
-				"bpm": 180,
+				"mustHitSection": false,
 				"changeBPM": false,
-				"mustHitSection": false
+				"bpm": 180
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						73090.9090909091,
@@ -3450,14 +3437,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						74181.8181818182,
@@ -3539,14 +3526,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						76090.9090909091,
@@ -3612,14 +3599,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						76363.6363636364,
@@ -3685,14 +3672,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						77454.5454545454,
@@ -3733,14 +3720,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						78545.4545454545,
@@ -3784,14 +3771,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						79636.3636363636,
@@ -3835,14 +3822,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						80727.2727272727,
@@ -3886,14 +3873,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						81818.1818181818,
@@ -3951,14 +3938,14 @@
 						0
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						82909.0909090909,
@@ -4016,14 +4003,14 @@
 						1840.90909090909
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						84818.1818181818,
@@ -4077,14 +4064,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						85090.9090909091,
@@ -4120,14 +4107,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						86181.8181818182,
@@ -4168,14 +4155,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						87272.7272727272,
@@ -4193,14 +4180,14 @@
 						204.545454545455
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						88363.6363636363,
@@ -4213,14 +4200,14 @@
 						477.272727272727
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						89454.5454545453,
@@ -4244,14 +4231,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						90545.4545454544,
@@ -4276,14 +4263,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						91636.3636363635,
@@ -4316,14 +4303,14 @@
 						136.363636363636
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						92863.6363636362,
@@ -4356,14 +4343,14 @@
 						0
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						93818.1818181817,
@@ -4402,14 +4389,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						95045.4545454544,
@@ -4448,14 +4435,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						95999.9999999999,
@@ -4473,14 +4460,14 @@
 						204.545454545455
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						97090.909090909,
@@ -4503,14 +4490,14 @@
 						204.545454545455
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						98181.818181818,
@@ -4540,14 +4527,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						99272.7272727271,
@@ -4582,14 +4569,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						100363.636363636,
@@ -4602,14 +4589,14 @@
 						204.545454545455
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						101454.545454545,
@@ -4634,14 +4621,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						102545.454545454,
@@ -4676,14 +4663,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						103636.363636363,
@@ -4750,14 +4737,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						104727.272727273,
@@ -4775,14 +4762,14 @@
 						204.545454545455
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						105818.181818182,
@@ -4810,14 +4797,14 @@
 						204.545454545455
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						106909.090909091,
@@ -4847,14 +4834,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						108000,
@@ -4888,14 +4875,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						109090.909090909,
@@ -4938,14 +4925,14 @@
 						0
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						111000,
@@ -4988,14 +4975,14 @@
 						0
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						111272.727272727,
@@ -5050,14 +5037,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						113181.818181818,
@@ -5112,14 +5099,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						114000,
@@ -5142,14 +5129,14 @@
 						204.545454545455
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						114545.454545454,
@@ -5172,14 +5159,14 @@
 						204.545454545455
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						116181.818181818,
@@ -5214,14 +5201,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						116727.272727273,
@@ -5256,14 +5243,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						117818.181818182,
@@ -5310,14 +5297,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						118909.090909091,
@@ -5364,14 +5351,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						120000,
@@ -5462,14 +5449,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						121090.909090909,
@@ -5552,454 +5539,454 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						122181.818181818,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						122318.181818182,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						122454.545454545,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						122590.909090909,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						122727.272727273,
 						4,
 						0,
-						"Ebola Note"
-					],
-					[
-						122863.636363636,
-						1,
-						0,
-						"Ebola Note"
-					],
-					[
-						122931.818181818,
-						2,
-						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						123000,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						123136.363636363,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
+					],
+					[
+						122931.818181818,
+						2,
+						0,
+						"Ebola Note Cancer Lord"
+					],
+					[
+						122863.636363636,
+						1,
+						0,
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						123272.727272727,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						123409.090909091,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						123545.454545454,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						123681.818181818,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						123818.181818182,
 						2,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						123886.363636363,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						123954.545454545,
 						0,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						124090.909090909,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						124227.272727273,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						124363.636363636,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						124500,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						124636.363636363,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						124772.727272727,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						124909.090909091,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						125045.454545454,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						125181.818181818,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						125318.181818182,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						125454.545454545,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						125590.909090909,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						125727.272727273,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						125863.636363636,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						126000,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						126136.363636363,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						126272.727272727,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						126409.090909091,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						126545.454545454,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						126681.818181818,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						126750,
 						2,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						126818.181818182,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						126954.545454545,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						127090.909090909,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						127227.272727273,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						127363.636363636,
 						2,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						127500,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						127636.363636363,
 						1,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						127909.090909091,
 						3,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						128181.818181818,
 						4,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						128454.545454545,
 						3,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						128727.272727273,
 						2,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						128795.454545454,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						128863.636363636,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						129000,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						129136.363636363,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						129272.727272727,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						129409.090909091,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						129545.454545454,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						129681.818181818,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						129818.181818182,
 						1,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						130090.909090909,
 						2,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						130363.636363636,
 						4,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						130636.363636363,
 						5,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						130909.090909091,
@@ -6053,14 +6040,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						132000,
@@ -6120,14 +6107,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						133090.909090909,
@@ -6182,14 +6169,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						134181.818181818,
@@ -6232,14 +6219,14 @@
 						0
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						135272.727272727,
@@ -6299,14 +6286,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						136363.636363636,
@@ -6341,14 +6328,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						137454.545454545,
@@ -6402,14 +6389,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						138545.454545454,
@@ -6444,490 +6431,490 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						139636.363636363,
 						4,
 						204.545454545455,
-						"Ebola Note"
-					],
-					[
-						140181.818181818,
-						4,
-						204.545454545455,
-						"Ebola Note"
-					],
-					[
-						140454.545454545,
-						3,
-						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						139909.090909091,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						140045.454545454,
 						2,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
+					],
+					[
+						140181.818181818,
+						4,
+						204.545454545455,
+						"Ebola Note Cancer Lord"
+					],
+					[
+						140454.545454545,
+						3,
+						204.545454545455,
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						140727.272727273,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						140863.636363636,
 						2,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						140931.818181818,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						141000,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						141068.181818182,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						141136.363636363,
 						2,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						141204.545454545,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						141272.727272727,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						141409.090909091,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						141545.454545454,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						141681.818181818,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						141818.181818182,
 						4,
 						0,
-						"Ebola Note"
-					],
-					[
-						142090.909090909,
-						4,
-						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						141954.545454545,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
+					],
+					[
+						142090.909090909,
+						4,
+						0,
+						"Ebola Note Cancer Lord"
 					],
 					[
 						142227.272727273,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						142363.636363636,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						142431.818181818,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						142500,
 						4,
 						0,
-						"Ebola Note"
-					],
-					[
-						142636.363636363,
-						4,
-						0,
-						"Ebola Note"
-					],
-					[
-						142772.727272727,
-						4,
-						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						142568.181818182,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
+					],
+					[
+						142636.363636363,
+						4,
+						0,
+						"Ebola Note Cancer Lord"
 					],
 					[
 						142704.545454545,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						142840.909090909,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
+					],
+					[
+						142772.727272727,
+						4,
+						0,
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						142909.090909091,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						143045.454545454,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						143181.818181818,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						143318.181818182,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						143454.545454545,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						143590.909090909,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						143727.272727273,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						143863.636363636,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						144000,
 						4,
 						136.363636363636,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						144204.545454545,
 						1,
 						136.363636363636,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						144409.090909091,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						144545.454545454,
 						4,
 						136.363636363636,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						144750,
 						3,
 						136.363636363636,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						144954.545454545,
 						2,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						145090.909090909,
 						1,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						145363.636363636,
 						4,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						145636.363636363,
 						3,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						145909.090909091,
 						4,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						146181.818181818,
 						5,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						146454.545454545,
 						1,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						146727.272727273,
 						4,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						147000,
 						1,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						147272.727272727,
 						2,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						147340.909090909,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						147409.090909091,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						147477.272727272,
 						3,
 						0,
-						"Ebola Note"
-					],
-					[
-						147545.454545454,
-						2,
-						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						147613.636363636,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
+					],
+					[
+						147545.454545454,
+						2,
+						0,
+						"Ebola Note Cancer Lord"
 					],
 					[
 						147681.818181818,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						147750,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						147818.181818182,
 						4,
 						0,
-						"Ebola Note"
-					],
-					[
-						147954.545454545,
-						4,
-						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						147886.363636363,
 						2,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
+					],
+					[
+						147954.545454545,
+						4,
+						0,
+						"Ebola Note Cancer Lord"
 					],
 					[
 						148022.727272727,
 						2,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						148090.909090909,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						148159.090909091,
 						0,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						148227.272727272,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						148295.454545454,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						148636.363636363,
@@ -6961,14 +6948,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						149454.545454545,
@@ -7032,14 +7019,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						150545.454545454,
@@ -7114,14 +7101,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						151636.363636363,
@@ -7170,14 +7157,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						153136.363636363,
@@ -7216,14 +7203,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						153818.181818182,
@@ -7252,14 +7239,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						154909.090909091,
@@ -7294,14 +7281,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						156000,
@@ -7396,14 +7383,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						157090.909090909,
@@ -7450,141 +7437,141 @@
 						157090.909090909,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						157227.272727272,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						157363.636363636,
 						1,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						157636.363636363,
 						2,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						157772.727272727,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						157909.090909091,
 						1,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						158181.818181818,
-						4,
+						8,
 						0,
 						"Ebola Note"
 					],
 					[
 						158318.181818182,
-						0,
+						7,
 						0,
 						"Ebola Note"
 					],
 					[
 						158454.545454545,
-						1,
+						8,
 						0,
 						"Ebola Note"
 					],
 					[
 						158590.909090909,
-						4,
+						10,
 						0,
 						"Ebola Note"
+					],
+					[
+						158727.272727272,
+						7,
+						0,
+						"Ebola Note"
+					],
+					[
+						158863.636363636,
+						10,
+						0,
+						"Ebola Note"
+					],
+					[
+						159000,
+						7,
+						0,
+						"Ebola Note"
+					],
+					[
+						158181.818181818,
+						4,
+						0,
+						"Ebola Note Cancer Lord"
+					],
+					[
+						158318.181818182,
+						0,
+						0,
+						"Ebola Note Cancer Lord"
+					],
+					[
+						158454.545454545,
+						1,
+						0,
+						"Ebola Note Cancer Lord"
+					],
+					[
+						158590.909090909,
+						4,
+						0,
+						"Ebola Note Cancer Lord"
 					],
 					[
 						158727.272727272,
 						5,
 						0,
-						"Ebola Note"
-					],
-					[
-						158181.818181818,
-						8,
-						0,
-						"Ebola Note"
-					],
-					[
-						158318.181818182,
-						7,
-						0,
-						"Ebola Note"
-					],
-					[
-						158454.545454545,
-						8,
-						0,
-						"Ebola Note"
-					],
-					[
-						158590.909090909,
-						10,
-						0,
-						"Ebola Note"
-					],
-					[
-						158727.272727272,
-						7,
-						0,
-						"Ebola Note"
-					],
-					[
-						158863.636363636,
-						10,
-						0,
-						"Ebola Note"
-					],
-					[
-						159000,
-						7,
-						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						158863.636363636,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						159000,
 						1,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						159272.727272727,
@@ -7610,24 +7597,6 @@
 						"Ebola Note"
 					],
 					[
-						159272.727272727,
-						5,
-						0,
-						"Ebola Note"
-					],
-					[
-						159409.090909091,
-						3,
-						0,
-						"Ebola Note"
-					],
-					[
-						159545.454545454,
-						1,
-						204.545454545455,
-						"Ebola Note"
-					],
-					[
 						159818.181818182,
 						9,
 						0,
@@ -7646,32 +7615,50 @@
 						"Ebola Note"
 					],
 					[
+						159272.727272727,
+						5,
+						0,
+						"Ebola Note Cancer Lord"
+					],
+					[
+						159409.090909091,
+						3,
+						0,
+						"Ebola Note Cancer Lord"
+					],
+					[
+						159545.454545454,
+						1,
+						204.545454545455,
+						"Ebola Note Cancer Lord"
+					],
+					[
 						159818.181818182,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						159954.545454545,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						160090.909090909,
 						1,
 						204.545454545455,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						160363.636363636,
@@ -7691,122 +7678,122 @@
 						"Ebola Note"
 					],
 					[
+						161113.636363636,
+						7,
+						0,
+						"Ebola Note"
+					],
+					[
+						161318.181818182,
+						7,
+						0,
+						"Ebola Note"
+					],
+					[
+						161250,
+						9,
+						0,
+						"Ebola Note"
+					],
+					[
+						161181.818181818,
+						10,
+						0,
+						"Ebola Note"
+					],
+					[
+						161045.454545454,
+						10,
+						0,
+						"Ebola Note"
+					],
+					[
+						160909.090909091,
+						9,
+						0,
+						"Ebola Note"
+					],
+					[
+						160772.727272727,
+						10,
+						0,
+						"Ebola Note"
+					],
+					[
+						160636.363636363,
+						7,
+						0,
+						"Ebola Note"
+					],
+					[
 						160363.636363636,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						160500,
 						0,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						160636.363636363,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						160772.727272727,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						160909.090909091,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
-						161045.454545454,
+						161113.636363636,
+						4,
 						0,
-						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
-						161181.818181818,
+						161250,
+						4,
 						0,
-						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						161318.181818182,
 						2,
 						0,
-						"Ebola Note"
-					],
-					[
-						161250,
-						4,
-						0,
-						"Ebola Note"
-					],
-					[
-						161113.636363636,
-						4,
-						0,
-						"Ebola Note"
-					],
-					[
-						161113.636363636,
-						7,
-						0,
-						"Ebola Note"
-					],
-					[
-						161318.181818182,
-						7,
-						0,
-						"Ebola Note"
-					],
-					[
-						161250,
-						9,
-						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						161181.818181818,
-						10,
 						0,
-						"Ebola Note"
+						0,
+						"Ebola Note Cancer Lord"
 					],
 					[
 						161045.454545454,
-						10,
 						0,
-						"Ebola Note"
-					],
-					[
-						160909.090909091,
-						9,
 						0,
-						"Ebola Note"
-					],
-					[
-						160772.727272727,
-						10,
-						0,
-						"Ebola Note"
-					],
-					[
-						160636.363636363,
-						7,
-						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						161454.545454545,
@@ -7877,71 +7864,71 @@
 						161454.545454545,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						161590.909090909,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						161727.272727272,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						161863.636363636,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						162000,
 						4,
 						0,
-						"Ebola Note"
-					],
-					[
-						162136.363636363,
-						4,
-						0,
-						"Ebola Note"
-					],
-					[
-						162272.727272727,
-						4,
-						0,
-						"Ebola Note"
-					],
-					[
-						162204.545454545,
-						2,
-						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						162068.181818182,
 						2,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
+					],
+					[
+						162136.363636363,
+						4,
+						0,
+						"Ebola Note Cancer Lord"
+					],
+					[
+						162204.545454545,
+						2,
+						0,
+						"Ebola Note Cancer Lord"
+					],
+					[
+						162272.727272727,
+						4,
+						0,
+						"Ebola Note Cancer Lord"
 					],
 					[
 						162409.090909091,
 						0,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						163363.636363636,
@@ -8000,59 +7987,59 @@
 						162545.454545454,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						162681.818181818,
 						3,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						162818.181818182,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						162954.545454545,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						163090.909090909,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						163227.272727272,
 						4,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						163363.636363636,
 						5,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						163500,
 						1,
 						0,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						163636.363636364,
@@ -8063,7 +8050,7 @@
 						163636.363636363,
 						4,
 						477.272727272727,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						163636.363636363,
@@ -8081,17 +8068,17 @@
 						164181.818181818,
 						3,
 						477.272727272727,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						164727.272727273,
@@ -8119,29 +8106,29 @@
 						164727.272727272,
 						2,
 						477.272727272727,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						165272.727272727,
 						4,
 						477.272727272727,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						165818.181818182,
 						9,
 						2113.63636363636,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						165818.181818182,
@@ -8186,14 +8173,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						166909.090909091,
@@ -8243,14 +8230,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						168000,
@@ -8266,7 +8253,7 @@
 						168000,
 						10,
 						1022.72727272727,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						168272.727272727,
@@ -8295,20 +8282,20 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						169090.909090909,
 						11,
 						1022.72727272727,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						169090.909090909,
@@ -8373,14 +8360,14 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						170181.818181818,
@@ -8436,7 +8423,7 @@
 						170181.818181818,
 						10,
 						1840.90909090909,
-						"Ebola Note"
+						"Ebola Note Cancer Lord"
 					],
 					[
 						170181.818181818,
@@ -8451,21 +8438,15 @@
 						"Ebola Note"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
-					[
-						172090.909090909,
-						7,
-						204.545454545455,
-						"Ebola Note"
-					],
 					[
 						171272.727272727,
 						4,
@@ -8517,16 +8498,22 @@
 						0,
 						0,
 						"Ebola Note"
+					],
+					[
+						172090.909090909,
+						7,
+						204.545454545455,
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						172362,
@@ -8540,12 +8527,6 @@
 					],
 					[
 						172363.636363636,
-						8,
-						1022.72727272727,
-						"Ebola Note"
-					],
-					[
-						172363.636363636,
 						1,
 						0,
 						"Ebola Note"
@@ -8555,16 +8536,22 @@
 						2,
 						0,
 						"Ebola Note"
+					],
+					[
+						172363.636363636,
+						8,
+						1022.72727272727,
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						173453,
@@ -8578,18 +8565,6 @@
 					],
 					[
 						173454.545454545,
-						10,
-						477.272727272727,
-						"Ebola Note"
-					],
-					[
-						174000,
-						9,
-						477.272727272727,
-						"Ebola Note"
-					],
-					[
-						173454.545454545,
 						4,
 						0,
 						"Ebola Note"
@@ -8599,16 +8574,28 @@
 						1,
 						0,
 						"Ebola Note"
+					],
+					[
+						173454.545454545,
+						10,
+						477.272727272727,
+						"Ebola Note Cancer Lord"
+					],
+					[
+						174000,
+						9,
+						477.272727272727,
+						"Ebola Note Cancer Lord"
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						174545.454545455,
@@ -8646,14 +8633,14 @@
 						204.545454545455
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						175636.363636364,
@@ -8691,14 +8678,14 @@
 						204.545454545455
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						176727.272727273,
@@ -8736,14 +8723,14 @@
 						0
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						177818.181818182,
@@ -8801,14 +8788,14 @@
 						0
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						178909.090909091,
@@ -8866,14 +8853,14 @@
 						1840.90909090909
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						180818.181818182,
@@ -8921,14 +8908,14 @@
 						0
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						181090.909090909,
@@ -8946,14 +8933,14 @@
 						477.272727272727
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						182181.818181818,
@@ -8976,14 +8963,14 @@
 						477.272727272727
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						183272.727272727,
@@ -9021,14 +9008,14 @@
 						204.545454545455
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						184363.636363636,
@@ -9066,14 +9053,14 @@
 						204.545454545455
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						185454.545454545,
@@ -9111,14 +9098,14 @@
 						0
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						186545.454545455,
@@ -9176,14 +9163,14 @@
 						0
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						187636.363636364,
@@ -9241,14 +9228,14 @@
 						1840.90909090909
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						189545.454545455,
@@ -9296,14 +9283,14 @@
 						0
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						189817,
@@ -9321,14 +9308,14 @@
 						1022.72727272727
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						190908,
@@ -9351,14 +9338,14 @@
 						477.272727272727
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						192000,
@@ -9371,75 +9358,55 @@
 						4295.45454545454
 					]
 				],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
-				"sectionNotes": [],
-				"typeOfSection": 0,
 				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
 				"altAnim": false,
-				"mustHitSection": false,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": false
 			},
 			{
-				"sectionNotes": [],
-				"typeOfSection": 0,
 				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
-				"sectionNotes": [],
-				"typeOfSection": 0,
 				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
-				"sectionNotes": [],
-				"typeOfSection": 0,
 				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
-				"sectionNotes": [],
-				"typeOfSection": 0,
 				"lengthInSteps": 16,
-				"altAnim": false,
-				"mustHitSection": true,
-				"changeBPM": false,
-				"bpm": 230
-			},
-			{
-				"sectionNotes": [],
 				"typeOfSection": 0,
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"mustHitSection": true,
-				"changeBPM": false,
-				"bpm": 230
-			},
-			{
 				"sectionNotes": [],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 230,
 				"changeBPM": false,
-				"bpm": 230
+				"mustHitSection": true
 			},
 			{
 				"lengthInSteps": 16,
@@ -9469,6 +9436,15 @@
 				"bpm": 230
 			},
 			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 230
+			},
+			{
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
 				"sectionNotes": [],
@@ -9476,6 +9452,24 @@
 				"bpm": 230,
 				"changeBPM": false,
 				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 230
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 212
 			},
 			{
 				"lengthInSteps": 16,
@@ -9493,7 +9487,7 @@
 				"altAnim": false,
 				"mustHitSection": true,
 				"changeBPM": false,
-				"bpm": 212
+				"bpm": 250
 			},
 			{
 				"lengthInSteps": 16,
@@ -9511,7 +9505,7 @@
 				"altAnim": false,
 				"mustHitSection": true,
 				"changeBPM": false,
-				"bpm": 250
+				"bpm": 220
 			},
 			{
 				"lengthInSteps": 16,
@@ -9523,36 +9517,37 @@
 				"mustHitSection": true
 			},
 			{
-				"sectionNotes": [],
-				"typeOfSection": 0,
 				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 220,
 				"changeBPM": false,
-				"bpm": 220
+				"mustHitSection": true
 			},
 			{
-				"sectionNotes": [],
-				"typeOfSection": 0,
 				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 220,
 				"changeBPM": false,
-				"bpm": 220
+				"mustHitSection": true
 			},
 			{
-				"sectionNotes": [],
-				"typeOfSection": 0,
 				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
 				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 220,
 				"changeBPM": false,
-				"bpm": 220
+				"mustHitSection": true
 			},
 			{
+				"sectionBeats": 4,
 				"sectionNotes": [],
 				"typeOfSection": 0,
-				"lengthInSteps": 16,
+				"gfSection": false,
 				"altAnim": false,
 				"mustHitSection": true,
 				"changeBPM": false,
@@ -9589,14 +9584,17 @@
 				"mustHitSection": true
 			}
 		],
-		"player3": null,
+		"player2": "cancer",
+		"gfVersion": "gf",
+		"events": [],
 		"mania": 5,
+		"player3": null,
 		"song": "Infitrigger",
-		"stage": "bonus",
-		"needsVoices": true,
 		"validScore": true,
-		"speed": 3.2,
+		"needsVoices": true,
+		"stage": "bonus",
+		"noteStyle": null,
 		"bpm": 220,
-		"noteStyle": null
+		"speed": 3.2
 	}
 }

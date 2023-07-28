@@ -1,0 +1,111 @@
+{
+	"song": {
+		"events": [
+			[
+				92586.2068965517,
+				[
+					[
+						"Change Character",
+						"1",
+						"hxfriend"
+					]
+				]
+			],
+			[
+				92689.6551724137,
+				[
+					[
+						"Play Animation",
+						"scream",
+						"hxfriend"
+					]
+				]
+			],
+			[
+				93103.448275862,
+				[
+					[
+						"Play Animation",
+						"scream",
+						"hxfriend"
+					]
+				]
+			],
+			[
+				153103.448275862,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					],
+					[
+						"Play Animation",
+						"scream",
+						"hxfriend"
+					]
+				]
+			],
+			[
+				153517.24137931,
+				[
+					[
+						"Play Animation",
+						"scream",
+						"hxfriend"
+					]
+				]
+			],
+			[
+				193551.724137931,
+				[
+					[
+						"Change Character",
+						"1",
+						"hxfriend"
+					]
+				]
+			],
+			[
+				193655.172413793,
+				[
+					[
+						"Play Animation",
+						"scream",
+						"hxfriend"
+					]
+				]
+			],
+			[
+				194068.965517241,
+				[
+					[
+						"Play Animation",
+						"scream",
+						"hxfriend"
+					]
+				]
+			],
+			[
+				194482.758620689,
+				[
+					[
+						"Play Animation",
+						"scream",
+						"hxfriend"
+					]
+				]
+			],
+			[
+				194896.551724138,
+				[
+					[
+						"Play Animation",
+						"scream",
+						"hxfriend"
+					]
+				]
+			]
+		]
+	}
+}

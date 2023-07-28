@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Bad Omen", "omen", [213, 207, 209]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "6KEYS6KEYS6KEYS",
+	"weekBefore": "tutorial",
+	"weekName": "Week 6K",
+	"difficulties": "FEEL6K",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

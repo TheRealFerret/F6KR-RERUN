@@ -83,7 +83,7 @@ class CreditsState extends MusicBeatState
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Ferret\'s 6 Key Recharts'],
 			['TheRealFerret', 		't',				'Creator and recharter',			 							'https://www.youtube.com/channel/UCWNMz9fwKjLdQQb2vtSN3nA', 		'7400FF'],
-			['Grantwo', 			'grant',			'Charted Acceptance, Heartbeat, two parts of Torture, Darnell Wet Fart, Triller Gen, Trintiy, I Am God, and Superscare',			 				'https://gamebanana.com/members/1791708', 							'A5004C'],
+			['Grantwo', 			'grant',			'Charted Heartbeat, two parts of Torture, Darnell Wet Fart, Invincible, Acceptance, Platforming, Thriller Gen, Trinity, I Am God, and Superscare',			 				'https://gamebanana.com/members/1791708', 							'A5004C'],
 			['Comedy_Individual', 	't',				'Charted two parts of Torture',			 								'https://www.youtube.com/channel/UCm2n4I1Lx-2CXYfZ618iOYg', 		'7400FF'],
 			[''],
 			['Psych Engine Extra Keys'],
@@ -92,29 +92,59 @@ class CreditsState extends MusicBeatState
 			[''],
 			['Mods Used'],
 			['V.S. Whitty - Definitive Edition','t','Ballistic, Ballistic (HQ)','https://gamebanana.com/mods/354884','7400FF'],
+
 			['The Full-Ass Tricky Mod','t','Madness, Expurgation','https://gamebanana.com/mods/44334','7400FF'],
+
 			['V.S Zardy','t','Foolhardy','https://gamebanana.com/mods/44366','7400FF'],
+
 			['Friday Night Funkin\': Vs Matt','t','Sporting',	'https://gamebanana.com/mods/44511','7400FF'],
+
 			['literally every fnf mod ever (Vs Bob)','t','Run, Onslaught','https://gamebanana.com/mods/285296','7400FF'],
-			['Vs Sonic.EXE 2.5 / 3.0 INCOMPLETE OFFICIAL RELEASE','t','Too Slow, Too Slow Encore, Endless, Endless (Old), Cycles, Execution, 
-			\nSunshine, Chaos, Faker, Black Sun, Fatality','https://gamebanana.com/mods/387978','7400FF'],
-			['Friday Night Funkin\' D-Sides','t','Too Slow D-Side','https://gamebanana.com/mods/305122','7400FF'],
-			['Tails Gets Trolled','t','No Villains, No Heroes','https://gamebanana.com/mods/320596','7400FF'],
-			['VS IMPOSTOR V4','t','Reactor, Double Kill, Defeat, Defeat (Old), Heartbeat, Pretender, Insane Streamer, Idk, Torture','https://gamebanana.com/mods/55652','7400FF'],
-			['Chaos Nightmare - Sonic Vs. Fleetway','t','Phantasm','https://gamebanana.com/mods/359046','7400FF'],
-			['Hypno\'s Lullaby V2','t','Lost Cause','https://fridaynightfunking.fandom.com/wiki/Friday_Night_Funkin%27_Lullaby#Download_Links','7400FF'],
-			['Hit Single','t','Darnell Wet Fart','https://gamebanana.com/mods/395039','7400FF'],
-			['Vs /v/-tan','t','Sage, Infitrigger','https://fridaynightfunking.fandom.com/wiki/Vs_/v/-tan#Download_Links','7400FF'],
-			['Friday Night Fortress Vs Mann Co FULL RELEASE','t','Honorbound, Eyelander, Strongmann','https://gamebanana.com/mods/322803','7400FF'],
-			['SEEK\'S COOL DELTARUNE MOD','t','Hyperlink Reloaded','https://gamebanana.com/mods/377938','7400FF'],
-			['Vs. Isaac (Version 2)','t','Acceptance, Delirious','https://gamebanana.com/mods/359071','7400FF'],
-			['Vs. Dave and Bambi','t','Recursed','https://gamebanana.com/mods/43201','7400FF'],
-			['Fruit Ninja Mod','t','Bombastic','https://gamebanana.com/mods/361650','7400FF'],
-			['Nermal Nermal Nermallin\'','t','Abuse','https://gamebanana.com/mods/390154','7400FF'],
-			['Vs Rewrite (Sonic.exe)','t','Triller Gen, Trinity','https://gamebanana.com/mods/417560','7400FF'],
-			['vs OG SONIC.EXE?! (real) (joke mod)','t','I Am God','https://gamebanana.com/mods/407406','7400FF'],
-			['FNF Vs Pibby Nightmare Evil','t','Superscare','https://gamebanana.com/mods/416486','7400FF'],
+
 			['Friday Night Funkin\': Vs Selever 2.1','t','Attack','https://gamejolt.com/games/fnf-vs-selever/650777','7400FF'],
+
+			['Vs Sonic.EXE 2.5 / 3.0 INCOMPLETE OFFICIAL RELEASE','t','Too Slow, Too Slow Encore, You Cant Run, Triple Trouble, Endless, Endless (Old), Cycles, Execution, 
+			\nSunshine, Chaos, Faker, Black Sun, Fatality','https://gamebanana.com/mods/387978','7400FF'],
+
+			['Friday Night Funkin\' D-Sides','t','Too Slow D-Side','https://gamebanana.com/mods/305122','7400FF'],
+
+			['Friday Night Funkin\': Doki Doki Takeover Plus!','t','Epiphany','https://gamebanana.com/mods/47364','7400FF'],
+
+			['Hypno\'s Lullaby V2','t','Lost Cause','https://fridaynightfunking.fandom.com/wiki/Friday_Night_Funkin%27_Lullaby#Download_Links','7400FF'],
+
+			['Vs. Dave and Bambi','t','Recursed','https://gamebanana.com/mods/43201','7400FF'],
+
+			['Tails Gets Trolled','t','No Villains, No Heroes','https://gamebanana.com/mods/320596','7400FF'],
+
+			['VS IMPOSTOR V4','t','Reactor, Double Kill, Defeat, Defeat (Old), Heartbeat, Pretender, Insane Streamer, Idk, Torture','https://gamebanana.com/mods/55652','7400FF'],
+			
+			['Friday Night Fortress Vs Mann Co FULL RELEASE','t','Honorbound, Eyelander, Strongmann, Skill Issue','https://gamebanana.com/mods/322803','7400FF'],
+
+			['Hit Single','t','Darnell Wet Fart','https://gamebanana.com/mods/395039','7400FF'],
+
+			['Chaos Nightmare - Sonic Vs. Fleetway','t','Phantasm','https://gamebanana.com/mods/359046','7400FF'],
+
+			['You Can\'t Delete GF. FNF: Vs GF.hx','t','Invincible','https://gamebanana.com/mods/393169','7400FF'],
+
+			['Vs /v/-tan','t','Sage, Infitrigger','https://fridaynightfunking.fandom.com/wiki/Vs_/v/-tan#Download_Links','7400FF'],
+
+			['SEEK\'S COOL DELTARUNE MOD','t','Hyperlink Reloaded','https://gamebanana.com/mods/377938','7400FF'],
+
+			['Vs. Isaac (Version 2)','t','Acceptance, Delirious','https://gamebanana.com/mods/359071','7400FF'],	
+
+			['Fruit Ninja Mod','t','Bombastic','https://gamebanana.com/mods/361650','7400FF'],
+
+			['Nermal Nermal Nermallin\'','t','Abuse','https://gamebanana.com/mods/390154','7400FF'],
+
+			['Platforming ERECT !!','t','Platforming','https://gamebanana.com/mods/445830','7400FF'],
+
+			['Vs Rewrite (Sonic.exe)','t','Thriller Gen, Trinity','https://gamebanana.com/mods/417560','7400FF'],
+
+			['vs OG SONIC.EXE?! (real) (joke mod)','t','I Am God','https://gamebanana.com/mods/407406','7400FF'],
+
+			['FNF Vs Pibby Nightmare Evil','t','Superscare','https://gamebanana.com/mods/416486','7400FF'],
+			
+			['FNF Funny Mod','t','FNFGirl (go ask grant for the damn mod i aint giving it to you)','https://cdn.discordapp.com/attachments/1061080750671273994/1133478477543252140/funny.png','7400FF']
 		];
 		
 		for(i in pisspoop){
