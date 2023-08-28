@@ -57,6 +57,8 @@ class Achievements {
 		["Peep the Horror",				"Beat Insane Streamer with no Misses.",				'insanestreamer_fc',	false],
 		["recreation of achievement from memory","beat idk with no misses.",				'idk_fc',				false],
 		["Get Me Out of Here",			"Beat Torture with no Misses.",						'torture_fc',			false],
+		["Suffering Ends",				"Beat Unknown Suffering with at least 95% accuracy.",'suffering_95acc',		false],
+		["Hellhole Begins",				"Beat Unknown Suffering Remix with at least 95% accuracy.",'sufferingremix_95acc',false],
 		["I\'m Tired of These Motherfucking Rappers","Beat Honorbound with at least 95% accuracy.",'honorbound_95acc',false],
 		["I Did What I Could!",			"Beat Eyelander with at least 95% accuracy.",		'eyelander_95acc',		false],
 		["How Could This Happen?",		"Beat Strongmann with at least 95% accuracy.",		'strongmann_95acc',		false],

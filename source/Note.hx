@@ -446,7 +446,7 @@ class Note extends FlxSprite
 					ignoreNote = true;
 					hitCausesMiss = true;
 				case 'Non OpponentPlay Note':
-					if (PlayState.opponentChart == true)
+					if (PlayState.opponentChart)
 						this.kill();
 				case 'Ebola Note Cancer Lord':
 					reloadNote('EBOLA');

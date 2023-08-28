@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Unknown Suffering", "mouse", [82, 89, 81]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "6KEYS6KEYS6KEYS",
+	"weekBefore": "tutorial",
+	"weekName": "Week 6K",
+	"difficulties": "6Key, Remix6k",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

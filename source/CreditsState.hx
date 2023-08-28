@@ -101,6 +101,8 @@ class CreditsState extends MusicBeatState
 
 			['literally every fnf mod ever (Vs Bob)','t','Run, Onslaught','https://gamebanana.com/mods/285296','7400FF'],
 
+			['VS Cheeky','t','Hard 2 Break, Bad Eggroll, Cornucopia, Bad Omen','https://fridaynightfunking.fandom.com/wiki/VS_Cheeky#Download_Links','7400FF'],
+
 			['Friday Night Funkin\': Vs Selever 2.1','t','Attack','https://gamejolt.com/games/fnf-vs-selever/650777','7400FF'],
 
 			['Vs Sonic.EXE 2.5 / 3.0 INCOMPLETE OFFICIAL RELEASE','t','Too Slow, Too Slow Encore, You Cant Run, Triple Trouble, Endless, Endless (Old), Cycles, Execution, 
@@ -117,6 +119,8 @@ class CreditsState extends MusicBeatState
 			['Tails Gets Trolled','t','No Villains, No Heroes','https://gamebanana.com/mods/320596','7400FF'],
 
 			['VS IMPOSTOR V4','t','Reactor, Double Kill, Defeat, Defeat (Old), Heartbeat, Pretender, Insane Streamer, Idk, Torture','https://gamebanana.com/mods/55652','7400FF'],
+			
+			['Wednesday\'s Infidelity [PART 2]','t','Unknown Suffering, Unknown Suffering Remix','https://gamebanana.com/mods/343688','7400FF'],
 			
 			['Friday Night Fortress Vs Mann Co FULL RELEASE','t','Honorbound, Eyelander, Strongmann, Skill Issue','https://gamebanana.com/mods/322803','7400FF'],
 

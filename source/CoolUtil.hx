@@ -143,4 +143,9 @@ class CoolUtil
 	{
 		return (Conductor.stepCrochet / (64 / multiplier)) / PlayState.instance.playbackRate;
 	}
+
+	public static inline function exactSetGraphicSize(obj:Dynamic, width:Float, height:Float) // ACTULLY WORKS LMAO -lunar
+	{
+		obj.scale.set(Math.abs(((obj.width - width) / obj.width) - 1), Math.abs(((obj.height - height) / obj.height) - 1));
+	}
 }

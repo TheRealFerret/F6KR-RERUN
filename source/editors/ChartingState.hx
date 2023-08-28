@@ -125,6 +125,11 @@ class ChartingState extends MusicBeatState
 		['Majin spin', ""],
 		['Character Fly', ""],
 		['Lyrics','Value 1: Lyrics\nValue 2: Color (white is default)'],
+		['Flash Black', ""],
+		['Flash White', ""],
+		['Flash Red', ""],
+		['Change Time', "Value 1: New Fake Time\nValue 2: Tween Length"],
+		['Do Syringe', ""],
 	];
 
 	var _file:FileReference;
